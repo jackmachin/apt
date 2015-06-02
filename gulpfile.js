@@ -24,7 +24,7 @@ gulp.task('sass', function () {
     "use strict";
     return gulp.src('library/scss/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('library/css'))
+        .pipe(gulp.dest('library/css'));
 });
 
 gulp.task('css', function () {
@@ -61,4 +61,4 @@ gulp.task('watch', function () {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['lint', 'sass', 'css', 'scripts', 'watch']);
