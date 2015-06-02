@@ -1768,7 +1768,8 @@ ul#menu-footer-links {
       padding: 0 0.5em; }
 
 .footer-nav {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 0; }
   .footer-nav li a {
     font-size: 11px; }
 
