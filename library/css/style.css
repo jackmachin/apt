@@ -1256,6 +1256,12 @@ body {
 li + li {
   margin-top: 0; }
 
+#wpadminbar {
+  margin-top: 0; }
+
+nav {
+  margin-top: 0; }
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
