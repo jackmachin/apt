@@ -1734,6 +1734,9 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+.sidebar {
+  background-color: #FFCCBC; }
+
 .widget ul li {
   /* deep nesting */ }
 
