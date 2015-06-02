@@ -7,9 +7,6 @@
 						<div class="entry-content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>
                         </div> <!-- end article section -->
-						<footer class="article-footer">
-							<?php the_tags( '<span class="tags">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '' ); ?>
-						</footer> <!-- end article footer -->
 						<?php comments_template(); ?>
 					</article> <!-- end article -->
 					<?php endwhile; else : ?>
