@@ -80,7 +80,7 @@ TYPOGRAPHY
 @font-face {
   font-family: 'MuseoSans-500';
   src: url("fonts/284DE6_0_0.eot");
-  src: url("/fonts/284DE6_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/284DE6_0_0.woff") format("woff"), url("/fonts/284DE6_0_0.ttf") format("truetype"), url("/fonts/284DE6_0_0.svg#font-name") format("svg");
+  src: url("fonts/284DE6_0_0.eot?#iefix") format("embedded-opentype"), url("pizza/284DE6_0_0.woff") format("woff"), url("fonts/284DE6_0_0.ttf") format("truetype"), url("fonts/284DE6_0_0.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
