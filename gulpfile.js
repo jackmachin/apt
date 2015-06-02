@@ -25,6 +25,11 @@ gulp.task('sass', function () {
     return gulp.src('library/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('library/css'))
+});
+
+gulp.task('css', function () {
+    "use strict";
+    return gulp.src('library/css/style.css')
         .pipe(minifyCSS())
         .pipe(rename('style.min.css'))
         .pipe(gulp.dest('library/css'));
