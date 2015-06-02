@@ -1250,6 +1250,12 @@ body {
   line-height: 1.5;
   color: #231f20; }
 
+* + * {
+  margin-top: 1.5em; }
+
+li + li {
+  margin-top: 0; }
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
