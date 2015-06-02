@@ -70,6 +70,8 @@ $link-color:        $amber-orange;
 $link-hover:        darken($link-color, 9%);
 $footer:			$amber-grey;
 $paragraph:			#231F20;
+$fancy-color:        $white;
+$fancy-hover:        darken($fancy-color, 9%);
 
 /*
 Here's a great tutorial on how to
@@ -253,4 +255,16 @@ BUTTONS
 	&:active {
 		@include css-gradient( darken($bones-blue, 5%), $bones-blue );
 	}
+}
+
+/*********************
+TWO COLUMN FLOATS
+*********************/
+.col-left {
+float:left;
+width:50%;
+}
+.col-right {
+float:right;
+width:50%;
 }

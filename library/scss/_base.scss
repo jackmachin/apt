@@ -1,5 +1,5 @@
 /******************************************************************
-Site Name: Amber
+Site Name: Amber Pension Trust
 Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
@@ -19,7 +19,7 @@ body {
 	font-family: $museo-sans;
 	font-size: 100%;
 	line-height: 1.5;
-	color: #565656;
+	color: #231f20;
 }
 
 /********************
@@ -78,10 +78,12 @@ LINK STYLES
 
 a, a:visited {
 	color: $link-color;
+	text-decoration: none;
 
 	/* on hover */
 	&:hover, &:focus {
 		color: $link-hover;
+		text-decoration: underline;
 	}
 
 	/* on click */
@@ -98,7 +100,19 @@ a, a:visited {
 		*/
 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
 	}
+
 }
+a.fancy {
+	background-image: url('/wp-content/themes/amber/library/images/short-strip.png');
+	padding: 1em;
+	text-decoration:none;
+	color:$fancy-color;
+
+		/* on hover */
+	&:hover, &:focus {
+		color: $fancy-hover;
+	}
+	}
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
@@ -120,7 +134,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 1.333em;
 
 	.page-title {
@@ -134,17 +148,17 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.4em;
 	margin-bottom: 0.375em;
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1em;
 }
 
 h4, .h4 {
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: 700;
 }
 
@@ -281,14 +295,14 @@ POSTS & CONTENT STYLES
 		.tag-slug {}        /* style by tag (i.e. tag-news) */
 
 		.page-id-21 {
-
-					p {
-						span {
-						color:$amber-red;
-						font-style: italic;
-						}
+				p {
+					span {
+					color:$amber-red;
+					font-style: italic;
 					}
-		}
+				}
+			}
+
 		/* post meta */
 		.byline {
 			color: #999;
@@ -304,7 +318,7 @@ POSTS & CONTENT STYLES
 			margin-bottom: 10px;
 			font-weight: 300;
 			color: $paragraph;
-			font-size: 15px;
+			font-size: 14px;
 			}
 
 			.colorful {
@@ -313,7 +327,7 @@ POSTS & CONTENT STYLES
 				border-top: 1px solid $amber-orange;
 				color: #FAA61A;
 				-webkit-text-fill-color: transparent;
-				background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/test/wp-content/themes/amber/library/images/bg-copy.png') repeat;
+				background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/wp-content/themes/amber/library/images/bg-copy.png') repeat;
 				background: -o-linear-gradient(transparent, transparent);
 				-webkit-background-clip: text;
 				font-style: italic;
@@ -322,13 +336,23 @@ POSTS & CONTENT STYLES
 
 			ul, ol, table, dl {}
 
-			ul, ol {
+      ul, ol {
+        margin-bottom: 20px;
+        padding-left: 20px;
+        }
+
+			 ol {
+
+				list-style-type: decimal;
+				font-size: 14px;
 
 				li {}
 
 			}
 
 			ul {
+
+				list-style-type:disc;
 
 				li {}
 
@@ -430,6 +454,60 @@ POSTS & CONTENT STYLES
 		.size-large {}
 		.size-medium {}
 		.size-thumbnail {}
+
+	/* Style as you want, this only makes it hold its shape and shit*/
+    #SelectContainer
+    {
+        float:left;
+        width:100%;
+    }
+
+        #SelectContainer .HeaderContainer
+        {
+            float:left;
+            width:50%;
+        }
+
+            #SelectContainer .HeaderContainer .HeaderButton
+            {
+                float:left;
+                padding:7px 5px;
+				width:100%;
+            }
+            /* Solitary float left*/
+            #SelectContainer .HeaderContainer a
+            {
+                float:left;
+				width:100%;
+            }
+            /* The style applied when selected, Hence the name*/
+            #SelectContainer .HeaderContainer .HeaderButtonSelected
+            {
+                background-color:#faa61a;
+                color:#fff
+            }
+
+
+
+        #SelectContainer .TextBodyContainer
+        {
+            float:left;
+            width:50%;
+            min-height:200px;
+        }
+            /* Bad Code Here */
+            #SelectContainer .TextBodyContainer div
+            {
+                display:none;
+                padding:5px;
+                float:left;
+                width:100%;
+            }
+        /* Show first text area using css, better than doing through JS*/
+        #SelectContainer .TextBodyContainer #Body_A
+            {
+                display:block;
+            }
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -806,11 +884,30 @@ FOOTER STYLES
 	override these styles for the desktop
 	view.
 	*/
-	.footer-links {
 
-		ul {
+	ul#menu-footer-links {
+		margin:0;
+    border-left: 1px solid #faa61a;
 
-			li {}
+		li {float:left;
+			a {
+				font-size:11px;
+				border-right: 1px solid $amber-orange;
+				display:block;
+				font-weight:bold;
+				margin: 0 auto;
+				padding: 0 .5em;
+				}
+			}
+
+	}
+	.footer-nav,  {
+
+		ul#menu-footer-links {
+
+			li {
+				a {font-size:11px;}
+				}
 
 		}
 
@@ -818,7 +915,7 @@ FOOTER STYLES
 
 
 	.copyright {
-	font-size: 9px;
+	font-size: 11px;
 	color: $footer;
 
 		span {
@@ -826,4 +923,3 @@ FOOTER STYLES
 		font-style:normal !important;
 		}
 	}
-

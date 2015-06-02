@@ -213,6 +213,17 @@ BUTTONS
     background-image: -o-linear-gradient(top, #1681c4, #1990db);
     background-image: linear-gradient(to bottom, #1681c4, #1990db); }
 
+/*********************
+TWO COLUMN FLOATS
+*********************/
+.col-left {
+  float: left;
+  width: 50%; }
+
+.col-right {
+  float: right;
+  width: 50%; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -376,38 +387,11 @@ come into play. Have fun!
 /*********************
 GENERAL STYLES
 *********************/
-body {
-  background: url("/test/wp-content/themes/amber/library/images/bg-fade.jpg") no-repeat right top; }
-
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
   max-width: 1140px; }
-
-#inner-content {
-  min-height: 460px; }
-
-.entry-content {
-  width: 700px; }
-
-.page-id-11 {
-  background: #fff; }
-  .page-id-11 #content {
-    background: url("/test/wp-content/themes/amber/library/images/bg-aboutus.jpg") no-repeat right top; }
-
-.page-id-16 {
-  background: #fff; }
-  .page-id-16 #content {
-    background: url("/test/wp-content/themes/amber/library/images/bg-wrap.jpg") no-repeat right top; }
-
-.page-id-13 {
-  background: #fff; }
-  .page-id-13 #content {
-    background: url("/test/wp-content/themes/amber/library/images/bg-contact.jpg") no-repeat right top; }
-
-.diagram {
-  background: url("/test/wp-content/themes/amber/library/images/bg-diagram.png") no-repeat; }
 
 .box-large p {
   color: #fff;
@@ -434,15 +418,24 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
-#logo {
-  width: 400px; }
-  #logo img {
-    width: 400px; }
-
 /*********************
 NAVIGATION STYLES
 *********************/
 .nav {
+  background-color: #443021;
+  background-image: none;
+  background-image: -moz-linear-gradient(center top, #FFFFFF 0px, #FFFFFF 2px, #EEEEEE 50px);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
+  background: -o-linear-gradient(top, #FFFFFF, #EEEEEE);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#EEEEEE);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#55FFFFFF, endColorstr=#55EEEEEE);
+  background-repeat: repeat-x;
+  box-shadow: none;
+  height: 2.5em;
+  padding: 0;
+  position: relative;
+  margin: 0 auto;
+  line-height: 2.5em;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -493,12 +486,11 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-.sidebar {
-  margin-top: 2.2em; }
-
 .widgettitle {
-  border-bottom: 2px solid #444;
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.75em;
+  color: #faa61a;
+  font-size: 18px;
+  border-bottom: 2px solid #444; }
 
 .widget {
   padding: 0 10px;
@@ -570,3 +562,33 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
+.splash-content {
+  width: 960px;
+  height: 680px;
+  position: relative;
+  margin: 0 auto; }
+
+.splash .group {
+  position: absolute;
+  bottom: 200px;
+  right: 70px;
+  text-align: center; }
+
+.splash h1 {
+  color: #D2232A;
+  font-size: 42px;
+  margin: 0;
+  margin-bottom: 5px; }
+
+.splash .enter {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 14px;
+  color: #808285;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100 !important;
+  margin-bottom: 15px;
+  display: block; }
