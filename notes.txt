@@ -1,0 +1,14 @@
+Landing page, are you an Adviser Y/N - If yes go to homepage, if no, info about getting and adviser.
+
+Landing page
+Home 
+-About Amber
+-About Auto Enrolment
+-What is the Amber Pension Trust
+-What are the Investment options
+-How we can help you
+-How to apply
+-FAQs
+-Literature
+-Contact Us
+-Member Login
