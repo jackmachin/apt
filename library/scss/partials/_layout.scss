@@ -4,12 +4,16 @@ Author:
 
 Stylesheet: Layout Stylesheet
 ******************************************************************/
+
+body{
+	overflow-y: scroll;
+}
+
 .wrapper {
 	@include clearfix;
-	max-width: $break-wide;
-	//min-width: ($break-mobile - 20px);
-	margin-left: auto;
-    margin-right: auto;
+	max-width: $max-width;
+	min-width: $min-width;
+	margin: 0 auto;
 }
 
 .container {
@@ -19,41 +23,76 @@ Stylesheet: Layout Stylesheet
 
 #container {}
 
-  .header {}
+  .header {
+    @include grid(12);
+  }
 
     #inner-header {}
 
-      .logo-container {
-        @include grid(4);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-      }
+        .logo-container {
+            @include grid (3);
+            @include break(tablet, 3);
+            @include break(mobile, 3);
+        }
 
-      #sidebar-header {
-        @include grid(4, $push:4);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-      }
-  .nav {}
 
-  #content {}
+        .top-nav {
+            @include grid(12);
+            @include break(tablet, 9);
+            @include break(mobile, 9);
+        }
+
+        #sidebar-header {
+            @include grid(3, $push:6);
+        }
+
+  #content {
+    @include grid(9);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+  }
 
     #inner-content {}
 
-      .full {
-        @include grid (12);
-      }
+        .full {
+            @include grid (12);
+        }
 
-      #main, .main {
+      #main, .main {}
+
+    .main {
         @include grid(8);
         @include break(tablet, 12);
         @include break(mobile, 12);
-      }
+    }
+
+.profile {
+    @include grid(12);
+}
+
+.profile-image {
+            @include grid(4);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+}
+
+.profile-bio {
+    @include grid(8);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+}
+
+.profile-bio-no-image  {
+    @include grid(12);
+}
+
 
        .sidebar {
-        @include grid(4);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
+            @include grid(4);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
        }
 
-  .footer {}
+  .footer {
+    @include grid (12);
+  }
