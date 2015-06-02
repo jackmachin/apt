@@ -1389,6 +1389,7 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
+    list-style-type: none;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
