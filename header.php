@@ -94,7 +94,7 @@ jQuery(document).ready(function($) {
 					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
 
 					<div id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow" title="homepage">
-						<img src="/wp-content/themes/amber/library/images/amber-header.jpg" title="amber logo" alt="Amber logo banner"></a>
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="amber logo" alt="Amber logo banner"></a>
 					</div>
 
 					<!-- if you'd like to use the site description you can un-comment it below -->
