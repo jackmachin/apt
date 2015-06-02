@@ -1767,9 +1767,9 @@ ul#menu-footer-links {
       margin: 0 auto;
       padding: 0 0.5em; }
 
-.footer-nav #menu-footer-links li {
+.footer-nav {
   list-style-type: none; }
-  .footer-nav #menu-footer-links li a {
+  .footer-nav li a {
     font-size: 11px; }
 
 /* end .footer-links */

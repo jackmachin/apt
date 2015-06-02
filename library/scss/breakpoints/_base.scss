@@ -903,17 +903,15 @@ FOOTER STYLES
 	}
 	.footer-nav,  {
 
-		#menu-footer-links {
+        list-style-type: none;
 
-			li {
-                list-style-type: none;
+        li {
 
-				a {
-                    font-size:11px;
-                }
+
+            a {
+                font-size:11px;
             }
-
-		}
+        }
 
 	} /* end .footer-links */
 
