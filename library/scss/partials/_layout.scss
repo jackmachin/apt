@@ -10,14 +10,12 @@ body{
 }
 
 .wrapper {
-	@include clearfix;
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: 0 auto;
 }
 
 .container {
-	@include clearfix;
 	width: 100%;
 }
 
