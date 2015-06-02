@@ -44,11 +44,11 @@ body{
             @include grid(3, $push:6);
         }
 
-  #content {
-    @include grid(9);
-    @include break(tablet, 12);
-    @include break(mobile, 12);
-  }
+  //#content {
+    //@include grid(9);
+    //@include break(tablet, 12);
+    //@include break(mobile, 12);
+ //}
 
     #inner-content {}
 
