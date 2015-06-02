@@ -1,8 +1,8 @@
 				<div id="sidebar-contact" class="sidebar fourcol lasst clearfix" role="complementary">
 
-					<?php if ( is_active_sidebar( 'sidebar-contact' ) ) : ?>
+					<?php if ( is_active_sidebar( 'contact' ) ) : ?>
 
-						<?php dynamic_sidebar( 'sidebar-contact' ); ?>
+						<?php dynamic_sidebar( 'contact' ); ?>
 
 					<?php else : ?>
 
