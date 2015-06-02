@@ -7,11 +7,9 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 } ?>
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-						<header class="article-header">
-						</header> <!-- end article header -->
-						<section class="entry-content clearfix" itemprop="articleBody">
+						<div class="entry-content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>
-					</section> <!-- end article section -->
+                        </div> <!-- end article section -->
 						<footer class="article-footer">
 							<?php the_tags( '<span class="tags">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '' ); ?>
 						</footer> <!-- end article footer -->
