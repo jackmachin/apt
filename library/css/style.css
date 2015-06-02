@@ -1253,13 +1253,10 @@ body {
 * + * {
   margin-top: 1.5em; }
 
-li + li {
-  margin-top: 0; }
-
-#wpadminbar {
-  margin-top: 0; }
-
-nav {
+li + li,
+#wpadminbar,
+nav,
+span + span {
   margin-top: 0; }
 
 /********************
