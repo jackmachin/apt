@@ -11,25 +11,27 @@ without the media queries. No need to worry about editing anything!
 
 ******************************************************************/
 
-/*
+
+/******************************************************************
+IMPORTS & DEPENDENCIES
 Remember, all the BASE styles are called already since IE can
 read those. Below, we need to import only the stuff IE can't
 understand (what's inside the media queries). We also need to
 import the mixins file so SASS can understand the variables.
-*/
+******************************************************************/
 
-/* import mixins */
-@import "mixins";
+@import "partials/variables"; // import variables
+@import "partials/mixins"; // import mixins
+@import "partials/ie_grid"; // import grid
 
-@import "grid";
-@import "481up";
-@import "768up";
-@import "1030up";
+// import everything inside media queries
+@import "breakpoints/481up";
+@import "breakpoints/768up";
+@import "breakpoints/1030up";
 
 /*
 you can call the larger styles if you want, but there's really no need
 */
-
 
 /******************************************************************
 ADDITIONAL IE FIXES
@@ -52,40 +54,3 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
-
-	.splash-content {
-
-			width: 960px;
-			height: 680px;
-			position: relative;
-			margin: 0 auto;
-		}
-			.splash .group {
-
-				position: absolute;
-				bottom: 200px;
-				right: 70px;
-				text-align: center;
-			}
-
-				.splash h1 {
-
-					color: #D2232A;
-					font-size: 42px;
-					margin: 0;
-					margin-bottom: 5px;
-				}
-
-				.splash .enter {
-					background: none;
-					border: none;
-					cursor: pointer;
-					margin-left: 14px;
-					color: #808285;
-					font-size: 15px;
-					text-transform: uppercase;
-					text-decoration: none;
-					font-weight: 100 !important;
-					margin-bottom: 15px;
-					display: block;
-				}
