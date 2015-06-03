@@ -90,7 +90,7 @@ jQuery(document).ready(function($) {
 				<div id="inner-header">
 
 					<div class="logo-container">
-                        <a href="<?php echo home_url(); ?>" rel="nofollow" title="homepage">
+                        <a href="/home" rel="nofollow" title="homepage">
 						  <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="Amber Pension Trust Banner" alt="Amber Pension Trust"></a>
 					</div>
 
