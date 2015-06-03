@@ -19,7 +19,7 @@ body {
 	font-family: $museo-sans;
 	font-size: 100%;
 	line-height: 1.5;
-	color: #231f20;
+	color: $paragraph;
 }
 
 * + * {
@@ -275,26 +275,23 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
+#content {}
 
+    .hentry {
 
-#content {
-}
+        header {}
 
-		.hentry {
+        footer {}
 
-			header {}
+    } /* end .hentry */
 
-			footer {}
+    .single-title,
+    .page-title {}
 
-		} /* end .hentry */
+    .single-title {}
 
-		.single-title,
-		.page-title {}
-
-		.single-title {}
-
-		.page-title {}
-		.archive-title { }
+    .page-title {}
+    .archive-title { }
 
 		/* want to style individual post classes? Booya! */
 		.post-id {}         /* post by id (i.e. post-3) */
@@ -305,15 +302,6 @@ POSTS & CONTENT STYLES
 		.hentry {}          /* hentry class */
 		.category-slug {}   /* style by category (i.e. category-videos) */
 		.tag-slug {}        /* style by tag (i.e. tag-news) */
-
-		.page-id-21 {
-				p {
-					span {
-					color:$amber-red;
-					font-style: italic;
-					}
-				}
-			}
 
 		/* post meta */
 		.byline {
@@ -327,21 +315,18 @@ POSTS & CONTENT STYLES
 
 			p {
                 line-height: 1.4em;
-                margin-bottom: 10px;
-                font-weight: 300;
-                color: $paragraph;
 			}
 
 			.colorful {
 
 				p {
-				border-top: 1px solid $amber-orange;
-				color: #FAA61A;
-				-webkit-text-fill-color: transparent;
-				background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/wp-content/themes/amber/library/images/bg-copy.png') repeat;
-				background: -o-linear-gradient(transparent, transparent);
-				-webkit-background-clip: text;
-				font-style: italic;
+                    border-top: 1px solid $amber-orange;
+                    color: #FAA61A;
+                    -webkit-text-fill-color: transparent;
+                    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/wp-content/themes/amber/library/images/bg-copy.png') repeat;
+                    background: -o-linear-gradient(transparent, transparent);
+                    -webkit-background-clip: text;
+                    font-style: italic;
 				}
 			}
 

@@ -1248,7 +1248,7 @@ body {
   font-family: "MuseoSans-500", sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #231f20; }
+  color: #231F20; }
 
 * + * {
   margin-top: 1.5em; }
@@ -1439,10 +1439,6 @@ POSTS & CONTENT STYLES
 /* hentry class */
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
-.page-id-21 p span {
-  color: #BA2831;
-  font-style: italic; }
-
 /* post meta */
 .byline {
   color: #999; }
@@ -1456,10 +1452,7 @@ POSTS & CONTENT STYLES
 			but it's up to you. Feel free to change it up.
 			*/ }
   .entry-content p {
-    line-height: 1.4em;
-    margin-bottom: 10px;
-    font-weight: 300;
-    color: #231F20; }
+    line-height: 1.4em; }
   .entry-content .colorful p {
     border-top: 1px solid #FAA61A;
     color: #FAA61A;
