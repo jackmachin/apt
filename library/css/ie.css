@@ -379,17 +379,13 @@ NAVIGATION STYLES
 *********************/
 .nav {
   background-color: #757575;
-  background-image: none;
   background-image: -moz-linear-gradient(center top, #FFFFFF 0px, #FFFFFF 2px, #EEEEEE 50px);
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
   background: -o-linear-gradient(top, #FFFFFF, #EEEEEE);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#EEEEEE);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#55FFFFFF, endColorstr=#55EEEEEE);
-  background-repeat: repeat-x;
-  box-shadow: none;
   height: 2.5em;
   padding: 0;
-  position: relative;
   margin: 0 auto;
   line-height: 2.5em;
   /* end .menu ul li */
@@ -397,7 +393,6 @@ NAVIGATION STYLES
   /* end current highlighters */ }
   .nav li {
     float: left;
-    position: relative;
     /*
 		plan your menus and drop-downs wisely.
 		*/
@@ -417,13 +412,11 @@ NAVIGATION STYLES
       display: none;
       z-index: 8999;
       background-color: #443021;
-      background-image: none;
       background-image: -moz-linear-gradient(center top, #FFFFFF 0px, #FFFFFF 2px, #EEEEEE 50px);
       background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
       background: -o-linear-gradient(top, #FFFFFF, #EEEEEE);
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#EEEEEE);
       -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#55FFFFFF, endColorstr=#55EEEEEE);
-      background-repeat: repeat-x;
       /* highlight sub-menu current page */ }
       .nav li ul.sub-menu li,
       .nav li ul.children li {
