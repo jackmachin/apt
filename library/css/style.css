@@ -719,6 +719,173 @@ TWO COLUMN FLOATS
   float: right;
   width: 50%; }
 
+/* ==========================================================================
+// Base File
+// Set up all global variables and naming conventions.
+
+
+/* ==========================================================================
+// Mixin File
+// Usefull mixins & re-usable code.
+/* BOX SIZEING -
+========================================================================== */
+/* ==========================================================================
+// Grid File
+// Grid set up using the Maze Framework www.get-maze.co.uk.
+/* VARIABLES
+========================================================================== */
+/* Grid Defaults */
+/* Breakpoints */
+/* Calculate Min & Max Widths */
+/* Strip percentage from gutter */
+/* Work out 1% of $break-wide */
+/* Add gutter value to $max-width so that each row is equal to $break-wide */
+/* Set min width with scroll bar */
+/* MIXIN
+========================================================================== */
+/* ==========================================================================
+// Breakpoint File
+// Add new or make changes to existing breakpoints.
+/* VARIABLES -
+========================================================================== */
+/* MIXIN -
+========================================================================== */
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Layout Stylesheet
+******************************************************************/
+body {
+  overflow-y: scroll; }
+
+.wrapper {
+  max-width: 1162.8px;
+  min-width: 460px;
+  margin: 0 auto; }
+
+.container {
+  width: 100%; }
+
+.header {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.logo-container {
+  float: left;
+  width: 23%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .logo-container {
+      width: 23%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .logo-container {
+      width: 23%;
+      margin: 1%; } }
+
+.top-nav {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .top-nav {
+      width: 73%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .top-nav {
+      width: 73%;
+      margin: 1%; } }
+
+#sidebar-header {
+  float: left;
+  width: 23%;
+  margin-left: 51%; }
+
+.full {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.main {
+  float: left;
+  width: 64.66667%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .main {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .main {
+      width: 98%;
+      margin: 1%; } }
+
+.profile {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.profile-image {
+  float: left;
+  width: 31.33333%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .profile-image {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .profile-image {
+      width: 98%;
+      margin: 1%; } }
+
+.profile-bio {
+  float: left;
+  width: 64.66667%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .profile-bio {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .profile-bio {
+      width: 98%;
+      margin: 1%; } }
+
+.profile-bio-no-image {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.sidebar {
+  float: left;
+  width: 31.33333%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .sidebar {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .sidebar {
+      width: 98%;
+      margin: 1%; } }
+
+.footer {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 /******************************************************************
 Site Name:
 Author:
