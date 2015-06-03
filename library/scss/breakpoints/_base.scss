@@ -172,9 +172,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {
-    border-bottom: 1px solid $amber-orange;
-}
+.header {}
 
 	.logo-container {}
 
@@ -191,6 +189,7 @@ and more scalable.
 */
 
 .nav {
+    border-bottom: 1px solid $amber-orange;
 
 	li {
         list-style-type: none;

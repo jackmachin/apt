@@ -1391,9 +1391,6 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  border-bottom: 1px solid #FAA61A; }
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1405,6 +1402,7 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
+  border-bottom: 1px solid #FAA61A;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
