@@ -857,10 +857,7 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer {
-	clear: both;
-	border-top: 1px solid $amber-orange;
-}
+.footer {}
 
 	/*
 	if you checked out the link above:
@@ -873,7 +870,7 @@ FOOTER STYLES
 	*/
 
 	#menu-footer-links {
-		margin:0;
+        border-top: 1px solid $amber-orange;
         border-left: 1px solid #faa61a;
 
 		li {
