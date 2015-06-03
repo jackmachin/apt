@@ -19,13 +19,9 @@ body{
 	width: 100%;
 }
 
-  .header {
-        @include grid(12);
-  }
+  .header {}
 
-    #inner-header {
-        @include grid (12);
-    }
+    #inner-header { }
 
         .logo-container {
             @include grid (12);
@@ -42,25 +38,17 @@ body{
             @include grid(3, $push:6);
         }
 
-  //#content {
-    //@include grid(9);
-    //@include break(tablet, 12);
-    //@include break(mobile, 12);
- //}
-
-    #inner-content {
-        @include grid(12);
-    }
+    #inner-content {}
 
         .full {
             @include grid (12);
         }
 
-    .main {
-        @include grid(8);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-    }
+        .main {
+            @include grid(8);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+        }
 
        .sidebar {
             @include grid(4);
