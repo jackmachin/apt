@@ -1485,8 +1485,9 @@ POSTS & CONTENT STYLES
     border: 1px solid #cecece;
     padding: 10px; }
   .entry-content table {
-    width: 100%; }
-    .entry-content table tr:nth-of-type(2n+1) {
+    width: 100%;
+    border: 1px solid #FAA61A; }
+    .entry-content table tr:nth-of-type(2n) {
       background-color: #f5f5f5; }
     .entry-content table th {
       font-weight: bold;
@@ -1495,7 +1496,8 @@ POSTS & CONTENT STYLES
       color: #FAA61A;
       background-color: #f5f5f5; }
     .entry-content table td {
-      vertical-align: center; }
+      vertical-align: center;
+      padding: 0 0.25em; }
 
 /* end .entry-content */
 .wp-caption {
