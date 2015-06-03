@@ -1276,7 +1276,8 @@ li + li,
 #wpadminbar,
 nav,
 span + span,
-#content {
+#content,
+.gv-grid {
   margin-top: 0; }
 
 /********************
