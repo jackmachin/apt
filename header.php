@@ -83,13 +83,13 @@ jQuery(document).ready(function($) {
 <?php } ?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class('wrapper'); ?>>
 
 		<div id="container">
 
-			<header class="header" role="banner">
+			<header class="header wrapper" role="banner">
 
-				<div id="inner-header" class="wrap clearfix">
+				<div id="inner-header" class="container">
 
 					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
 
@@ -101,31 +101,8 @@ jQuery(document).ready(function($) {
 					<?php // bloginfo('description'); ?>
 
 					<nav role="navigation">
-						<?php if (is_page_template ('page-adviser.php')) {
 
-						bones_adviser_nav(); }
-
-						elseif (is_page_template ('page-member.php' )) {
-
-							if (is_user_logged_in()) { bones_adviser_nav ();}
-
-							else {bones_main_nav();}
-
-						}
-
-            elseif (is_page_template ('page-library.php' )) {
-
-							if (is_user_logged_in()) { bones_adviser_nav ();}
-
-							else {bones_main_nav();}
-
-						}
-
-						else {
-
-						bones_main_nav(); }
-
-						?>
+                        <?php bones_main_nav(); ?>
 
 					</nav>
 
