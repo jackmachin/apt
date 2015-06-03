@@ -1277,7 +1277,8 @@ body {
   font-family: "MuseoSans-500", sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #231F20; }
+  color: #231F20;
+  background-color: #fff; }
 
 * + * {
   margin-top: 1.5em; }
