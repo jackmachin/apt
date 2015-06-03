@@ -83,9 +83,7 @@ jQuery(document).ready(function($) {
 <?php } ?>
 	</head>
 
-	<body <?php body_class('wrapper'); ?>>
-
-		<div id="container">
+	<body <?php body_class(); ?>>
 
 			<header class="header wrapper" role="banner">
 
