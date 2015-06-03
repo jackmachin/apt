@@ -802,6 +802,12 @@ nav {
   width: 23%;
   margin-left: 51%; }
 
+#inner-content {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 .full {
   float: left;
   width: 98%;
@@ -821,46 +827,6 @@ nav {
     .main {
       width: 98%;
       margin: 1%; } }
-
-.profile {
-  float: left;
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%; }
-
-.profile-image {
-  float: left;
-  width: 31.33333%;
-  margin-left: 1%;
-  margin-right: 1%; }
-  @media only screen and (max-width: 767px) {
-    .profile-image {
-      width: 98%;
-      margin: 1%; } }
-  @media only screen and (max-width: 480px) {
-    .profile-image {
-      width: 98%;
-      margin: 1%; } }
-
-.profile-bio {
-  float: left;
-  width: 64.66667%;
-  margin-left: 1%;
-  margin-right: 1%; }
-  @media only screen and (max-width: 767px) {
-    .profile-bio {
-      width: 98%;
-      margin: 1%; } }
-  @media only screen and (max-width: 480px) {
-    .profile-bio {
-      width: 98%;
-      margin: 1%; } }
-
-.profile-bio-no-image {
-  float: left;
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%; }
 
 .sidebar {
   float: left;
