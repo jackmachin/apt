@@ -807,6 +807,11 @@ body {
   margin-left: 1%;
   margin-right: 1%; }
 
+.splash {
+  float: left;
+  width: 48%;
+  margin-left: 25.5%; }
+
 .sidebar {
   float: left;
   width: 31.33333%;

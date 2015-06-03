@@ -42,6 +42,10 @@ body{
                 @include grid (12);
             }
 
+                .splash {
+                    @include grid (6, $push:3);
+                }
+
            .sidebar {
                 @include grid(4);
                 @include break(tablet, 12);
