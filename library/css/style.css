@@ -772,10 +772,11 @@ body {
   display: table;
   clear: both; }
 
-#inner-header:after {
-  content: "";
-  display: table;
-  clear: both; }
+#inner-header {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
 
 .logo-container {
   float: left;
@@ -789,23 +790,7 @@ nav {
   margin-left: 1%;
   margin-right: 1%; }
 
-.top-nav {
-  float: left;
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%; }
-
-#sidebar-header {
-  float: left;
-  width: 23%;
-  margin-left: 51%; }
-
-#inner-content:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.full {
+#inner-content {
   float: left;
   width: 98%;
   margin-left: 1%;
@@ -844,7 +829,7 @@ nav {
   display: table;
   clear: both; }
 
-.copyright {
+#inner-footer {
   float: left;
   width: 98%;
   margin-left: 1%;

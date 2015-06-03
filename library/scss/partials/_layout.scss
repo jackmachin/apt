@@ -23,32 +23,21 @@ body{
     @include clearfix;
   }
 
-    #inner-header {
-        @include clearfix;
-    }
-
-        .logo-container {
+        #inner-header {
             @include grid (12);
         }
 
-        nav {
-            @include grid (12);
-        }
-        .top-nav {
-            @include grid(12);
-        }
+            .logo-container {
+                @include grid (12);
+            }
 
-        #sidebar-header {
-            @include grid(3, $push:6);
-        }
+            nav {
+                @include grid (12);
+            }
 
     #inner-content {
-        @include clearfix;
+        @include grid (12);
     }
-
-        .full {
-            @include grid (12);
-        }
 
         .main {
             @include grid(8);
@@ -66,6 +55,6 @@ body{
     @include clearfix;
 }
 
-.copyright {
+#inner-footer {
     @include grid (12);
 }
