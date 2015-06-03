@@ -4,7 +4,7 @@ Template Name: Splash
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('splash'); ?>
 	<div id="content" class="container">
 		<div id="inner-content">
             <div id="main" class="full" role="main">
@@ -31,4 +31,4 @@ Template Name: Splash
             </div> <!-- end #main -->
 		</div> <!-- end #inner-content -->
 	</div> <!-- end #content -->
-<?php get_footer(); ?>
+<?php get_footer('splash'); ?>
