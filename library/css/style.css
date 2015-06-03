@@ -1336,10 +1336,6 @@ style a page via class
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-.wrap {
-  width: 96%;
-  margin: 0 auto; }
-
 /*********************
 LINK STYLES
 *********************/
@@ -1425,6 +1421,7 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
+  padding-left: 0;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -1451,7 +1448,8 @@ and more scalable.
 			*/ }
     .nav li ul.sub-menu,
     .nav li ul.children {
-      padding-left: 0; }
+      padding-left: 0;
+      display: none; }
       .nav li ul.sub-menu li a,
       .nav li ul.children li a {
         padding-left: 30px; }

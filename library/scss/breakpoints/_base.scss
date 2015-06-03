@@ -84,11 +84,6 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
-
 /*********************
 LINK STYLES
 *********************/
@@ -205,6 +200,7 @@ and more scalable.
 */
 
 .nav {
+    padding-left:0;
 
 	li {
         list-style-type: none;
@@ -241,6 +237,7 @@ and more scalable.
 		ul.sub-menu,
 		ul.children {
             padding-left:0;
+            display: none;
 
 			li {
 
