@@ -1905,7 +1905,7 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-Site Name: Amber
+Site Name: Amber Pension Trust
 Author: Jack Machin
 
 Stylesheet: Tablet & Small Desktop Stylesheet
@@ -1923,26 +1923,6 @@ GENERAL STYLES
   /*********************
 LAYOUT & GRID STYLES
 *********************/
-  .wrap {
-    max-width: 1140px; }
-  .box-large p {
-    color: #fff;
-    text-align: center;
-    line-height: 25px; }
-  .box-large-bottom p {
-    color: #fff;
-    text-align: center;
-    line-height: 50px; }
-  .middle {
-    margin: 75px 0 205px 0; }
-  .box-small {
-    width: 130px;
-    height: 56px;
-    float: left; }
-    .box-small p {
-      color: #fff;
-      font-size: 10px;
-      text-align: center; }
   /*********************
 HEADER STYLES
 *********************/

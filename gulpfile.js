@@ -10,6 +10,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
 var imagemin = require('gulp-imagemin');
+var csso = require('gulp-csso');
 
 // Lint Task
 gulp.task('lint', function () {
@@ -30,7 +31,7 @@ gulp.task('sass', function () {
 gulp.task('css', function () {
     "use strict";
     return gulp.src('library/css/style.css')
-        .pipe(minifyCSS())
+        .pipe(csso())
         .pipe(rename('style.min.css'))
         .pipe(gulp.dest('library/css'));
 });
