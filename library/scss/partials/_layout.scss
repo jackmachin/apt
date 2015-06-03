@@ -29,11 +29,11 @@ body{
         }
 
         #inner-content {
-            @include grid (12);
+            @include grid (12, $margin:0);
         }
 
             .main {
-                @include grid(8, $margin:0);
+                @include grid(8);
                 @include break(tablet, 12);
                 @include break(mobile, 12);
             }
