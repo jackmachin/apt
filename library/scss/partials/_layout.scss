@@ -38,6 +38,10 @@ body{
                 @include break(mobile, 12);
             }
 
+            .full {
+                @include grid (12);
+            }
+
            .sidebar {
                 @include grid(4);
                 @include break(tablet, 12);
