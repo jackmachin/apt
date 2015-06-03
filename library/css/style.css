@@ -1453,7 +1453,7 @@ POSTS & CONTENT STYLES
 			but it's up to you. Feel free to change it up.
 			*/ }
   .entry-content p {
-    line-height: 1.4em; }
+    margin-bottom: 0; }
   .entry-content .colorful p {
     border-top: 1px solid #FAA61A;
     color: #FAA61A;
