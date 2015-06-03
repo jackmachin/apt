@@ -20,42 +20,34 @@ body{
     @include clearfix;
 }
 
-  .header {
-    @include clearfix;
-  }
+    .header {
+        @include clearfix;
+    }
 
         #inner-header {
             @include grid (12);
         }
 
-            .logo-container {
-                @include grid (12);
-            }
-
-            nav {
-                @include grid (12);
-            }
-
-    #inner-content {
-        @include grid (12);
-    }
-
-        .main {
-            @include grid(8);
-            @include break(tablet, 12);
-            @include break(mobile, 12);
+        #inner-content {
+            @include grid (12);
         }
 
-       .sidebar {
-            @include grid(4);
-            @include break(tablet, 12);
-            @include break(mobile, 12);
-       }
+            .main {
+                @include grid(8);
+                @include break(tablet, 12);
+                @include break(mobile, 12);
+            }
 
-.footer {
-    @include clearfix;
-}
+           .sidebar {
+                @include grid(4);
+                @include break(tablet, 12);
+                @include break(mobile, 12);
+           }
 
-#inner-footer {
-    @include grid (12);
-}
+    .footer {
+        @include clearfix;
+    }
+
+        #inner-footer {
+            @include grid (12);
+        }
