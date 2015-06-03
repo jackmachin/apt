@@ -83,11 +83,11 @@ jQuery(document).ready(function($) {
 <?php } ?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class('wrapper'); ?>>
 
-			<header class="header wrapper" role="banner">
+			<header class="header container" role="banner">
 
-				<div id="inner-header" class="container">
+				<div id="inner-header">
 
 					<div class="logo-container">
                         <a href="<?php echo home_url(); ?>" rel="nofollow" title="homepage">
