@@ -1363,7 +1363,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 1.5em;
   line-height: 1.4em;
-  margin-bottom: 0.375em; }
+  margin-bottom: 0; }
 
 h3, .h3 {
   font-size: 1em; }
@@ -1454,14 +1454,6 @@ POSTS & CONTENT STYLES
 			*/ }
   .entry-content p {
     margin-bottom: 0; }
-  .entry-content .colorful p {
-    border-top: 1px solid #FAA61A;
-    color: #FAA61A;
-    -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), url("/wp-content/themes/amber/library/images/bg-copy.png") repeat;
-    background: -o-linear-gradient(transparent, transparent);
-    -webkit-background-clip: text;
-    font-style: italic; }
   .entry-content ul, .entry-content ol {
     padding-left: 20px; }
   .entry-content ol {
