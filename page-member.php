@@ -10,15 +10,9 @@ Template Name: Member
                 <?php if (is_user_logged_in()) { ?>
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 									<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-										<header class="article-header">
-										</header> <!-- end article header -->
-										<section class="entry-content clearfix" itemprop="articleBody">
+										<div class="entry-content clearfix" itemprop="articleBody">
 											<?php the_content(); ?>
-									</section> <!-- end article section -->
-										<footer class="article-footer">
-											<?php the_tags( '<span class="tags">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '' ); ?>
-										</footer> <!-- end article footer -->
-										<?php comments_template(); ?>
+                                        </div > <!-- end article section -->
 									</article> <!-- end article -->
 									<?php endwhile; else : ?>
 											<article id="post-not-found" class="hentry clearfix">
