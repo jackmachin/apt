@@ -773,19 +773,17 @@ body {
   margin-left: 1%;
   margin-right: 1%; }
 
-.logo-container {
+#inner-header {
   float: left;
-  width: 23%;
+  width: 98%;
   margin-left: 1%;
   margin-right: 1%; }
-  @media only screen and (max-width: 767px) {
-    .logo-container {
-      width: 23%;
-      margin: 1%; } }
-  @media only screen and (max-width: 480px) {
-    .logo-container {
-      width: 23%;
-      margin: 1%; } }
+
+.logo-container {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
 
 .top-nav {
   float: left;
