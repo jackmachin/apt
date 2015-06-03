@@ -19,9 +19,13 @@ body{
 	width: 100%;
 }
 
-  .header {}
+  .header {
+    @include clearfix;
+  }
 
-    #inner-header { }
+    #inner-header {
+        @include clearfix;
+    }
 
         .logo-container {
             @include grid (12);
@@ -38,7 +42,9 @@ body{
             @include grid(3, $push:6);
         }
 
-    #inner-content {}
+    #inner-content {
+        @include clearfix;
+    }
 
         .full {
             @include grid (12);
@@ -57,5 +63,5 @@ body{
        }
 
 .footer {
-    @include grid (12);
+    @include clearfix;
 }
