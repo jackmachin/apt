@@ -29,7 +29,8 @@ body {
 li + li,
 #wpadminbar,
 nav,
-span + span {
+span + span,
+#content {
     margin-top: 0;
 }
 /********************
