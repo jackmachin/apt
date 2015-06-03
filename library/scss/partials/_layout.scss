@@ -31,11 +31,11 @@ body{
             @include grid (12);
         }
 
-
+        nav {
+            @include grid (12);
+        }
         .top-nav {
             @include grid(12);
-            @include break(tablet, 9);
-            @include break(mobile, 9);
         }
 
         #sidebar-header {
