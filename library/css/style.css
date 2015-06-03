@@ -1429,6 +1429,7 @@ and more scalable.
   .nav li {
     list-style-type: none;
     float: left;
+    position: relative;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
