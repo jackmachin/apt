@@ -1422,6 +1422,7 @@ and more scalable.
 */
 .nav {
   padding-left: 0;
+  border-left: 1px solid #FAA61A;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -1440,6 +1441,8 @@ and more scalable.
       border-right: 1px solid #FAA61A;
       font-weight: 500;
       text-decoration: none;
+      width: 50%;
+      float: left;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
