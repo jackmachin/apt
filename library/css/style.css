@@ -1430,6 +1430,7 @@ and more scalable.
     list-style-type: none;
     float: left;
     position: relative;
+    width: 50%;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
@@ -1443,7 +1444,6 @@ and more scalable.
       border-right: 1px solid #FAA61A;
       font-weight: 500;
       text-decoration: none;
-      width: 50%;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in

@@ -207,6 +207,7 @@ and more scalable.
         list-style-type: none;
         float: left;
         position: relative;
+       width: 50%;
 
 		a {
 			display: block;
@@ -214,8 +215,6 @@ and more scalable.
 			border-right: 1px solid $amber-orange;
 			font-weight: 500;
 			text-decoration: none;
-           width: 50%;
-
 
 			/*
 			remember this is for mobile ONLY, so there's no need
