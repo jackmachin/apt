@@ -201,10 +201,12 @@ and more scalable.
 
 .nav {
     padding-left:0;
-      border-left: 1px solid $amber-orange;
+    border-left: 1px solid $amber-orange;
 
 	li {
         list-style-type: none;
+                    width: 50%;
+            float: left;
 
 		a {
 			display: block;
@@ -212,8 +214,7 @@ and more scalable.
 			border-right: 1px solid $amber-orange;
 			font-weight: 500;
 			text-decoration: none;
-            width: 50%;
-            float: left;
+
 
 			/*
 			remember this is for mobile ONLY, so there's no need
