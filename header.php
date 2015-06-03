@@ -69,7 +69,7 @@
 */
 
 -->
-<?php if (is_page ( array ('new-scheme', 'pipeline-collector'))) { ?>
+<?php if (is_page ( array ('new-scheme', 'pipeline-collector', 'create-new-scheme'))) { ?>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
   $(".datepicker").datepicker({
