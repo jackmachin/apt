@@ -1283,14 +1283,15 @@ body {
   margin-top: 1.5em; }
 
 li + li,
+span + span,
 #wpadminbar,
 nav,
-span + span,
+#input_1_11_5_container,
 #content,
 .gv-grid,
 .gv-left,
 .gv-right,
-#input_1_11_5_container {
+.gfield_description {
   margin-top: 0; }
 
 /********************
