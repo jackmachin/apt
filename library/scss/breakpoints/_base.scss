@@ -110,18 +110,6 @@ a, a:visited {
 	}
 
 }
-a.fancy {
-	background-image: url('/wp-content/themes/amber/library/images/short-strip.png');
-	padding: 1em;
-	text-decoration:none;
-	color:$fancy-color;
-
-		/* on hover */
-	&:hover,
-    &:focus {
-		color: $fancy-hover;
-	}
-}
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES

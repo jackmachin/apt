@@ -1325,16 +1325,6 @@ a, a:visited {
 		*/
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
-a.fancy {
-  background-image: url("/wp-content/themes/amber/library/images/short-strip.png");
-  padding: 1em;
-  text-decoration: none;
-  color: #fff;
-  /* on hover */ }
-  a.fancy:hover,
-  a.fancy:focus {
-    color: #e8e8e8; }
-
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
