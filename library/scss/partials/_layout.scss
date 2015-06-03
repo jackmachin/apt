@@ -65,3 +65,7 @@ body{
 .footer {
     @include clearfix;
 }
+
+.copyright {
+    @include grid (12);
+}
