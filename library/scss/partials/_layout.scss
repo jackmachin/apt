@@ -33,7 +33,7 @@ body{
         }
 
             .main {
-                @include grid(8);
+                @include grid(8, $margin:0%);
                 @include break(tablet, 12);
                 @include break(mobile, 12);
             }
