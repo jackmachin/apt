@@ -1395,6 +1395,10 @@ HEADER STYLES
 #inner-header {
   border-bottom: 1px solid #FAA61A; }
 
+.logo {
+  max-width: 100%;
+  height: auto; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
