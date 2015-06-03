@@ -31,9 +31,6 @@ gulp.task('sass', function () {
 gulp.task('css', function () {
     "use strict";
     return gulp.src('library/css/style.css')
-         .pipe(uncss({
-            html: ['/home', '/', 'http://642.376.myftpupload.com/']
-        }))
         .pipe(csso())
         .pipe(rename('style.min.css'))
         .pipe(gulp.dest('library/css'));
