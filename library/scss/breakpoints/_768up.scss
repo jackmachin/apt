@@ -84,16 +84,20 @@ NAVIGATION STYLES
 
 .nav {
 	background-color: #F5F5F5;
-	background-image: -moz-linear-gradient(center top , #FFFFFF 0px, #FFFFFF 2px, #EEEEEE 50px);
-	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
-	background: -o-linear-gradient(top, #FFFFFF, #EEEEEE);
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#EEEEEE);
-	-ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#55FFFFFF, endColorstr=#55EEEEEE);
 	height: 2.5em;
 	padding: 0;
 	margin: 0 auto;
 	line-height:2.5em;
     border-left: none;
+
+    background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
+
 
 
 	li {
