@@ -172,11 +172,9 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-#inner-header {
-    border-bottom: 1px solid $amber-orange;
-}
+.header {}
 
-	#logo {}
+	.logo-container {}
 
 /*********************
 NAVIGATION STYLES
@@ -190,7 +188,8 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 
-.nav {
+.top-nav {
+    border-bottom: 1px solid $amber-orange;
 
 	li {
         list-style-type: none;

@@ -1446,9 +1446,6 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-#inner-header {
-  border-bottom: 1px solid #FAA61A; }
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1459,11 +1456,12 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-.nav {
+.top-nav {
+  border-bottom: 1px solid #FAA61A;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
-  .nav li {
+  .top-nav li {
     list-style-type: none;
     /*
 		so you really have to rethink your dropdowns for mobile.
@@ -1472,7 +1470,7 @@ and more scalable.
 		depend on the project. Here's some great info on it:
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/ }
-    .nav li a {
+    .top-nav li a {
       display: block;
       padding: 0 15px;
       border-right: 1px solid #FAA61A;
@@ -1484,11 +1482,11 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/ }
-    .nav li ul.sub-menu,
-    .nav li ul.children {
+    .top-nav li ul.sub-menu,
+    .top-nav li ul.children {
       padding-left: 0; }
-      .nav li ul.sub-menu li a,
-      .nav li ul.children li a {
+      .top-nav li ul.sub-menu li a,
+      .top-nav li ul.children li a {
         padding-left: 30px; }
 
 /* end .nav */
