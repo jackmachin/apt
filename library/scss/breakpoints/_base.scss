@@ -205,7 +205,7 @@ and more scalable.
 
 	li {
         list-style-type: none;
-                    width: 50%;
+
             float: left;
 
 		a {
@@ -214,6 +214,7 @@ and more scalable.
 			border-right: 1px solid $amber-orange;
 			font-weight: 500;
 			text-decoration: none;
+               width: 50%;
 
 
 			/*
