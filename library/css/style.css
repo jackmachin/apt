@@ -766,6 +766,10 @@ body {
 
 .container {
   width: 100%; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .header:after {
   content: "";
