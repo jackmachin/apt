@@ -8,9 +8,9 @@ var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
-var minifyCSS = require('gulp-minify-css');
 var imagemin = require('gulp-imagemin');
 var csso = require('gulp-csso');
+var uncss = require ('gulp-uncss');
 
 // Lint Task
 gulp.task('lint', function () {
@@ -31,6 +31,9 @@ gulp.task('sass', function () {
 gulp.task('css', function () {
     "use strict";
     return gulp.src('library/css/style.css')
+         .pipe(uncss({
+            html: ['/home', '/', 'http://642.376.myftpupload.com/']
+        }))
         .pipe(csso())
         .pipe(rename('style.min.css'))
         .pipe(gulp.dest('library/css'));
