@@ -1963,13 +1963,13 @@ NAVIGATION STYLES
     /* highlight current page */
     /* end current highlighters */ }
     .nav li {
-      width: 100%;
       /*
 		plan your menus and drop-downs wisely.
 		*/
       /* showing sub-menus */ }
       .nav li a {
         border-bottom: 0;
+        width: 100%;
         /*
 			you can use hover styles here even though this size
 			has the possibility of being a mobile device.
