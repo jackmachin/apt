@@ -1492,11 +1492,9 @@ POSTS & CONTENT STYLES
     .entry-content table th {
       font-weight: bold;
       text-align: center;
-      vertical-align: center;
       color: #FAA61A;
       background-color: #f5f5f5; }
     .entry-content table td {
-      vertical-align: center;
       padding: 0 0.25em; }
 
 /* end .entry-content */
