@@ -1924,7 +1924,7 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
   .nav {
-    background-color: #443021;
+    background-color: #757575;
     background-image: none;
     background-image: -moz-linear-gradient(center top, #FFFFFF 0px, #FFFFFF 2px, #EEEEEE 50px);
     background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
