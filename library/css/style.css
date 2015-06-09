@@ -2004,14 +2004,12 @@ SIDEBARS & ASIDES
     color: #faa61a;
     font-size: 1.125em;
     border-bottom: 2px solid #444; }
-  .widget {
-    padding: 1em; }
-    .widget ul li {
-      margin-bottom: 0.75em;
-      /* deep nesting */ }
-      .widget ul li ul {
-        margin-top: 0.75em;
-        padding-left: 1em; }
+  .widget ul li {
+    margin-bottom: 0.75em;
+    /* deep nesting */ }
+    .widget ul li ul {
+      margin-top: 0.75em;
+      padding-left: 1em; }
   /* links widget */
   /* meta widget */
   /* pages widget */

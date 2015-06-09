@@ -147,8 +147,7 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {
-}
+.sidebar {}
 
 	.widgettitle {
 		margin-bottom: 0;
@@ -158,10 +157,10 @@ SIDEBARS & ASIDES
 	}
 
 	.widget {
-		padding: 1em;
 
 		ul {
-			li {
+
+            li {
 				margin-bottom: 0.75em;
 
 				&:first-child {}
