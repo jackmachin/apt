@@ -1488,7 +1488,7 @@ POSTS & CONTENT STYLES
   .entry-content p {
     margin-bottom: 0; }
   .entry-content ul, .entry-content ol {
-    padding-left: 20px; }
+    padding-left: 2em; }
   .entry-content ol {
     list-style-type: decimal; }
   .entry-content ul {
