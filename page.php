@@ -3,10 +3,8 @@
 		<div id="inner-content">
             <div id="main" class="main" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-						<div class="entry-content" itemprop="articleBody">
-							<?php the_content(); ?>
-                        </div> <!-- end article section -->
+					<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                        <?php the_content(); ?>
 					</article> <!-- end article -->
 					<?php endwhile; else : ?>
 							<article id="post-not-found" class="hentry clearfix">
