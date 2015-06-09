@@ -1783,6 +1783,9 @@ SIDEBARS & ASIDES
   background-color: #F5F5F5;
   padding: 1.5em 1em; }
 
+.widgettitle {
+  margin: 0; }
+
 .widget ul li {
   /* deep nesting */ }
 
@@ -2001,7 +2004,6 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
   .widgettitle {
-    margin: 0;
     color: #faa61a;
     font-size: 1.125em;
     border-bottom: 2px solid #444; }
