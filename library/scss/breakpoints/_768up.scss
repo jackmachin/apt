@@ -39,9 +39,8 @@ NAVIGATION STYLES
 
 .nav {
 	background-color: #F5F5F5;
-	height: 2.5em;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0;
 	line-height:2.5em;
     border-left: none;
 
@@ -53,15 +52,11 @@ NAVIGATION STYLES
     background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
 
-
-
 	li {
         width: inherit;
 
-
 		a {
 			border-bottom: 0;
-
 
 			/*
 			you can use hover styles here even though this size
