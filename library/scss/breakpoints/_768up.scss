@@ -31,8 +31,7 @@ HEADER STYLES
 
 .header {}
 
-	#logo {
-	}
+	#logo {}
 
 /*********************
 NAVIGATION STYLES
@@ -152,15 +151,14 @@ SIDEBARS & ASIDES
 }
 
 	.widgettitle {
-		margin-bottom: 0.75em;
+		margin-bottom: 0;
 		color: #faa61a;
-		font-size: 18px;
+		font-size: 1.125em;
 		border-bottom: 2px solid #444;
 	}
 
 	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
+		padding: 1em;
 
 		ul {
 			li {
