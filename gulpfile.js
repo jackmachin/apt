@@ -10,7 +10,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
 var csso = require('gulp-csso');
-var uncss = require ('gulp-uncss');
+var uncss = require('gulp-uncss');
 
 // Lint Task
 gulp.task('lint', function () {
