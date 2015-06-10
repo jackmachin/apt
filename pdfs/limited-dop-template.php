@@ -37,7 +37,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             $form_data = GFPDFEntryDetail::lead_detail_grid_array($form, $lead);
 
             $date_created   =   $form_data ['date_created'];
-        ?>
+        }?>
         <p class="dated">Dated: <?php echo $date_created; ?></p>
 	</body>
 </html>
