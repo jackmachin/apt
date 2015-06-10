@@ -30,3 +30,7 @@ body {
 ol {
     padding-left:20px;
 }
+
+    ol li {
+        padding-left:20px;
+    }
