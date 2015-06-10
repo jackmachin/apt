@@ -37,6 +37,7 @@ $form = RGFormsModel::get_form_meta($form_id);
 
             $date_created   =   $form_data ['date_created'];
             $employer_name 	=   $form_data ['field'] ['3.Employer Name'];
+            $company_no 	=   $form_data ['field'] ['4.Company Number'];
         }?>
         <p class="dated upper">Dated</p>
             <p>&nbsp;</p>
@@ -81,7 +82,7 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>BETWEEN:</strong></p>
         <ol>
             <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and</li>
-            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number [co. number]) whose registered office is at [Registered office address] (the “<strong>New Participating Employer</strong>”).</li>
+            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $employer_name;?>) whose registered office is at [Registered office address] (the “<strong>New Participating Employer</strong>”).</li>
         </ol>
 	</body>
 </html>
