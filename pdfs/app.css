@@ -27,7 +27,6 @@ body {
     text-align: center;
 }
 
-.list-item {
-    margin-bottom: 11px;
-    padding-bottom: 11px
+.dop-list li {
+    margin-bottom: 10px;
 }
