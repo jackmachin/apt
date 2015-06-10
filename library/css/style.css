@@ -1293,7 +1293,8 @@ nav,
 .gv-grid,
 .gv-left,
 .gv-right,
-.gfield_description {
+.gfield_description,
+.gf_clear {
   margin-top: 0; }
 
 /********************
