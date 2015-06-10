@@ -4,11 +4,14 @@ body {
     color: #000;
 }
 
+.upper {
+    text-transform: uppercase;;
+}
+
 .dated {
     width: 60%;
     margin: 0 auto;
     border-bottom: 1px solid #000;
-    text-transform: uppercase;
 }
 
 .front {
