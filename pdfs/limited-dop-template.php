@@ -69,9 +69,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p class="front upper">Deed of Participation</p>
             <p>in relation to</p>
             <p class="front upper">Amber Pension Trust</p>
-            <p>&nbsp;</p>
         </div>
-            <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -88,10 +86,9 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>EXECUTION DATE:</strong></p>
         <p><strong>BETWEEN:</strong></p>
         <ol>
-            <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and</li>
-            <br>
-            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $company_number;?>) whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “<strong>New Participating Employer</strong>”).</li>
-            <br>
+            <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and<br>
+            </li>
+            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $company_number;?>) whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “<strong>New Participating Employer</strong>”).<br></li>
         </ol>
         <p><strong>BACKGROUND</strong></p>
         <ol>
