@@ -38,6 +38,6 @@ $form = RGFormsModel::get_form_meta($form_id);
 
             $date_created   =   $form_data ['date_created'];
         }?>
-        <p class="dated">Dated: <?php echo $date_created; ?></p>
+        <p class="dated">DATED <?php echo $date_created; ?></p>
 	</body>
 </html>
