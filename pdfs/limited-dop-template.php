@@ -15,6 +15,7 @@ if(!class_exists("RGForms")){
  * Load the form data to pass to our PDF generating function
  */
 $form = RGFormsModel::get_form_meta($form_id);
+$stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'app.css')) ? PDF_TEMPLATE_URL_LOCATION.'app.css' : PDF_PLUGIN_URL .'styles/template.css' ;
 
 ?>
 
@@ -23,8 +24,7 @@ $form = RGFormsModel::get_form_meta($form_id);
 <html>
 <head>
     <link rel="stylesheet" href="<?php echo GFCommon::get_base_url(); ?>/css/print.css" type="text/css" />
-    <link rel='stylesheet' href='<?php echo PDF_PLUGIN_URL .'initialisation/template.css'; ?>' type='text/css' />
-     <link rel='stylesheet' href='<?php echo PDF_PLUGIN_URL .'initialisation/app.css'; ?>' type='text/css' />
+    <link rel='stylesheet' href='<?php echo $stylesheet_location; ?>' type='text/css' />
     <title>Limited EA Template</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
@@ -38,6 +38,12 @@ $form = RGFormsModel::get_form_meta($form_id);
 
             $date_created   =   $form_data ['date_created'];
         }?>
-        <p class="dated">DATED <?php echo $date_created; ?></p>
+        <p class="dated">Dated</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        <p class="front">AMBER TRUSTEES LIMITED</p>
 	</body>
 </html>

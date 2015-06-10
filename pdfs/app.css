@@ -5,7 +5,14 @@ body {
 }
 
 .dated {
-    width: 40%;
+    text-align: center;
+    width: 60%;
     margin: 0 auto;
     border-bottom: 1px solid #000;
+    text-transform: uppercase;
+}
+
+.front {
+    text-transform: uppercase;
+    font-weight: bold;
 }
