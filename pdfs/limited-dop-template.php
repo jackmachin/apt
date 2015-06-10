@@ -103,6 +103,8 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <br>
                 <br>
             <li>The Rules confer upon the Trustees the power to admit any Employer (as defined in the Rules) to participate in the Scheme.</li>
+                <br>
+                <br>
             <li>The Trustees wish to admit the New Participating Employer to participate in the Scheme as specified in this deed.</li>
                 <br>
                 <br>
@@ -115,39 +117,69 @@ $form = RGFormsModel::get_form_meta($form_id);
             <li>The Trustees exercise their power to admit the New Participating Employer conferred on them by the Rules and all other relevant powers, as follows:
                 <ol>
                     <li>The New Participating Employer is admitted to participate in the Scheme with effect from the Execution Date;</li>
-            <br>
+                <br>
+                <br>
                     <li>The New Participating Employer’s workers (and, if applicable, all other ‘jobholders’ - as such term is defined in the Pensions Act 2008) are made eligible for membership of the Scheme with effect from the Execution Date, subject to the provisions of the Rules;</li>
-            <br>
+                <br>
+                <br>
                     <li>The contributions payable monthly by the New Participating Employer and those persons to be admitted as members of the Scheme and on the date specified on or by the Trustees are, subject to clause 1.4, as follows:
                         <ol>
                             <li>Employer contribution rate:<?php echo $employer_cont;?>% of <?php echo $salary_def;?> per annum, and</li>
-                                        <br>
+                <br>
+                <br>
                             <li>Member contribution rate: <?php echo $member_cont;?>% of <?php echo $salary_def;?> per annum; and</li>
-                                        <br>
+                <br>
+                <br>
                         </ol>
                     </li>
-                           <p>&nbsp;</p>
+                <br>
+                <br>
                     <li >Where the New Participating Employer is using the Scheme for compliance with the automatic enrolment requirements under Part 1 of the Pensions Act 2008, it shall ensure that the contributions payable are consistent with those requirements.</li>
-                <p>&nbsp;</p>
+                <br>
+                <br>
                 </ol>
             </li>
+                <br>
+                <br>
             <li>The New Participating Employer hereby agrees:
                 <ol>
                     <li>To immediately pay to the Scheme Administrator the fees and charges notified in writing by the Scheme Administrator or the Trustees from time to time in force as payable by the New Participating Employer in connection with the Scheme (which, as of the Execution Date, are as set out in the Appendix to this deed), and</li>
+                                    <br>
+                <br>
                     <li>in the event the Scheme Administrator or the Trustees provide written notice to the New Participating Employer detailing any unpaid fees and charges that are due and payable in connection with the Scheme by any of the New Participating Employer’s workers, to immediately pay to the Scheme Administrator any such outstanding sum that would otherwise be payable by the worker (or workers) in question.</li>
+                                    <br>
+                <br>
                 </ol>
             </li>
+                            <br>
+                <br>
             <li>The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
                 <ol>
                     <li>The actions (if any) required to be taken by them to become members of the Scheme,</li>
+                                    <br>
+                <br>
                     <li>The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and</li>
+                                    <br>
+                <br>
                     <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
+                                    <br>
+                <br>
                     <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
+                                    <br>
+                <br>
                 </ol>
             </li>
+                            <br>
+                <br>
             <li>The New Participating Employer covenants with the Trustees that, with effect from the Execution Date, it will comply with and observe all of the provisions of the Trust Deed and the Rules (as amended from time to time) so far as they are applicable to the New Participating Employer as an Employer (as such term applies for the purpose of the Scheme) participating in the Scheme.</li>
+                            <br>
+                <br>
             <li>The New Participating Employer hereby acknowledges that, under the Rules, its participation in the Scheme would cease if its contributions were to remain unpaid for a period of six months.</li>
+                            <br>
+                <br>
             <li>The New Participating Employer hereby appoints Amber Financial Investments Limited (and any successor from time to time as “the Company” under the Trust Deed and the Rules) to act on its behalf in exercising the right to be consulted on changes to the Statement of Investment Principles under section 35 of the Pensions Act 1995 (and in exercising any other rights of notification, consultation or consent under pensions legislation where the Company, acting in good faith, considers this appropriate taking into account the interests of the New Participating Employer and the efficient operation of the Scheme).</li>
+                            <br>
+                <br>
         </ol>
         <p>In witness of which this document was executed and, on the Execution Date, delivered as a deed.</p>
         <p>Executed by Carey Corporate Trustees UK Limited under delegated authority on behalf of the Trustees of the Amber Pension Trust</p>
