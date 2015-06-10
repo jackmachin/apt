@@ -107,8 +107,8 @@ $form = RGFormsModel::get_form_meta($form_id);
                     <li>The New Participating Employer’s workers (and, if applicable, all other ‘jobholders’ - as such term is defined in the Pensions Act 2008) are made eligible for membership of the Scheme with effect from the Execution Date, subject to the provisions of the Rules;</li>
                     <li>The contributions payable monthly by the New Participating Employer and those persons to be admitted as members of the Scheme and on the date specified on or by the Trustees are, subject to clause 1.4, as follows:
                         <ol>
-                            <li>Employer contribution rate:<?php echo $employer-cont;?> of <?php echo $salary-def;?> per annum, and</li>
-                            <li>Member contribution rate: <?php echo $member-cont;?> of <?php echo $salary-def;?> per annum; and</li>
+                            <li>Employer contribution rate:<?php echo $employer_cont;?>% of <?php echo $salary_def;?> per annum, and</li>
+                            <li>Member contribution rate: <?php echo $member_cont;?>% of <?php echo $salary_def;?> per annum; and</li>
                         </ol>
                     </li>
                     <li>Where the New Participating Employer is using the Scheme for compliance with the automatic enrolment requirements under Part 1 of the Pensions Act 2008, it shall ensure that the contributions payable are consistent with those requirements.</li>
