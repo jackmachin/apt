@@ -87,22 +87,28 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>BETWEEN:</strong></p>
         <ol>
             <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and
-                <br>
-                <br>
             </li>
-            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $company_number;?>) whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “<strong>New Participating Employer</strong>”).<br></li>
+                <br>
+                <br>
+            <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $company_number;?>) whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “<strong>New Participating Employer</strong>”).</li>
+                <br>
+                <br>
         </ol>
         <p><strong>BACKGROUND</strong></p>
         <ol>
             <li>This deed is supplemental (inter alia) to a Trust Deed and Rules dated 17th December 2013 (the “Trust Deed” and the “Rules”).</li>
-            <br>
+                <br>
+                <br>
             <li>The Trustees are the present Trustees of the Amber Pension Trust (the “Scheme”).</li>
-            <br>
+                <br>
+                <br>
             <li>The Rules confer upon the Trustees the power to admit any Employer (as defined in the Rules) to participate in the Scheme.</li>
             <li>The Trustees wish to admit the New Participating Employer to participate in the Scheme as specified in this deed.</li>
-            <br>
+                <br>
+                <br>
             <li>The Trustees have delegated to Carey Corporate Trustees UK Limited the authority to execute this Deed on behalf of both the Trustees.</li>
-            <br>
+                <br>
+                <br>
         </ol>
         <p><strong>AGREED TERMS</strong></p>
         <ol>
