@@ -44,10 +44,24 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-        <p class="front">AMBER TRUSTEES LIMITED</p>
+        <p class="front upper">AMBER TRUSTEES LIMITED</p>
         <p class="front">And</p>
-        <p class="front">CAREY CORPORATE TRUSTEES UK LIMITED</p>
+        <p class="front upper">CAREY CORPORATE TRUSTEES UK LIMITED</p>
         <p class="front">And</p>
         <p class="front upper"><?php echo $employer_name;?></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        <div class="title-box">
+            <p class="front upper">Deed of Participation</p>
+            <p>in relation to</p>
+            <p class="front upper">Amber Pension Trust</p>
+            <p>&nbsp;</p>
+        </div>
 	</body>
 </html>
