@@ -88,30 +88,39 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>EXECUTION DATE:</strong></p>
         <p><strong>BETWEEN:</strong></p>
         <ol>
-            <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and</li>
+            <li><strong>AMBER TRUSTEES LIMITED</strong> a company incorporated in England and Wales (with registered number 08756896) whose registered office is at Paradigm House, Lower Meadow Road, Handforth, Wilmslow, Cheshire, SK9 3ND and <strong>CAREY CORPORATE TRUSTEES UK LIMITED</strong> a company incorporated in England and Wales (with registered number 09359872) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA (the “<strong>Trustees</strong>”); and</li>       <p>&nbsp;</p>
             <li><strong><?php echo $employer_name;?></strong> a company incorporated in England and Wales (with registered number <?php echo $company_number;?>) whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “<strong>New Participating Employer</strong>”).</li>
+                   <p>&nbsp;</p>
         </ol>
         <p><strong>BACKGROUND</strong></p>
         <ol>
             <li>This deed is supplemental (inter alia) to a Trust Deed and Rules dated 17th December 2013 (the “Trust Deed” and the “Rules”).</li>
+            <p>&nbsp;</p>
             <li>The Trustees are the present Trustees of the Amber Pension Trust (the “Scheme”).</li>
+                   <p>&nbsp;</p>
             <li>The Rules confer upon the Trustees the power to admit any Employer (as defined in the Rules) to participate in the Scheme.</li>
             <li>The Trustees wish to admit the New Participating Employer to participate in the Scheme as specified in this deed.</li>
+                   <p>&nbsp;</p>
             <li>The Trustees have delegated to Carey Corporate Trustees UK Limited the authority to execute this Deed on behalf of both the Trustees.</li>
+                   <p>&nbsp;</p>
         </ol>
         <p><strong>AGREED TERMS</strong></p>
         <ol>
             <li>The Trustees exercise their power to admit the New Participating Employer conferred on them by the Rules and all other relevant powers, as follows:
                 <ol>
                     <li>The New Participating Employer is admitted to participate in the Scheme with effect from the Execution Date;</li>
+                           <p>&nbsp;</p>
                     <li>The New Participating Employer’s workers (and, if applicable, all other ‘jobholders’ - as such term is defined in the Pensions Act 2008) are made eligible for membership of the Scheme with effect from the Execution Date, subject to the provisions of the Rules;</li>
+                           <p>&nbsp;</p>
                     <li>The contributions payable monthly by the New Participating Employer and those persons to be admitted as members of the Scheme and on the date specified on or by the Trustees are, subject to clause 1.4, as follows:
                         <ol>
                             <li>Employer contribution rate:<?php echo $employer_cont;?>% of <?php echo $salary_def;?> per annum, and</li>
                             <li>Member contribution rate: <?php echo $member_cont;?>% of <?php echo $salary_def;?> per annum; and</li>
                         </ol>
                     </li>
+                           <p>&nbsp;</p>
                     <li >Where the New Participating Employer is using the Scheme for compliance with the automatic enrolment requirements under Part 1 of the Pensions Act 2008, it shall ensure that the contributions payable are consistent with those requirements.</li>
+                <p>&nbsp;</p>
                 </ol>
             </li>
             <li>The New Participating Employer hereby agrees:
