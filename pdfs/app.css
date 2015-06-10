@@ -27,10 +27,6 @@ body {
     text-align: center;
 }
 
-ol {
-    padding-left:20px;
+li {
+    margin-bottom: 11px;
 }
-
-    ol li {
-        padding-left:20px;
-    }
