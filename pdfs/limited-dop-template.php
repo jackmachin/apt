@@ -120,12 +120,12 @@ $form = RGFormsModel::get_form_meta($form_id);
                     <li>in the event the Scheme Administrator or the Trustees provide written notice to the New Participating Employer detailing any unpaid fees and charges that are due and payable in connection with the Scheme by any of the New Participating Employer’s workers, to immediately pay to the Scheme Administrator any such outstanding sum that would otherwise be payable by the worker (or workers) in question.</li>
                 </ol>
             </li>
-            <li>3.The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
+            <li>The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
                 <ol>
-                    <li>3.1	The actions (if any) required to be taken by them to become members of the Scheme,</li>
-                    <li>3.2	The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and</li>
-                    <li>3.3	The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
-                    <li>3.3	The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
+                    <li>The actions (if any) required to be taken by them to become members of the Scheme,</li>
+                    <li>The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and</li>
+                    <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
+                    <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
                 </ol>
             </li>
         </ol>
