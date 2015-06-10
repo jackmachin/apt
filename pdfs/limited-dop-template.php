@@ -63,5 +63,16 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p class="front upper">Amber Pension Trust</p>
             <p>&nbsp;</p>
         </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        <p><strong>DEED OF PARTICIPATION</strong></p>
+        <p><strong>EXECUTION DATE:</strong></p>
+        <p><strong>BETWEEN:</strong></p>
 	</body>
 </html>
