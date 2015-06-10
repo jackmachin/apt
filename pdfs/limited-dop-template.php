@@ -100,7 +100,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             <li>The Trustees have delegated to Carey Corporate Trustees UK Limited the authority to execute this Deed on behalf of both the Trustees.</li>
         </ol>
         <p><strong>AGREED TERMS</strong></p>
-        <ol class="dop-list">
+        <ol>
             <li>The Trustees exercise their power to admit the New Participating Employer conferred on them by the Rules and all other relevant powers, as follows:
                 <ol>
                     <li>The New Participating Employer is admitted to participate in the Scheme with effect from the Execution Date;</li>
@@ -117,6 +117,15 @@ $form = RGFormsModel::get_form_meta($form_id);
             <li>The New Participating Employer hereby agrees:
                 <ol>
                     <li>To immediately pay to the Scheme Administrator the fees and charges notified in writing by the Scheme Administrator or the Trustees from time to time in force as payable by the New Participating Employer in connection with the Scheme (which, as of the Execution Date, are as set out in the Appendix to this deed), and</li>
+                    <li>in the event the Scheme Administrator or the Trustees provide written notice to the New Participating Employer detailing any unpaid fees and charges that are due and payable in connection with the Scheme by any of the New Participating Employer’s workers, to immediately pay to the Scheme Administrator any such outstanding sum that would otherwise be payable by the worker (or workers) in question.</li>
+                </ol>
+            </li>
+            <li>3.The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
+                <ol>
+                    <li>3.1	The actions (if any) required to be taken by them to become members of the Scheme,</li>
+                    <li>3.2	The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and</li>
+                    <li>3.3	The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
+                    <li>3.3	The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
                 </ol>
             </li>
         </ol>

@@ -27,6 +27,6 @@ body {
     text-align: center;
 }
 
-.dop-list li {
-    margin-bottom: 10px;
+ol {
+    list-style-type: none;
 }
