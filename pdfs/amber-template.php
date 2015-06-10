@@ -43,7 +43,7 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'amber.css')) ? PDF_TE
 		<?php global $current_user;
 			get_currentuserinfo();
 		?>
-                   <?php
+       <?php
 
         foreach($lead_ids as $lead_id) {
             $lead = RGFormsModel::get_lead($lead_id);

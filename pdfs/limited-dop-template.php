@@ -36,7 +36,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             $form_data = GFPDFEntryDetail::lead_detail_grid_array($form, $lead);
 
             $date_created   =   $form_data ['date_created'];
-            $employer-name 	= $form_data ['field'] ['3.Employer Name'];
+            $employer_name 	=   $form_data ['field'] ['3.Employer Name'];
         }?>
         <p class="dated upper">Dated</p>
             <p>&nbsp;</p>
@@ -48,6 +48,6 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p class="front">And</p>
         <p class="front">CAREY CORPORATE TRUSTEES UK LIMITED</p>
         <p class="front">And</p>
-        <p class="front upper"><?php echo $employer-name;?></p>
+        <p class="front upper"><?php echo $employer_name;?></p>
 	</body>
 </html>
