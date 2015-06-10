@@ -128,6 +128,11 @@ $form = RGFormsModel::get_form_meta($form_id);
                     <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
                 </ol>
             </li>
+            <li>The New Participating Employer covenants with the Trustees that, with effect from the Execution Date, it will comply with and observe all of the provisions of the Trust Deed and the Rules (as amended from time to time) so far as they are applicable to the New Participating Employer as an Employer (as such term applies for the purpose of the Scheme) participating in the Scheme.</li>
+            <li>The New Participating Employer hereby acknowledges that, under the Rules, its participation in the Scheme would cease if its contributions were to remain unpaid for a period of six months.</li>
+            <li>The New Participating Employer hereby appoints Amber Financial Investments Limited (and any successor from time to time as “the Company” under the Trust Deed and the Rules) to act on its behalf in exercising the right to be consulted on changes to the Statement of Investment Principles under section 35 of the Pensions Act 1995 (and in exercising any other rights of notification, consultation or consent under pensions legislation where the Company, acting in good faith, considers this appropriate taking into account the interests of the New Participating Employer and the efficient operation of the Scheme).</li>
         </ol>
+        <p>In witness of which this document was executed and, on the Execution Date, delivered as a deed.</p>
+        <p>Executed by Carey Corporate Trustees UK Limited under delegated authority on behalf of the Trustees of the Amber Pension Trust</p>
 	</body>
 </html>
