@@ -1,0 +1,11 @@
+body {
+    font-family: calibri, helvetica, arial, sans-serif;
+    font-size: 11px;
+    color: #000;
+}
+
+.dated {
+    width: 40%;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
