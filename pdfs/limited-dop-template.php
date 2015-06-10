@@ -15,7 +15,6 @@ if(!class_exists("RGForms")){
  * Load the form data to pass to our PDF generating function
  */
 $form = RGFormsModel::get_form_meta($form_id);
-$stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'app.css')) ? PDF_TEMPLATE_URL_LOCATION.'app.css' : PDF_PLUGIN_URL .'styles/template.css' ;
 
 ?>
 
@@ -24,7 +23,7 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'app.css')) ? PDF_TEMP
 <html>
 <head>
     <link rel="stylesheet" href="<?php echo GFCommon::get_base_url(); ?>/css/print.css" type="text/css" />
-    <link rel='stylesheet' href='<?php echo $stylesheet_location; ?>' type='text/css' />
+    <link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/pdfs/app.css' type='text/css' />
     <title>Limited EA Template</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
