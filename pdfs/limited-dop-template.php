@@ -24,23 +24,20 @@ $form = RGFormsModel::get_form_meta($form_id);
 <head>
     <link rel="stylesheet" href="<?php echo GFCommon::get_base_url(); ?>/css/print.css" type="text/css" />
     <link rel='stylesheet' href='<?php echo PDF_PLUGIN_URL .'initialisation/template.css'; ?>' type='text/css' />
+     <link rel='stylesheet' href='<?php echo PDF_PLUGIN_URL .'initialisation/app.css'; ?>' type='text/css' />
     <title>Limited EA Template</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 	<body>
-        <h1>Limited DOP Template</h1>
         <?php
-            /*
-             * Loop through the entries
-             * There is usually only one but you can pass more IDs through the lid URL parameter
-             */
-            foreach($lead_ids as $lead_id) {
-                /* load the lead information */
-                $lead = RGFormsModel::get_lead($lead_id);
 
-                /* generate the entry HTML */
-                GFPDFEntryDetail::lead_detail_grid($form, $lead, $config_data['empty_field'], $config_data['html_field'], $config_data['page_names']);
-            }
+        foreach($lead_ids as $lead_id) {
+            $lead = RGFormsModel::get_lead($lead_id);
+            do_action("gform_print_entry_header", $form, $lead);
+            $form_data = GFPDFEntryDetail::lead_detail_grid_array($form, $lead);
+
+            $date_created   =   $form_data ['date_created'];
         ?>
+        <p class="dated">Dated: <?php echo $date_created; ?></p>
 	</body>
 </html>
