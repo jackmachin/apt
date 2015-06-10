@@ -100,14 +100,14 @@
 
     $gf_pdf_config[] = array(
         'form_id' => 12,
-        'notifications' => array('Admin Notification', 'User Notification (Limited)'),
+        'notifications' => array('Admin Notification (Limited)', 'User Notification (Limited)'),
         'template' => 'limited-dop-template.php',
         'filename' => 'Deed of Participation.pdf',
     );
 
     $gf_pdf_config[] = array(
         'form_id' => 12,
-        'notifications' => array('Admin Notification','User Notification (Limited)'),
+        'notifications' => array('Admin Notification (Limited)','User Notification (Limited)'),
         'template' => 'limited-ea-template.php',
         'filename' => 'Employer Agreement.pdf',
     );
