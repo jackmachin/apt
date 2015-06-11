@@ -42,6 +42,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             $address_city       =   $form_data ['field'] ['5.Registered Office Address'] ['city'];
             $address_code       =   $form_data ['field'] ['5.Registered Office Address'] ['zip'];
             $address_country    =   $form_data ['field'] ['5.Registered Office Address'] ['country'];
+            $incorporated       =   $form_data ['field'] ['7.Incorporated in']
             $employer_cont      =   $form_data ['field'] ['10.Employer contribution rate'];
             $member_cont        =   $form_data ['field'] ['11.Member contribution rate'];
             $salary_def         =   $form_data ['field'] ['12.Salary Definition'];
@@ -84,5 +85,13 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p>&nbsp;</p>
         <p class="heading">Employer Agreement for Amber Pension Trust</p>
         <p><strong>THIS PENSION SCHEME EMPLOYER AGREEMENT</strong> is made on the</p>
+        <p>           day of                 </p>
+        <p>between</p>
+        <ol>
+            <li><?php echo $employer_name;?> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is ?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “Employer”); and
+                <br>
+                <br>
+            </li>
+        </ol>
 	</body>
 </html>
