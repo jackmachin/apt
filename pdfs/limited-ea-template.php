@@ -127,18 +127,18 @@ $form = RGFormsModel::get_form_meta($form_id);
                         <table>
                             <tbody>
                                 <tr>
-                                    <td width="50%" valign="top">
+                                    <td valign="top">
                                         <strong>Administration Agreement</strong>
                                     </td>
-                                    <td width="50%" valign="top">
+                                    <td valign="top">
                                         The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td width="50%" valign="top">
+                                    <td valign="top">
                                         <strong>Adviser</strong>
                                     </td>
-                                    <td width="50%" valign="top">
+                                    <td valign="top">
 <?php echo $adviser_name;?>
                                     </td>
                                 </tr>
