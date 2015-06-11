@@ -297,5 +297,9 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p>&nbsp;</p>
         <p>Director/Secretary</p>
         <p>&nbsp;</p>
+
+        <p class="front">APPENDIX</p>
+  <p>&nbsp;</p>
+<p class="front">Fees and charges as at the date on which participation commences</p>
 	</body>
 </html>
