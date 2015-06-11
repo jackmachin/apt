@@ -334,6 +334,37 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p class="double-list">7.3.2 In connection with legal proceedings or by a regulatory body; or</p>
             <p class="double-list">7.3.3 By law,</p>
         <p class="list">the Administrator shall keep confidential all Personal Information and any confidential information acquired by it through the provision of the Services and shall only use confidential information for the specific purpose for which it is being engaged.</p>
-
+        <p class="list">7.4	Within a reasonable time following termination of this Agreement, the Administrator agrees to return to the Employer any confidential information it may hold on behalf of the Employer.</p>
+        <p class="list">7.5	This clause shall survive the termination of this Agreement.</p>
+        <p><strong>8. SCHEME RECORDS</strong></p>
+            <p clas="list">8.1	On reasonable prior notice, the Administrator shall permit the Employer and anyone authorised by them in writing to inspect and take copies of the Scheme Records during normal Business Hours.</p>
+        <p class="list">8.2	The Administrator shall endeavour to give the Employer at least one month’s notice, in advance, of any proposed major change to any system on which the Scheme Records are kept.</p>
+        <p class="list">8.3	The Administrator shall maintain or cause to be maintained a proper system for recovery in case of disaster of such of the Scheme Records as the Administrator, or anyone on whom the Administrator relies for storing the Scheme Records, keeps in computerised or other electronic form.  On being given reasonable notice, the Administrator shall provide the Employer with details of such system.</p>
+        <p class="list">8.4 If the consent of a third party is required in order for the Employer to access and use any part of the Scheme Records held in computerised or other electronic form, the Administrator shall endeavour to procure such consent(s).  The Employer agrees that it shall be responsible for all reasonable costs and expenses incurred by the Administrator in obtaining such consent(s).</p>
+        <p class="list">8.5	The Scheme Records will be retained for the legal minimum term as required.</p>
+    <p><strong>9. DISPUTES</strong></p>
+        <p class="list">9.1	If a disagreement arises between the parties on any matter arising under this Agreement, they shall each appoint representatives to meet as soon as practicable to seek to resolve the issue.  If the representatives are unable to reach agreement, and save where legal proceedings have been commenced, any party to the disagreement may then serve a Dispute Notice.  For the purposes of this Agreement, a Dispute exists when a Dispute Notice is served.</p>
+        <p class="list">9.2	If the Employer is not satisfied with the response from the Scheme Administrator, the Employer may take their complaint to the Trustees of the Scheme.</p>
+        <p>9.3 If the Employer is still not satisfied they may contact The Pensions Advisory Service (TPAS). In most cases, TPAS will assist in reaching a satisfactory outcome. If the Employer is still not satisfied, the Pensions Ombudsman may investigate and resolve the complaint or dispute. The Pensions Ombudsman will expect the Employer to have referred their complaint to TPAS in the first instance. Contact details for both parties are as follows:</p>
+        <table width="80%">
+            <tbody>
+                <tr>
+                    <td width="50%">
+                        The Pensions Advisory Service
+                        11 Belgrave Road
+                        London
+                        SW1V 1RB
+                        TEL: 0845 601 2923
+                    </td>
+                    <td width="50%">
+                        The Pensions Ombudsman
+                        11 Belgrave Road
+                        London
+                        SW1V 1RB
+                        TEL: 020 7630 2200
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 	</body>
 </html>
