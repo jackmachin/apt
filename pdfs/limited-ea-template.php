@@ -388,38 +388,38 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p class="double-list">16.1.3 If sent by facsimile to the correct facsimile number of the intended recipient set out below (or such other facsimile number as shall have been previously communicated by notice to the party giving such notice), at the time of completion of transmission if transmitted on a Business Day or if transmitted on a day which is not a Business Day, on the next following Business Day.</p>
         <table width="80%" class="cheeky">
             <tr>
-                <td width="40%">
+                <td  valign="top" width="40%">
                     <strong>The Administrator</strong>
                 </td>
-                <td width="60%">Carey Corporate Pensions UK Limited	</td>
+                <td valign="top" width="60%">Carey Corporate Pensions UK Limited	</td>
             </tr>
             <tr>
-                <td>
+                <td valign="top">
                     Address:
                 </td>
-                <td>
+                <td valign="top">
                     1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA
                 </td>
             </tr>
             <tr>
-                <td>Attention:</td>
-                <td>Head of Operations</td>
+                <td valign="top">Attention:</td>
+                <td valign="top">Head of Operations</td>
             </tr>
             <tr>
-                <td>Facsimile No:</td>
-                <td>01908  506169</td>
+                <td valign="top">Facsimile No:</td>
+                <td valign="top">01908  506169</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td><strong>The Employer</strong></td>
-                <td><?php echo $employer_name;?></td>
+                <td valign="top"><strong>The Employer</strong></td>
+                <td valign="top"><?php echo $employer_name;?></td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td><?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?></td>
+                <td valign="top">Address:</td>
+                <td valign="top"><?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?></td>
             </tr>
         </table>
     </body>
