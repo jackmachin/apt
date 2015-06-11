@@ -48,15 +48,3 @@ li {
     list-style-type: upper-alpha;
 }
 
-.def-list {
-    width:800px;
-}
-
-    .def-term {
-        font-weight: bold;
-        width: 50%;
-    }
-
-    .def-def {
-        width: 50%;
-    }

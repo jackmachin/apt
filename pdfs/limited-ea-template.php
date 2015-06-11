@@ -126,7 +126,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                         <p>&nbsp;</p>
                           <p class="def-term">Administration Agreement</p>
                           <p class="def-def">the administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time</p>
-                          <p class="def-term">Adviser</p>
+                          <p class="def-term">Adviser FUCKER</p>
                           <p class="def-def"><?php echo $adviser_name;?>FUCKER</p>
                     </li>
                 </ol>
