@@ -59,3 +59,7 @@ li {
 .cheeky {
     margin: 0 auto;
 }
+
+.border {
+    border-bottom: 1px solid #000;
+}

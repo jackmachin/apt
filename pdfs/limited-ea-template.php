@@ -421,6 +421,33 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <td valign="top">Address:</td>
                 <td valign="top"><?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?></td>
             </tr>
+            <tr>
+                <td valign="top">Attention:</td>
+                <td valign="top"><?php echo $employer_cont;?></td>
+            </tr>
+        </table>
+        <p class="list">16.2 Any party giving or serving a notice or demand hereunder by facsimile shall (but without prejudice to the validity of the notice or demand given) send a copy of the notice or demand by pre-paid registered post to the intended recipient at the Recipient's Address.</p>
+        <p class="list">16.3 Any notice served hereunder shall be deemed to have been received by the party so receiving such notice on the Business Day of such receipt only if the notice has been received during usual Business Hours on such Business Day, and if the notice is received outside usual Business Hours, it shall be deemed to have been received on the next following Business Day.</p>
+        <p><strong>17. MONEY LAUNDERING</strong></p>
+        <p>The Employer agrees that it has fulfilled its obligations under the Money Laundering Regulations 2007, by providing the requested anti-Money Laundering when requested by the Administrator;</p>
+        <p><strong>18. LAW</strong></p>
+        <p>The Employer hereby agrees that the Agreement is constituted on these terms and conditions shall be construed in accordance with English Law.</p>
+        <p><strong>19. THIRD PARTY RIGHTS</strong></p>
+        <p>A person who is not a party to this Agreement shall not have any rights under or in connection with it under the terms of the Contracts (Rights of Third Parties) Act 1999.</p>
+        <p><strong>20. PAYMENT FOR SERVICES</strong></p>
+        <p class="list">20.1 In return for the Administrator providing the Scheme Services the Employer will pay agreed fees, which have been laid out in a fee schedule to the Deed of Participation. All fees for the provision of the Scheme administration services are VATable.</p>
+        <p><strong>21. COUNTERPARTS</strong></p>
+        <p>This Agreement may be executed in any number of counterparts each of which shall be deemed an original and together shall constitute one and the same document.</p>
+        <p><strong>IN WITNESS WHEREOF</strong> this Agreement has been duly executed on behalf of the parties in the presence of the undersigned witnesses the day and year first above written.</p>
+        <p>&nbsp;</p>
+        <p>Executed by</p>
+        <p><strong>CAREY CORPORATE PENSIONS UK LIMITED</strong></p>
+        <table width="100%">
+            <tr>
+                <td width="40%" class="border">&nbsp</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Authorised signatory</td>
+            </tr>
         </table>
     </body>
 </html>
