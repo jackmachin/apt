@@ -117,18 +117,14 @@ $form = RGFormsModel::get_form_meta($form_id);
             </li>
         </ol>
         <p><strong>IT IS HEREBY AGREED</strong> as follows:-</p>
-        <ol>
-            <li><strong>DEFINITIONS AND INTERPRETATION</strong>
-                <br>
-                <br>
-                <ol>
-                    <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
+        <p><strong>1. DEFINITIONS AND INTERPRETATION</strong></p>
+        <p class="list">1.1 In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:</p>
                         <br>
                         <br>
                         <table>
                             <tr>
-                                <td><strong>Administration Agreement</strong></td>
-                                <td>The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time. </td>
+                                <td width="50%" valign="top"><strong>Administration Agreement</strong></td>
+                                 <td width="50%" valign="top">The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time. </td>
                             </tr>
                         </table>
                     </li>
