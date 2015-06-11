@@ -85,7 +85,15 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p>&nbsp;</p>
         <p class="heading">Employer Agreement for Amber Pension Trust</p>
         <p><strong>THIS PENSION SCHEME EMPLOYER AGREEMENT</strong> is made on the</p>
-        <p>           day of                 </p>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td width="30%">&nbsp;</td>
+                    <td width="30%">day of</td>
+                    <td width="30%">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
         <p>between</p>
         <ol>
             <li><?php echo $employer_name;?> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is ?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “Employer”); and
