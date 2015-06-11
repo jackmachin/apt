@@ -26,8 +26,24 @@ $form = RGFormsModel::get_form_meta($form_id);
     <link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/pdfs/app.css' type='text/css' />
     <title>Limited EA Template</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <style>
+        @page {
+            header: html_myHTMLHeader1;
+        }
+
+        @page:first {
+            header: none;
+        }
+    </style>
 </head>
 	<body>
+        <htmlpageheader name="myHTMLHeader1">
+            <p class="heading">Employer Agreement for Amber Pension Trust</p>
+        </htmlpageheader>
+                <htmlpageheader name="myHTMLHeader2">
+            <p class="heading">Fuck all</p>
+        </htmlpageheader>
         <?php
 
         foreach($lead_ids as $lead_id) {
@@ -36,8 +52,8 @@ $form = RGFormsModel::get_form_meta($form_id);
             $form_data = GFPDFEntryDetail::lead_detail_grid_array($form, $lead);
 
             $date_created       =   $form_data ['date_created'];
-            $adviser_first      =   $form_data ['field'] ['1. Adviser Name'] ['first'];
-            $adviser_last       =   $form_data ['field'] ['1. Adviser Name'] ['last'];
+            $adviser_first      =   $form_data ['field'] ['1.Adviser Name'] ['first'];
+            $adviser_last       =   $form_data ['field'] ['1.Adviser Name'] ['last'];
             $employer_name 	    =   $form_data ['field'] ['3.Employer Name'];
             $company_no         =   $form_data ['field'] ['4.Company Number'];
             $address_street    	=   $form_data ['field'] ['5.Registered Office Address'] ['street'];
@@ -85,7 +101,6 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-        <p class="heading">Employer Agreement for Amber Pension Trust</p>
         <p><strong>THIS PENSION SCHEME EMPLOYER AGREEMENT</strong> is made on the</p>
         <table width="100%">
             <tbody>
@@ -128,99 +143,129 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="50%" valign="top"><strong>Adviser</strong></td>
-                    <td width="50%" valign="top"><?php echo $adviser-first;?> <?php echo $adviser-last;?></td>
+                    <td width="50%" valign="top"><?php echo $adviser_first;?> <?php echo $adviser_last;?></td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Assessment Date</strong></td>
+                    <td width="50%" valign="top">As appropriate either (a) the Employer’s Staging Date for existing workers, (b) the first day of employment for any new joiner after the Staging Date, (c) the birthday of a worker turning 22 years old or (d) the first day of the pay reference period for any worker assessed after the Employer’s Staging Date or the last day of the postponement period.</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                     <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Business Day</strong></td>
+                    <td width="50%" valign="top">Means any day on which clearing banks are open for business in the UK.</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Business Hours</strong></td>
+                    <td width="50%" valign="top">9am to 5pm, UK time on a Business Day</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Contribution Date</strong></td>
+                    <td width="50%" valign="top">Any date notified by the Trustees or Employer to the Administrator in accordance with the Services and Time Limits on which payments are to be credited to the Scheme.</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Contribution(s)</strong></td>
+                    <td width="50%" valign="top">Contributions made by the Members and Employer, under the Scheme.</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                     <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Database</strong></td>
+                     <td width="50%" valign="top">The electronic and other records maintained in relation to Members for the purpose of providing the Services</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Deed of Participation</strong></td>
+                    <td width="50%" valign="top">The deed of participation among the Trustees and the Employer dated on or around the date of this Agreement</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                     <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Delivery Method</strong></td>
+                     <td width="50%" valign="top">Means the method by which the Database is accessed by the Employer and employees</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Designated Persons</strong></td>
+                    <td width="50%" valign="top">The persons authorised by the Employer and specified to the Administrator on whose instructions the Administrator can act and with whom the Administrator may communicate  from time to time in accordance with this Agreement</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Dispute</strong></td>
+                    <td width="50%" valign="top">means any issue identified in a Dispute Notice as being a dispute</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Dispute Notice</strong></td>
+                    <td width="50%" valign="top">Means a notice from one party to the other:
+                        <ol class="alpha">
+                            <li>Stating that, so far as the party giving the notice is concerned, a dispute exists in relation to this Agreement and that there is no reasonable prospect of it being determined other than under the provisions contained in clause 9;</li>
+                            <li>Indicating the nature of that dispute; and</li>
+                            <li>Requiring it to be determined in accordance with clause 9.</li>
+                        </ol>
+                    </td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Eligible jobholder</strong></td>
+                    <td width="50%" valign="top">A worker who is auto-enrolled into the Employer’s qualifying pension scheme, aged between 22 and state pension age and has the qualifying pensionable earnings</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Entitled worker</strong></td>
+                    <td width="50%" valign="top">A worker who is entitled to join the Scheme but will not be auto-enrolled due to not having the relevant qualifying earnings</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Intellectual Property Rights</strong></td>
+                    <td width="50%" valign="top">means all right, title and interests in copyrights, databases, get-up, inventions, know-how, logos, patents, registered and unregistered designs, services marks, trade marks and trade names, and all similar proprietary rights which may subsist now or in the future, including (where such rights are obtained or enhanced by registration) any registration of such rights and rights to apply for registration</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                     <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Member</strong></td>
+                     <td width="50%" valign="top">an individual who has been admitted as and remains at the relevant time a member of the Scheme and who has been accepted by the Employer and Administrator onto the Database in accordance with this Agreement</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Methods of Communication</strong></td>
+                    <td width="50%" valign="top">The methods of communication between the Employer and the Administrator in relation to the Services as specified in Schedule 2 to this Agreement</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Non-eligible jobholder</strong></td>
+                    <td width="50%" valign="top">Worker who is not eligible to be auto-enrolled into the Employer’s qualifying pension scheme</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                     <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Opting out</strong></td>
+                     <td width="50%" valign="top">The process in which an eligible jobholder ceases to be a member of the Employer’s qualifying pension scheme</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Owner</strong></td>
+                    <td width="50%" valign="top">The owner of the Supporting Software from whom the Administrator holds a licence to use the same</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Pay Reference Period</strong></td>
+                    <td width="50%" valign="top">Period of time by reference to which the Employer pays the worker their regular wage or salary</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Personal Information</strong></td>
+                    <td width="50%" valign="top">Personal data as defined in the Data Protection Act 1998, held by the Administrator, Adviser or the Trustees, as the context requires, in relation to a Member in connection with the Scheme</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Postponement</strong></td>
+                    <td width="50%" valign="top">Suspends the duty of assessment and automatic enrolment from one day to a maximum of three months</td>
                 </tr>
                 <tr>
-                    <td width="50%" valign="top"><strong></strong></td>
-                    <td width="50%" valign="top"></td>
+                    <td width="50%" valign="top"><strong>Prescribed Data</strong></td>
+                    <td width="50%" valign="top">Personal information relating to Members to be included as part of the Scheme Records</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Prescribed Format</strong></td>
+                    <td width="50%" valign="top">The format and content requirements for adding Prescribed Data to the Database as specified from time to time by the Administrator</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Qualifying Earnings</strong></td>
+                    <td width="50%" valign="top">All of the following items: salary, wages, commission, bonuses, overtime, statutory sick pay, statutory maternity pay, and ordinary or additional statutory paternity pay and statutory adoption pay</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Re-enrolment date</strong></td>
+                    <td width="50%" valign="top">Every third anniversary of the Assessment Date</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Scheme</strong></td>
+                    <td width="50%" valign="top">Amber Pension Trust</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Scheme Bank Account</strong></td>
+                    <td width="50%" valign="top">The bank account opened by the Administrator on behalf of the Trustees for the purposes of the Scheme</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Scheme Records</strong></td>
+                    <td width="50%" valign="top">Records relating to Contributions, Members, unit holdings and valuations of the Investments in relation to the Scheme</td>
                 </tr>
                 <tr>
                     <td width="50%" valign="top"><strong></strong></td>
