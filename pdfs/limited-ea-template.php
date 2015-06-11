@@ -116,5 +116,276 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <br>
             </li>
         </ol>
+        <p><strong>IT IS HEREBY AGREED</strong> as follows:-</p>
+        <ol>
+            <li><strong>DEFINITIONS AND INTERPRETATION</strong>
+                <br>
+                <br>
+                <ol>
+                    <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
+                        <table width="100%">
+                            <tbody>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                        <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                    <td width="50%" valign="top">
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                </ol>
+            </li>
+        </ol>
 	</body>
 </html>
