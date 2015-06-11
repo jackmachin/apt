@@ -124,7 +124,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <ol>
                     <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
                         <p>&nbsp;</p>
-                        <table>
+                        <table width="500">
                             <tbody>
                                 <tr>
                                     <td valign="top">
