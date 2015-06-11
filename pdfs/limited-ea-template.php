@@ -125,10 +125,12 @@ $form = RGFormsModel::get_form_meta($form_id);
                     <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
                         <br>
                         <br>
-                        <dl>
-                            <dt><strong>Administration Agreement</strong> </dt>
-                            <dd>The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time.</dd>
-                        </dl>
+                        <table>
+                            <tr>
+                                <td><strong>Administration Agreement</strong></td>
+                                <td>The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time. </td>
+                            </tr>
+                        </table>
                     </li>
                 </ol>
             </li>
