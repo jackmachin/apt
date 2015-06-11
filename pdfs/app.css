@@ -48,3 +48,6 @@ li {
     list-style-type: upper-alpha;
 }
 
+.list {
+    padding-left: 20px;
+}
