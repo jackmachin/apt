@@ -124,12 +124,10 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <ol>
                     <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
                         <p>&nbsp;</p>
-                        <div class="def-list">
                           <p class="def-term">Administration Agreement</p>
                           <p class="def-def">the administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time</p>
                           <p class="def-term">Adviser</p>
-                          <p class="def-def"><?php echo $adviser_name;?></p>
-                        </div>
+                          <p class="def-def"><?php echo $adviser_name;?>FUCKER</p>
                     </li>
                 </ol>
             </li>
