@@ -124,7 +124,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <ol>
                     <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
                         <p>&nbsp;</p>
-                        <table width="100%">
+                        <table width="80%">
                             <tbody>
                                 <tr>
                                     <td width="50%" valign="top">
@@ -136,7 +136,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                                 </tr>
                                 <tr>
                                     <td width="50%" valign="top">
-                                        <strong>Administration Agreement</strong>
+                                        <strong>Adviser</strong>
                                     </td>
                                     <td width="50%" valign="top">
 <?php echo $adviser_name;?>
