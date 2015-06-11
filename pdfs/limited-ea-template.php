@@ -125,10 +125,10 @@ $form = RGFormsModel::get_form_meta($form_id);
                     <li>In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:
                         <p>&nbsp;</p>
                         <dl>
-                          <dt>Coffee</dt>
-                          <dd>Black hot drink</dd>
-                          <dt>Milk</dt>
-                          <dd>White cold drink</dd>
+                          <dt>Administration Agreement</dt>
+                          <dd>the administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time</dd>
+                          <dt>Adviser</dt>
+                          <dd><?php echo $adviser_name;?></dd>
                         </dl>
                     </li>
                 </ol>

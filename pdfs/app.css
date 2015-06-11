@@ -47,3 +47,11 @@ li {
 .alpha {
     list-style-type: upper-alpha;
 }
+
+dl {}
+
+    dt {
+        font-weight: bold;
+    }
+
+    dd {}
