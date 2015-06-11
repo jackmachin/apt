@@ -36,6 +36,8 @@ $form = RGFormsModel::get_form_meta($form_id);
             $form_data = GFPDFEntryDetail::lead_detail_grid_array($form, $lead);
 
             $date_created       =   $form_data ['date_created'];
+            $adviser_first      =   $form_data ['field'] ['1. Adviser Name'] ['first'];
+            $adviser_last       =   $form_data ['field'] ['1. Adviser Name'] ['last'];
             $employer_name 	    =   $form_data ['field'] ['3.Employer Name'];
             $company_no         =   $form_data ['field'] ['4.Company Number'];
             $address_street    	=   $form_data ['field'] ['5.Registered Office Address'] ['street'];
@@ -119,17 +121,111 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>IT IS HEREBY AGREED</strong> as follows:-</p>
         <p><strong>1. DEFINITIONS AND INTERPRETATION</strong></p>
         <p class="list">1.1 In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:</p>
-                        <br>
-                        <br>
-                        <table>
-                            <tr>
-                                <td width="50%" valign="top"><strong>Administration Agreement</strong></td>
-                                 <td width="50%" valign="top">The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time. </td>
-                            </tr>
-                        </table>
-                    </li>
-                </ol>
-            </li>
-        </ol>
+            <table class="list">
+                <tr>
+                    <td width="50%" valign="top"><strong>Administration Agreement</strong></td>
+                     <td width="50%" valign="top">The administration agreement entered into between the Trustees and the Administrator which is more particularly described in Schedule 3 to this Agreement and as amended by agreement between the parties thereto from time to time.</td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong>Adviser</strong></td>
+                    <td width="50%" valign="top"><?php echo $adviser-first;?> <?php echo $adviser-last;?></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                     <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                     <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                     <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                     <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                     <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top"><strong></strong></td>
+                    <td width="50%" valign="top"></td>
+                </tr>
+        </table>
 	</body>
 </html>
