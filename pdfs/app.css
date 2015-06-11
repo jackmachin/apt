@@ -20,6 +20,10 @@ body {
     font-weight: bold;
 }
 
+.center {
+    text-align: center;
+}
+
 .title-box {
     width: 40%;
     margin: 0 auto;
