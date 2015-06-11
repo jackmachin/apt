@@ -96,7 +96,22 @@ $form = RGFormsModel::get_form_meta($form_id);
         </table>
         <p>between</p>
         <ol>
-            <li><?php echo $employer_name;?> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is ?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> (the “Employer”); and
+            <li><strong><?php echo $employer_name;?></strong> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is ?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> <strong>(the “Employer”);</strong> and
+                <br>
+                <br>
+            </li>
+            <li><strong>CAREY CORPORATE PENSIONS UK LIMITED</strong> a company incorporated in England and Wales (Registered Number 09358998) whose registered office is at 1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA <strong>(the “Administrator”)</strong>
+                <br>
+                <br>
+            </li>
+        </ol>
+        <p><strong>Introduction</strong></p>
+        <ol class="alpha">
+            <li>The Employer is required to provide a qualifying workplace pension scheme in order to comply with the requirements of UK law concerning automatic enrolment of employees into a pension scheme, and for that purpose has agreed to participate in the Scheme.
+                <br>
+                <br>
+            </li>
+            <li>This agreement sets out the rights and responsibilities of the Employer and the Administrator respectively in relation to the participation of the Employer in and the operation of the Scheme.
                 <br>
                 <br>
             </li>
