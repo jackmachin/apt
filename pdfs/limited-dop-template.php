@@ -133,36 +133,37 @@ $form = RGFormsModel::get_form_meta($form_id);
                         <br>
                     </li>
                     <li>The contributions payable monthly by the New Participating Employer and those persons to be admitted as members of the Scheme and on the date specified on or by the Trustees are, subject to clause 1.4, as follows:
+                        <br>
+                        <br>
                         <ol>
-                            <li>Employer contribution rate:<?php echo $employer_cont;?>% of <?php echo $salary_def;?> per annum, and</li>
-                <br>
-                <br>
-                            <li>Member contribution rate: <?php echo $member_cont;?>% of <?php echo $salary_def;?> per annum; and</li>
-                <br>
-                <br>
+                            <li>Employer contribution rate:<?php echo $employer_cont;?>% of <?php echo $salary_def;?> per annum, and
+                                <br>
+                                <br>
+                            </li>
+                            <li>Member contribution rate: <?php echo $member_cont;?>% of <?php echo $salary_def;?> per annum; and
+                                <br>
+                                <br>
+                            </li>
                         </ol>
                     </li>
-                <br>
-                <br>
-                    <li >Where the New Participating Employer is using the Scheme for compliance with the automatic enrolment requirements under Part 1 of the Pensions Act 2008, it shall ensure that the contributions payable are consistent with those requirements.</li>
-                <br>
-                <br>
+                    <li>Where the New Participating Employer is using the Scheme for compliance with the automatic enrolment requirements under Part 1 of the Pensions Act 2008, it shall ensure that the contributions payable are consistent with those requirements.
+                        <br>
+                        <br>
+                    </li>
                 </ol>
             </li>
-                <br>
-                <br>
             <li>The New Participating Employer hereby agrees:
+                <br>
+                <br>
                 <ol>
                     <li>To immediately pay to the Scheme Administrator the fees and charges notified in writing by the Scheme Administrator or the Trustees from time to time in force as payable by the New Participating Employer in connection with the Scheme (which, as of the Execution Date, are as set out in the Appendix to this deed), and</li>
-                                    <br>
                 <br>
-                    <li>in the event the Scheme Administrator or the Trustees provide written notice to the New Participating Employer detailing any unpaid fees and charges that are due and payable in connection with the Scheme by any of the New Participating Employer’s workers, to immediately pay to the Scheme Administrator any such outstanding sum that would otherwise be payable by the worker (or workers) in question.</li>
-                                    <br>
+                <br>
+                    <li>In the event the Scheme Administrator or the Trustees provide written notice to the New Participating Employer detailing any unpaid fees and charges that are due and payable in connection with the Scheme by any of the New Participating Employer’s workers, to immediately pay to the Scheme Administrator any such outstanding sum that would otherwise be payable by the worker (or workers) in question.</li>
+                <br>
                 <br>
                 </ol>
             </li>
-                            <br>
-                <br>
             <li>The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
                 <ol>
                     <li>The actions (if any) required to be taken by them to become members of the Scheme,</li>
