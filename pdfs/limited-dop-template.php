@@ -242,6 +242,13 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
             </tbody>
         </table>
-        <p></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Authorised signatory</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Authorised signatory</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 	</body>
 </html>
