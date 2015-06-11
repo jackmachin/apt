@@ -165,25 +165,25 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </ol>
             </li>
             <li>The New Participating Employer covenants with the Trustees that it will provide, in a timely manner, to those persons eligible for membership of the Scheme copies of such explanatory documentation relevant to the Scheme that the Trustees require the New Participating Employer to provide and, in particular, will (in any event) ensure that all eligible persons are given full written information as to:
+                <br>
+                <br>
                 <ol>
-                    <li>The actions (if any) required to be taken by them to become members of the Scheme,</li>
-                                    <br>
-                <br>
-                    <li>The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and</li>
-                                    <br>
-                <br>
-                    <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
-                                    <br>
-                <br>
-                    <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.</li>
-                                    <br>
-                <br>
+                    <li>The actions (if any) required to be taken by them to become members of the Scheme,
+                        <br>
+                        <br>
+                    </li>
+                    <li>The contributions payable (by the New Participating Employer and the Scheme’s members) to the Scheme, and
+                        <br>
+                        <br>
+                    </li>
+                    <li>The fees and charges payable by the Scheme’s members in relation to membership of the Scheme.
+                        <br>
+                        <br>
+                    </li>
                 </ol>
             </li>
-                            <br>
-                <br>
             <li>The New Participating Employer covenants with the Trustees that, with effect from the Execution Date, it will comply with and observe all of the provisions of the Trust Deed and the Rules (as amended from time to time) so far as they are applicable to the New Participating Employer as an Employer (as such term applies for the purpose of the Scheme) participating in the Scheme.</li>
-                            <br>
+                <br>
                 <br>
             <li>The New Participating Employer hereby acknowledges that, under the Rules, its participation in the Scheme would cease if its contributions were to remain unpaid for a period of six months.</li>
                             <br>
