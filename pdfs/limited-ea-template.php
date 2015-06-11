@@ -293,5 +293,19 @@ $form = RGFormsModel::get_form_meta($form_id);
                     </td>
                 </tr>
         </table>
+        <p class="list">1.2	Words importing the singular number only shall include the plural number and vice versa.</p>
+        <p class="list">1.3	Words importing the masculine gender only shall include the feminine gender.</p>
+        <p class="list">1.4	The word "may" shall be construed as permissive and the word "shall" shall be construed as imperative.</p>
+        <p class="list">1.5	All schedules to this agreement shall be deemed to form part of and be included in the agreement.</p>
+        <p class="list">1.6	Unless otherwise defined, or the context requires otherwise, words and expressions defined in the legislation concerning automatic enrolment of employees into pension schemes have the same meanings in this Agreement. </p>
+        <p class="list">1.7	The headings of the terms and conditions herein contained are inserted for convenience of reference only and are not intended to be part of or to affect the meaning or interpretation of any of the terms and conditions of this Agreement.</p>
+    <p><strong>2. PARTICIPATION</strong></p>
+    <p>The Employer will participate in the Scheme with effect on and from the date of the Deed of Participation.</p>
+    <p><strong>3. BANK AND OTHER ACCOUNTS</strong></p>
+    <p>The Employer shall pay to the Scheme Bank Account all Contributions payable by or on behalf of Members.</p>
+    <p><strong>4. SOFTWARE AND WEB SITES</strong></p>
+        <p class="list">4.1	The Employer hereby agrees that during the term of this Agreement it shall:</p>
+            <p class="double-list">4.1.1 Carry out its own virus checks and firewall protection in respect of its email and internet access facilities;</p>
+            <p class="double-list">4.1.2 Not copy the Supporting Software, including the Database comprised in the Supporting Software or otherwise reproduce the same; </p>
 	</body>
 </html>
