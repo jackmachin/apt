@@ -46,6 +46,12 @@ $form = RGFormsModel::get_form_meta($form_id);
             $member_cont        =   $form_data ['field'] ['11.Member contribution rate'];
             $salary_def         =   $form_data ['field'] ['12.Salary Definition'];
         }?>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
         <p class="dated upper">Dated</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -72,6 +78,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-        ?>
+        <p class="heading">Employer Agreement for Amber Pension Trust</p>
+        <p><strong>THIS PENSION SCHEME EMPLOYER AGREEMENT</strong> is made on the</p>
 	</body>
 </html>
