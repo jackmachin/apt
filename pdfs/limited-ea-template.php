@@ -113,7 +113,7 @@ $form = RGFormsModel::get_form_meta($form_id);
         </table>
         <p>between</p>
         <ol>
-            <li><strong><?php echo $employer_name;?></strong> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is ?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> <strong>(the “Employer”);</strong> and
+            <li><strong><?php echo $employer_name;?></strong> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> <strong>(the “Employer”);</strong> and
                 <br>
                 <br>
             </li>
@@ -366,5 +366,61 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
             </tbody>
         </table>
-	</body>
+    <p><strong>10. TERMINATION</strong></p>
+       <p class="list">10.1 If the Employer goes into liquidation, or an order is made or a resolution is passed to put the Employer into liquidation (except a voluntary liquidation for the purpose of reconstruction or amalgamation under terms previously approved in writing by the other party), or such party is unable to pay its debts or if a receiver has been appointed over any of its assets. Any agreement the Employer was party to will be deemed to be terminated.</p>
+        <p class="list">10.2 If the Employer wishes to terminate this agreement, they must give a minimum of six months notice to the administrator.</p>
+    <p><strong>11. FORCE MAJEURE</strong></p>
+        <p class="list">11.1 Not withstanding anything herein contained, the Administrator shall not be responsible for any loss or damage suffered by the Employer or for any failure to perform its duties hereunder if such loss or failure shall be caused by or directly or indirectly due to an act of God, outbreak of hostilities (whether war is declared or not), insurrection, riot, civil disturbance, act of terrorism, regulation of a government or public authority or anything else beyond the control of the Administrator.</p>
+        <p class="list">11.2 If the administrator is prevented by Force Majeure for complying with its material obligations under this Agreement for a continuous period of thirty days then either party shall be entitled to service notice to terminate this Agreement with immediate effect.</p>
+    <p><strong>12. ASSIGNMENT</strong></p>
+        <p>This Agreement is personal to the Employer and neither the Agreement nor any right or duty under it is capable of assignment save with the consent of the other parties.</p>
+    <p><strong>13. DATA PROTECTION</strong></p>
+        <p class="list">13.1 The Employer will ensure that they comply at all times with the provisions of The Data Protection Act 1998, where applicable, and all other applicable laws, regulations and codes of practice relating to data protection in force from time to time.</p>
+        <p class="list">13.2 The Administrator agrees to only process personal information associated with the Scheme for the purpose of administering the Scheme.  The Administrator agrees not to transfer or disclose any such personal information to a third party without prior written approval from the Employer.</p>
+    <p><strong>14. INSURANCE</strong></p>
+        <p>The Employer and the Administrator confirms that they have in effect and will maintain adequate insurance required in order to perform their obligations under this Agreement.</p>
+    <p><strong>15. VARIATION OF AGREEMENT</strong></p>
+        <p>Any variation of this Agreement shall be in writing and signed by the Employer or by someone authorised in writing by the Employer to do so.</p>
+    <p><strong>16. NOTICES</strong></p>
+        <p class="list">16.1 Except as otherwise specified herein, every notice to be given hereunder shall be in writing and shall be expressed to be a notice given hereunder and shall be deemed duly given:</p>
+            <p class="double-list">16.1.1 If delivered by hand at the address set out below of the intended recipient (or at such other address as the intended recipient shall have previously communicated by notice to the party giving the said notice), at the time of delivery to the intended recipient if such day is a Business Day, or if such day is not a Business Day, on the next following Business Day; or</p>
+        <p class="double-list">16.1.2 If posted to the Recipient's Address, when actually received by the intended recipient or, if posted by prepaid registered post to the Recipient’s Address, three Business Days after posting; or</p>
+        <p class="double-list">16.1.3 If sent by facsimile to the correct facsimile number of the intended recipient set out below (or such other facsimile number as shall have been previously communicated by notice to the party giving such notice), at the time of completion of transmission if transmitted on a Business Day or if transmitted on a day which is not a Business Day, on the next following Business Day.</p>
+        <table width="80%" class="cheeky">
+            <tr>
+                <td width="40%">
+                    <strong>The Administrator</strong>
+                </td>
+                <td width="60%">Carey Corporate Pensions UK Limited	</td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    1st Floor, Lakeside House, Shirwell Crescent, Furzton Lake, Milton Keynes, MK4 1GA
+                </td>
+            </tr>
+            <tr>
+                <td>Attention:</td>
+                <td>Head of Operations</td>
+            </tr>
+            <tr>
+                <td>Facsimile No:</td>
+                <td>01908  506169</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>The Employer</strong></td>
+                <td><?php echo $employer_name;?></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?></td>
+            </tr>
+        </table>
+    </body>
 </html>
