@@ -346,21 +346,21 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p class="list">9.1	If a disagreement arises between the parties on any matter arising under this Agreement, they shall each appoint representatives to meet as soon as practicable to seek to resolve the issue.  If the representatives are unable to reach agreement, and save where legal proceedings have been commenced, any party to the disagreement may then serve a Dispute Notice.  For the purposes of this Agreement, a Dispute exists when a Dispute Notice is served.</p>
         <p class="list">9.2	If the Employer is not satisfied with the response from the Scheme Administrator, the Employer may take their complaint to the Trustees of the Scheme.</p>
         <p>9.3 If the Employer is still not satisfied they may contact The Pensions Advisory Service (TPAS). In most cases, TPAS will assist in reaching a satisfactory outcome. If the Employer is still not satisfied, the Pensions Ombudsman may investigate and resolve the complaint or dispute. The Pensions Ombudsman will expect the Employer to have referred their complaint to TPAS in the first instance. Contact details for both parties are as follows:</p>
-        <table width="80%">
+        <table width="80%" class="cheeky">
             <tbody>
                 <tr>
                     <td width="50%">
-                        The Pensions Advisory Service
-                        11 Belgrave Road
-                        London
-                        SW1V 1RB
+                        The Pensions Advisory Service<br>
+                        11 Belgrave Road<br>
+                        London<br>
+                        SW1V 1RB<br>
                         TEL: 0845 601 2923
                     </td>
                     <td width="50%">
-                        The Pensions Ombudsman
-                        11 Belgrave Road
-                        London
-                        SW1V 1RB
+                        The Pensions Ombudsman<br>
+                        11 Belgrave Road<br>
+                        London<br>
+                        SW1V 1RB<br>
                         TEL: 020 7630 2200
                     </td>
                 </tr>
