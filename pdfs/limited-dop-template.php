@@ -299,8 +299,13 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p class="front">APPENDIX</p>
-        <p>&nbsp;</p>
         <p class="front">Fees and charges as at the date on which participation commences</p>
+        <p>&nbsp;</p>
         <p class="center"><em>Subject to variation from time to time in accordance with the Rules of the Scheme</em></p>
+        <p>An annual fee is payable to Carey Corporate Pensions UK Ltd, as administrator of the Scheme and Amber Financial Investment Limited as Sponsor of the Scheme, and is determined by the value of the assets under administration at the end of each quarter end date.
+In addition, fees are payable to Blackrock Investment Management UK Limited, as Investment Manager to the Scheme. This fee is taken directly from the investment and in accordance with the Investment Manager’s Terms and Conditions.</p>
+        <p>The total member borne deduction charged is 0.75% per annum.</p>
+        <p>&nbsp;</p>
+        <p><em>Plus any additional fees or expenses payable in accordance with the Scheme's Rules, as notified to the New Participating Employer from time to time.</em></p>
 	</body>
 </html>
