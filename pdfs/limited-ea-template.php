@@ -494,6 +494,46 @@ with the Pensions Regulator’s notification on 1st April 2012.The figure is bas
 </td>
                     <td>As per legislation</td>
                 </tr>
+                <tr>
+                    <th>Enrolment of ‘workers’</th>
+                    <td>Enrolling a ‘worker’ into the Scheme without the need for any action by the worker (deemed contractual enrolment). Eligible jobholders are to be automatically enrolled within one month of Employer’s Assessment Date, unless it is possible to use postponement and enrol entitled workers into a scheme of the Employer’s choice. There is a 30 day notice period prior to the contributions being invested as a worker may choose to opt-out, via an opt-out notice within this period.</td>
+                    <td>As per legislation</td>
+                </tr>
+                <tr>
+                    <th>Payment of  Contributions</th>
+                    <td>Arrange for contributions to be transferred to the Administrator by the 19th day of the month following the deduction from the worker’s salary. The first employee contribution must be taken on the first payday on or after the Assessment Date.</td>
+                    <td>As per legislation</td>
+                </tr>
+                <tr>
+                    <th>Workers who join Scheme following enrolment</th>
+                    <td>Arranging membership of a qualifying pension scheme for jobholders who choose to opt in or entitled workers join the Scheme.</td>
+                    <td>As per legislation</td>
+                </tr>
+                <tr>
+                    <th>Enhanced/fixed protection</th>
+                    <td>The Employer should use reasonable endeavours, to be made aware of those workers with enhanced protection (for the purposes of the Finance Act 2004) or fixed protection (for the purposes of the Finance Act 2011) and therefore a copy of the relevant protection certificate at the period prior to auto-enrolment must be provided by the worker, as enhanced protection may be lost by the worker if the worker is automatically enrolled into the Scheme and contributions paid on their behalf.</td>
+                    <td>As per legislation</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                </tr>
             </tbody>
         </table>
     </body>
