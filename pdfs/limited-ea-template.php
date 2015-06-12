@@ -475,7 +475,26 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <td width="50%">Name of director/secretary</td>
             </tr>
         </table>
-<pagebreak>
-    <p>Legit</p>
+        <pagebreak>
+        <p class="front">SCHEDULE 1</p>
+        <p class="front">RESPONSIBILITIES OF THE EMPLOYER</p>
+        <table class="fancy-table">
+            <thead>
+                <tr>
+                    <th width="30%">Event</th>
+                    <th width="50%">Description</th>
+                    <th width-"20%">Time Limit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Establishing a Qualifying Workplace Pension Scheme</th>
+                    <td>The Employer must identify its Staging Date in accordance
+with the Pensions Regulator’s notification on 1st April 2012.The figure is based on PAYE workers.
+</td>
+                    <td>As per legislation</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

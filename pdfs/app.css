@@ -63,3 +63,17 @@ li {
 .border {
     border-bottom: 1px solid #000;
 }
+
+.fancy-table {
+    width:80%;
+    margin: 0 auto;
+}
+
+.fancy-table th {
+    background-color: #888;
+    vertical-align: top;
+}
+
+.fancy-table td {
+    vertical-align: top;
+}
