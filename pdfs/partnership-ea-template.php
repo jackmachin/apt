@@ -99,7 +99,7 @@ $form = RGFormsModel::get_form_meta($form_id);
         </table>
         <p>between</p>
         <ol>
-            <li><strong><?php echo $employer_name;?></strong> a company incorporated in <?php echo $incoporated;?> (Registered Number <?php echo $company-no;?>) whose registered office is <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> <strong>(the “Employer”);</strong> and
+            <li><strong><?php echo $employer_name;?></strong> an unincorporated company whose registered office is at <?php echo $address_street;?>, <?php echo $address_city;?>, <?php echo $address_country;?>, <?php echo $address_code;?> <strong>(the “Employer”);</strong> and
                 <br>
                 <br>
             </li>
@@ -121,7 +121,7 @@ $form = RGFormsModel::get_form_meta($form_id);
         </ol>
         <p><strong>IT IS HEREBY AGREED</strong> as follows:-</p>
         <p><strong>1. DEFINITIONS AND INTERPRETATION</strong></p>
-        <p class="list">1.1 In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:</p>
+        <p class="list">1.1	In this Agreement, unless the context otherwise requires, the following words and expressions have the meanings given in this paragraph:</p>
             <table class="list">
                 <tr>
                     <td width="35%" valign="top"><strong>Administration Agreement</strong></td>
@@ -133,11 +133,11 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Assessment Date</strong></td>
-                    <td width="65%" valign="top">As appropriate either (a) the Employer’s Staging Date for existing workers, (b) the first day of employment for any new joiner after the Staging Date, (c) the birthday of a worker turning 22 years old or (d) the first day of the pay reference period for any worker assessed after the Employer’s Staging Date or the last day of the postponement period.</td>
+                    <td width="65%" valign="top">As appropriate either (a) the Employer’s Staging Date for existing workers, (b) the first day of employment for any new joiner after the Staging Date, (c) the birthday of a worker turning 22 years old or (d) the first day of the pay reference period for any worker assessed after the Employer’s Staging Date or the last day of the postponement period</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Business Day</strong></td>
-                    <td width="65%" valign="top">Means any day on which clearing banks are open for business in the UK.</td>
+                    <td width="65%" valign="top">Means any day on which clearing banks are open for business in the UK</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Business Hours</strong></td>
@@ -145,7 +145,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Contribution Date</strong></td>
-                    <td width="65%" valign="top">Any date notified by the Trustees or Employer to the Administrator in accordance with the Services and Time Limits on which payments are to be credited to the Scheme.</td>
+                    <td width="65%" valign="top">Any date notified by the Trustees or Employer to the Administrator in accordance with the Services and Time Limits on which payments are to be credited to the Scheme</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Contribution(s)</strong></td>
@@ -161,7 +161,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Delivery Method</strong></td>
-                     <td width="65%" valign="top">Means the method by which the Database is accessed by the Employer and employees</td>
+                     <td width="65%" valign="top">Means the method by which the Database is accessed by the Employer and employe</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Designated Persons</strong></td>
@@ -169,7 +169,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Dispute</strong></td>
-                    <td width="65%" valign="top">means any issue identified in a Dispute Notice as being a dispute</td>
+                    <td width="65%" valign="top">Means any issue identified in a Dispute Notice as being a dispute</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Dispute Notice</strong></td>
@@ -191,11 +191,11 @@ $form = RGFormsModel::get_form_meta($form_id);
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Intellectual Property Rights</strong></td>
-                    <td width="65%" valign="top">means all right, title and interests in copyrights, databases, get-up, inventions, know-how, logos, patents, registered and unregistered designs, services marks, trade marks and trade names, and all similar proprietary rights which may subsist now or in the future, including (where such rights are obtained or enhanced by registration) any registration of such rights and rights to apply for registration</td>
+                    <td width="65%" valign="top">Means all right, title and interests in copyrights, databases, get-up, inventions, know-how, logos, patents, registered and unregistered designs, services marks, trade marks and trade names, and all similar proprietary rights which may subsist now or in the future, including (where such rights are obtained or enhanced by registration) any registration of such rights and rights to apply for registration.</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Member</strong></td>
-                    <td width="65%" valign="top">an individual who has been admitted as and remains at the relevant time a member of the Scheme and who has been accepted by the Employer and Administrator onto the Database in accordance with this Agreement</td>
+                    <td width="65%" valign="top">An individual who has been admitted as and remains at the relevant time a member of the Scheme and who has been accepted by the Employer and Administrator onto the Database in accordance with this Agreement</td>
                 </tr>
                 <tr>
                     <td width="35%" valign="top"><strong>Methods of Communication</strong></td>

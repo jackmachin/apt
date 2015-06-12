@@ -179,14 +179,17 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <br>
                 <br>
             <li>The New Participating Employer hereby acknowledges that, under the Rules, its participation in the Scheme would cease if its contributions were to remain unpaid for a period of six months.</li>
-                            <br>
+                <br>
                 <br>
             <li>The New Participating Employer hereby appoints Amber Financial Investments Limited (and any successor from time to time as “the Company” under the Trust Deed and the Rules) to act on its behalf in exercising the right to be consulted on changes to the Statement of Investment Principles under section 35 of the Pensions Act 1995 (and in exercising any other rights of notification, consultation or consent under pensions legislation where the Company, acting in good faith, considers this appropriate taking into account the interests of the New Participating Employer and the efficient operation of the Scheme).</li>
-                            <br>
+                <br>
+                <br>
+            <li>The New Participating Employer hereby appoints Amber Financial Investments Limited (and any successor from time to time as “the Company” under the Trust Deed and the Rules) to act on its behalf in exercising the right to be consulted on changes to the Statement of Investment Principles under section 35 of the Pensions Act 1995 (and in exercising any other rights of notification, consultation or consent under pensions legislation where the Company, acting in good faith, considers this appropriate taking into account the interests of the New Participating Employer and the efficient operation of the Scheme).</li>
+                <br>
                 <br>
         </ol>
         <p>In witness of which this document was executed and, on the Execution Date, delivered as a deed.</p>
-        <p>Executed by Carey Corporate Trustees UK Limited under delegated authority on behalf of the Trustees of the Amber Pension Trust</p>
+        <p>Executed by Carey Corporate Pension Trustees UK Limited under delegated authority on behalf of the Trustees of the Amber Pension Trust</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <table width="100%">
@@ -238,9 +241,7 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p>&nbsp;</p>
         <p>Authorised signatory</p>
         <p>&nbsp;</p>
-
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+        <p>Executed by [two] Partners (or equivalent) on behalf of <strong><?php echo $employer_name;?></strong></p>
         <table width="100%">
             <tbody>
                 <tr>
@@ -248,7 +249,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                         <strong>EXECUTED</strong> as a Deed
                     </td>
                     <td width="50%">
-                        )
+                        &nbsp;
                     </td>
                 </tr>
                 <tr>
@@ -256,47 +257,274 @@ $form = RGFormsModel::get_form_meta($form_id);
                         (but not delivered until dated) by
                     </td>
                     <td width="50%">
-                        )
+                      &nbsp;
                     </td>
                 </tr>
                 <tr>
                     <td width="50%">
-                        <strong><?php echo $employer_name;?></strong>
+                       NAME OF PARTNER/SIGNATORY:
                     </td>
                     <td width="50%">
-                        )
+                &nbsp;
                     </td>
                 </tr>
                 <tr>
                     <td width="50%">
-                        acting by two Directors or a Director
+                &nbsp;
                     </td>
                     <td width="50%">
-                        )
+                &nbsp;
                     </td>
                 </tr>
                 <tr>
                     <td width="50%">
-                        and the Secretary:-
+                        Signature:
                     </td>
                     <td width="50%">
-                        )
+                &nbsp;
                     </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        in the presenece of:-
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Signature of witness:
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Name of witness:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Address:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
+                </tr>
+                                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Occupation:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
                 </tr>
             </tbody>
         </table>
-        <p>&nbsp;</p>
-        <p>Director</p>
-        <p>&nbsp;</p>
-        <p>Director/Secretary</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+        <p>In witness of which this document was executed and, on the Execution Date, delivered as a deed.</p>
+        <p>Executed by Carey Corporate Pension Trustees UK Limited under delegated authority on behalf of the Trustees of the Amber Pension Trust</p>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td width="50%">
+                        <strong>EXECUTED</strong> as a Deed
+                    </td>
+                    <td width="50%">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        (but not delivered until dated) by
+                    </td>
+                    <td width="50%">
+                      &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                       NAME OF PARTNER/SIGNATORY:
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Signature:
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        in the presenece of:-
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Signature of witness:
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Name of witness:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Address:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
+                </tr>
+
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                    <td width="50%">
+                &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        Occupation:
+                    </td>
+                    <td width="50%">
+                    &nbsp;
+                </tr>
+            </tbody>
+            </table>
+        <pagebreak>
         <p class="front">APPENDIX</p>
         <p class="front">Fees and charges as at the date on which participation commences</p>
         <p>&nbsp;</p>
         <p class="center"><em>Subject to variation from time to time in accordance with the Rules of the Scheme</em></p>
-        <p>An annual fee is payable to Carey Corporate Pensions UK Ltd, as administrator of the Scheme and Amber Financial Investment Limited as Sponsor of the Scheme, and is determined by the value of the assets under administration at the end of each quarter end date.
-In addition, fees are payable to Blackrock Investment Management UK Limited, as Investment Manager to the Scheme. This fee is taken directly from the investment and in accordance with the Investment Manager’s Terms and Conditions.</p>
+        <p>An annual fee is payable to Carey Corporate Pensions UK Ltd, as administrator of the Scheme and Amber Financial Investment Limited as Sponsor of the Scheme, and is determined by the value of the assets under administration at the end of each quarter end date. </p>
+        <p>In addition, fees are payable to Blackrock Investment Management UK Limited, as Investment Manager to the Scheme. This fee is taken directly from the investment and in accordance with the Investment Manager’s Terms and Conditions.</p>
         <p>The total member borne deduction charged is 0.75% per annum.</p>
         <p>&nbsp;</p>
         <p><em>Plus any additional fees or expenses payable in accordance with the Scheme's Rules, as notified to the New Participating Employer from time to time.</em></p>
