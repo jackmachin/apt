@@ -111,6 +111,20 @@
         'template' => 'limited-ea-template.php',
         'filename' => 'Employer Agreement.pdf',
     );
+
+    $gf_pdf_config[] = array(
+        'form_id' => 12,
+        'notifications' => array('Admin Notification (Partnership)', 'User Notification (Partnership)'),
+        'template' => 'partnership-dop-template.php',
+        'filename' => 'Deed of Participation.pdf',
+    );
+
+    $gf_pdf_config[] = array(
+        'form_id' => 12,
+        'notifications' => array('Admin Notification (Partnership)','User Notification (Partnership)'),
+        'template' => 'partnership-ea-template.php',
+        'filename' => 'Employer Agreement.pdf',
+    );
  /*
   * ------------------------------------------------------------
   * Custom Template
