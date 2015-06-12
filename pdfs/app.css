@@ -65,13 +65,16 @@ li {
 }
 
 .fancy-table {
-    width:80%;
-    margin: 0 auto;
+    width:100%;
 }
 
 .fancy-table th {
     background-color: #888;
     vertical-align: top;
+}
+
+.fancy-table tbody th {
+    text-align: left;
 }
 
 .fancy-table td {
