@@ -86,21 +86,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p class="front upper">CAREY CORPORATE TRUSTEES UK LIMITED</p>
             <p>&nbsp;</p>
         </div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+<pagebreak>
         <p><strong>THIS PENSION SCHEME EMPLOYER AGREEMENT</strong> is made on the</p>
         <table width="100%">
             <tbody>
@@ -444,10 +430,52 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p><strong>CAREY CORPORATE PENSIONS UK LIMITED</strong></p>
         <table width="100%">
             <tr>
-                <td width="40%" class="border">&nbsp</td>
+                <td width="40%" class="border">&nbsp;</td>
                 <td width="10%">&nbsp;</td>
                 <td width="50%">Authorised signatory</td>
             </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Name of authorised signatory</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Authorised signatory</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Name of authorised signatory</td>
+            </tr>
         </table>
+        <p>&nbsp;</p>
+        <p>Executed by</p>
+        <p class="upper"><strong><?php echo $employer_name;?></strong></p>
+                <table width="100%">
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Signature of director</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Name of director</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Signature of director/secretary</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Name of director/secretary</td>
+            </tr>
+        </table>
+<pagebreak>
+    <p>Legit</p>
     </body>
 </html>
