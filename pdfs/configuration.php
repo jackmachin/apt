@@ -116,14 +116,14 @@
         'form_id' => 12,
         'notifications' => array('Admin Notification (Partnership)', 'User Notification (Partnership)'),
         'template' => 'partnership-dop-template.php',
-        'filename' => 'Deed of Participation.pdf',
+        'filename' => 'Partnership Deed of Participation.pdf',
     );
 
     $gf_pdf_config[] = array(
         'form_id' => 12,
         'notifications' => array('Admin Notification (Partnership)','User Notification (Partnership)'),
         'template' => 'partnership-ea-template.php',
-        'filename' => 'Employer Agreement.pdf',
+        'filename' => 'Partnership Employer Agreement.pdf',
     );
  /*
   * ------------------------------------------------------------
