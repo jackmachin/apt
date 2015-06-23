@@ -814,9 +814,8 @@ body {
 
 .sidebar {
   float: left;
-  width: 31.33333%;
-  margin-left: 1%;
-  margin-right: 1%; }
+  width: 23%;
+  margin-left: 8.5%; }
   @media only screen and (max-width: 767px) {
     .sidebar {
       width: 98%;
