@@ -459,4 +459,6 @@ function populate_list($value){
 @ini_set( ‘post_max_size’, ‘1024M’);
 @ini_set( ‘max_execution_time’, ‘1000’ );
 
+
+add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
 ?>
