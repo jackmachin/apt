@@ -1816,8 +1816,8 @@ FOOTER STYLES
 #menu-footer-links li {
   float: left; }
   #menu-footer-links li a {
+    color: #808285;
     font-size: 11px;
-    border-right: 1px solid #FAA61A;
     display: block;
     font-weight: bold;
     margin: 0 auto;
