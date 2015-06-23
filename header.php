@@ -83,23 +83,27 @@ jQuery(document).ready(function($) {
 <?php } ?>
 	</head>
 
-	<body <?php body_class('wrapper'); ?>>
+	<body <?php body_class(); ?>>
 
 			<header class="header container" role="banner">
 
+                <div class="wrapper">
+
 				<div id="inner-header">
 
-					<div class="logo-container">
-                        <a href="/home" rel="nofollow" title="homepage">
-						  <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="Amber Pension Trust Banner" alt="Amber Pension Trust"></a>
-					</div>
+                        <div class="logo-container">
+                            <a href="/home" rel="nofollow" title="homepage">
+                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="Amber Pension Trust Banner" alt="Amber Pension Trust"></a>
+                        </div>
 
-					<nav role="navigation">
+                        <nav role="navigation">
 
-                        <?php bones_main_nav(); ?>
+                            <?php bones_main_nav(); ?>
 
-					</nav>
+                        </nav>
 
 				</div> <!-- end #inner-header -->
+
+                </div>
 
 			</header> <!-- end header -->

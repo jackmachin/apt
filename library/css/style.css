@@ -1807,17 +1807,15 @@ FOOTER STYLES
 	override these styles for the desktop
 	view.
 	*/
-#menu-footer-links {
-  border-left: 1px solid #faa61a; }
-  #menu-footer-links li {
-    float: left; }
-    #menu-footer-links li a {
-      font-size: 11px;
-      border-right: 1px solid #FAA61A;
-      display: block;
-      font-weight: bold;
-      margin: 0 auto;
-      padding: 0 0.5em; }
+#menu-footer-links li {
+  float: left; }
+  #menu-footer-links li a {
+    font-size: 11px;
+    border-right: 1px solid #FAA61A;
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 0.5em; }
 
 .footer-nav {
   list-style-type: none;
@@ -1829,8 +1827,6 @@ FOOTER STYLES
 .copyright {
   font-size: 11px;
   color: #808285; }
-  .copyright span {
-    color: #FAA61A; }
 
 /*********************
 LARGER MOBILE DEVICES
