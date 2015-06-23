@@ -97,8 +97,9 @@ jQuery(document).ready(function($) {
                             </div>
 
                             <a href="#menu" class="menu-button">
-                              <img src="<?php echo get_template_directory_uri(); ?>/library/images/menu.svg" alt="">
-                              Menu
+                                Menu
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/menu.svg" alt="">
+
                             </a>
 
                     </div> <!-- end #inner-header -->
