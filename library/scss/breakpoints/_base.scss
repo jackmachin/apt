@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $paragraph;
-    background-color: #fff;
+    background-color: #f0eada;
 }
 
 * + * {
@@ -177,11 +177,11 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+    background-color: #22202b;
+}
 
-    #inner-header {
-        border-bottom: 1px solid $amber-orange;
-    }
+    #inner-header {}
 
 	.logo-container {}
 
@@ -889,11 +889,11 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer {}
+.footer {
+    background-color: #22202b;
+}
 
-    #inner-footer {
-        border-top: 1px solid $amber-orange;
-    }
+    #inner-footer {}
 
 	/*
 	if you checked out the link above:

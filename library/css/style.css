@@ -1278,7 +1278,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #231F20;
-  background-color: #fff; }
+  background-color: #f0eada; }
 
 * + * {
   margin-top: 1.5em; }
@@ -1406,8 +1406,8 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-#inner-header {
-  border-bottom: 1px solid #FAA61A; }
+.header {
+  background-color: #22202b; }
 
 .logo {
   max-width: 100%;
@@ -1795,8 +1795,8 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-#inner-footer {
-  border-top: 1px solid #FAA61A; }
+.footer {
+  background-color: #22202b; }
 
 /*
 	if you checked out the link above:
