@@ -1432,6 +1432,7 @@ and more scalable.
 .nav {
   padding-left: 0;
   border-left: 1px solid #FAA61A;
+  display: none;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
