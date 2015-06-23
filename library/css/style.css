@@ -1807,6 +1807,16 @@ SIDEBARS & ASIDES
     .widget:first-of-type .textwidget a {
       color: #fff; }
 
+.widget:nth-of-type(2) {
+  background-color: #d66b0b; }
+  .widget:nth-of-type(2) .widgettitle {
+    background-color: #fe7b0f;
+    padding: 1.5em 1em 0.5em 1em; }
+  .widget:nth-of-type(2) .textwidget {
+    padding: 0 1em 2.5em 1em; }
+    .widget:nth-of-type(2) .textwidget a {
+      color: #fff; }
+
 /*********************
 FOOTER STYLES
 *********************/
