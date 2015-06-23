@@ -28,6 +28,10 @@ body{
             @include grid (12);
         }
 
+.logo-container {
+    @include grid (1);
+}
+
         #inner-content {
             @include grid (12, $margin:0);
         }

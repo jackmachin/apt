@@ -781,6 +781,12 @@ body {
   margin-left: 1%;
   margin-right: 1%; }
 
+.logo-container {
+  float: left;
+  width: 6.33333%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 #inner-content {
   float: left;
   width: 100%;

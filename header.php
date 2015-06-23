@@ -93,7 +93,7 @@ jQuery(document).ready(function($) {
 
                         <div class="logo-container">
                             <a href="/home" rel="nofollow" title="homepage">
-                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="Amber Pension Trust Banner" alt="Amber Pension Trust"></a>
+                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
                         </div>
 
                         <nav role="navigation">
