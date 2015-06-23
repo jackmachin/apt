@@ -856,16 +856,16 @@ SIDEBARS & ASIDES
 *********************/
 
 .sidebar {
-    background-color: #F5F5F5;
-    padding: 1.5em 1em;
     margin-top:1.5em;
 }
 
 	.widgettitle {
         margin: 0;
+        color: #fff;
     }
 
 	.widget {
+        padding: 1.5em 1em;
 
 		ul {
 
@@ -883,6 +883,15 @@ SIDEBARS & ASIDES
 			}
 
 		}
+
+        .widget:first-of-type {
+            background-color:#d34209;
+
+
+            .widgettitle {
+                background-color: #b10406;
+            }
+        }
 
 	}
 
