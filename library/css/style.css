@@ -1407,7 +1407,8 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #22202b; }
+  background-color: #22202b;
+  padding: 1em 0; }
 
 .logo {
   max-width: 100%;
