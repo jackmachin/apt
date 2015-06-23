@@ -422,9 +422,7 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
 .widgettitle {
-  color: #faa61a;
-  font-size: 1.125em;
-  border-bottom: 2px solid #444; }
+  font-size: 1.125em; }
 
 .widget ul li {
   margin-bottom: 0.75em;

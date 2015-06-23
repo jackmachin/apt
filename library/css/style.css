@@ -1790,15 +1790,14 @@ SIDEBARS & ASIDES
   margin: 0;
   color: #fff; }
 
-.widget {
-  padding: 1.5em 1em; }
-  .widget ul li {
-    /* deep nesting */ }
+.widget ul li {
+  /* deep nesting */ }
 
 .widget:first-of-type {
   background-color: #d34209; }
   .widget:first-of-type .widgettitle {
-    background-color: #b10406; }
+    background-color: #b10406;
+    padding: 1.5em 1em 0 1em; }
 
 /*********************
 FOOTER STYLES
@@ -2010,9 +2009,7 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
   .widgettitle {
-    color: #faa61a;
-    font-size: 1.125em;
-    border-bottom: 2px solid #444; }
+    font-size: 1.125em; }
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */ }
