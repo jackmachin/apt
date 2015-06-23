@@ -33,7 +33,6 @@ body{
 }
 
         #inner-content {
-            @include grid (12, $margin:0);
         }
 
             .main {
