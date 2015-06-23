@@ -89,21 +89,26 @@ jQuery(document).ready(function($) {
 
                 <div class="wrapper">
 
-				<div id="inner-header">
+                    <div id="inner-header">
 
-                        <div class="logo-container">
-                            <a href="/home" rel="nofollow" title="homepage">
-                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
-                        </div>
+                            <div class="logo-container">
+                                <a href="/home" rel="nofollow" title="homepage">
+                                  <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
+                            </div>
 
-                        <nav role="navigation">
+                            <a href="#menu" class="menu-button">
+                              <img src="<?php echo get_template_directory_uri(); ?>/library/images/menu.svg" alt="">
+                              Menu
+                            </a>
+
+                    </div> <!-- end #inner-header -->
+
+                </div>
+
+                                        <nav role="navigation">
 
                             <?php bones_main_nav(); ?>
 
                         </nav>
-
-				</div> <!-- end #inner-header -->
-
-                </div>
 
 			</header> <!-- end header -->
