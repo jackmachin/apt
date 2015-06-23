@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-	<div id="content" class="container">
-		<div id="inner-content">
+	<div id="content" class="wrapper">
+		<div id="inner-content" class="container">
             <div id="main" class="main" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
