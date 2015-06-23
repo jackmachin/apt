@@ -1252,6 +1252,10 @@ select {
   background-repeat: no-repeat;
   background-position: 97.5% center; }
 
+.gform_wrapper .left_label li.hidden_label input,
+.gform_wrapper .right_label li.hidden_label input {
+  margin-left: 0 !important; }
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
