@@ -783,7 +783,7 @@ body {
 
 .logo-container {
   float: left;
-  width: 14.66667%;
+  width: 23%;
   margin-left: 1%;
   margin-right: 1%; }
 
@@ -1794,10 +1794,11 @@ SIDEBARS & ASIDES
   padding: 1.5em 1em; }
   .widget ul li {
     /* deep nesting */ }
-  .widget .widget:first-of-type {
-    background-color: #d34209; }
-    .widget .widget:first-of-type .widgettitle {
-      background-color: #b10406; }
+
+.widget:first-of-type {
+  background-color: #d34209; }
+  .widget:first-of-type .widgettitle {
+    background-color: #b10406; }
 
 /*********************
 FOOTER STYLES
