@@ -1800,6 +1800,8 @@ SIDEBARS & ASIDES
     padding: 1.5em 1em 0 1em; }
   .widget:first-of-type .textwidget {
     padding: 0 1em 2.5em 1em; }
+    .widget:first-of-type .textwidget a {
+      color: #fff; }
 
 /*********************
 FOOTER STYLES
