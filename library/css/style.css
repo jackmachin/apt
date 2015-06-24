@@ -1689,7 +1689,8 @@ POSTS & CONTENT STYLES
       content: 'Download ↓';
       color: #000;
       float: right;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-right: 1em; }
   .download-list li:nth-of-type(4n) {
     background-color: #d94209; }
   .download-list li:nth-of-type(4n+1) {
