@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
     "use strict";
     $(".menu-button").click(function () {
         $(".top-nav").toggle("slide", {
-            direction: "right"
+            direction: "left"
         });
     });
 
