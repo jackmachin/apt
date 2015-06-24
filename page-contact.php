@@ -29,7 +29,9 @@ Template Name: Contact
 							</article>
 					<?php endif; ?>
 				</div> <!-- end #main -->
-                <?php get_sidebar ('contact');?>
+                <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1190.0152613413861!2d-2.224257650000014!3d53.37850335000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2c8db923f61%3A0xac49b91f1ca902fb!2sCheadle+SK8+3GX!5e0!3m2!1sen!2suk!4v1435149349367" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
 		</div> <!-- end #inner-content -->
 	</div> <!-- end #content -->
 <?php get_footer(); ?>
