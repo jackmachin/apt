@@ -1,10 +1,10 @@
 <?php get_header(); ?>
+    <nav role="navigation">
+
+        <?php bones_main_nav(); ?>
+
+    </nav>
 	<div id="content" class="wrapper">
-            <nav role="navigation">
-
-                <?php bones_main_nav(); ?>
-
-            </nav>
 		<div id="inner-content" class="container">
 
             <div id="main" class="main" role="main">
