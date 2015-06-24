@@ -1669,6 +1669,18 @@ POSTS & CONTENT STYLES
 #SelectContainer .TextBodyContainer #Body_A {
   display: block; }
 
+.download-list li {
+  width: 100%;
+  padding: 1em 0; }
+
+.download-list li:first-of-type,
+.download-list li:nth-of-type(5) {
+  background-color: #d94209; }
+
+.download-list li:nth-of-type(2),
+.download-list li:nth-of-type(6) {
+  background-color: #b00305; }
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
