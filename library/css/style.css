@@ -1422,6 +1422,9 @@ HEADER STYLES
   max-width: 100%;
   height: auto; }
 
+.menu-button-container {
+  text-align: right; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
