@@ -1675,23 +1675,22 @@ POSTS & CONTENT STYLES
 #SelectContainer .TextBodyContainer #Body_A {
   display: block; }
 
-.download-list li {
-  width: 100%;
-  padding: 1em 0; }
-  .download-list li a {
-    color: #fff; }
-
-.download-list li:nth-of-type(4n) {
-  background-color: #d94209; }
-
-.download-list li:nth-of-type(4n+1) {
-  background-color: #b00305; }
-
-.download-list li:nth-of-type(4n+2) {
-  background-color: #ff7c10; }
-
-.download-list li:nth-of-type(4n+3) {
-  background-color: #fbbc3b; }
+.download-list {
+  list-style-type: none;
+  padding-left: 0; }
+  .download-list li {
+    width: 100%;
+    padding: 1em 0 1em 1em; }
+    .download-list li a {
+      color: #fff; }
+  .download-list li:nth-of-type(4n) {
+    background-color: #d94209; }
+  .download-list li:nth-of-type(4n+1) {
+    background-color: #b00305; }
+  .download-list li:nth-of-type(4n+2) {
+    background-color: #ff7c10; }
+  .download-list li:nth-of-type(4n+3) {
+    background-color: #fbbc3b; }
 
 /******************************************************************
 PAGE NAVI STYLES

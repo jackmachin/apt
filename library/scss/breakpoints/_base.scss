@@ -600,10 +600,12 @@ POSTS & CONTENT STYLES
         }
 
 .download-list {
+    list-style-type: none;
+    padding-left: 0;
 
     li {
         width:100%;
-        padding:1em 0;
+        padding:1em 0 1em 1em;
 
         a  {
             color: #fff;
