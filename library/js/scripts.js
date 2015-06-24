@@ -11,11 +11,12 @@ slow the page load.
 
 // IE8 ployfill for GetComputed Style (for Responsive Script below)
 if (!window.getComputedStyle) {
-    window.getComputedStyle = function(el, pseudo) {
+    window.getComputedStyle = function (el, pseudo) {
+        "use strict";
         this.el = el;
-        this.getPropertyValue = function(prop) {
+        this.getPropertyValue = function (prop) {
             var re = /(\-([a-z]){1})/g;
-            if (prop == 'float') prop = 'styleFloat';
+            if (prop === 'float') prop = 'styleFloat';
             if (re.test(prop)) {
                 prop = prop.replace(re, function () {
                     return arguments[2].toUpperCase();
@@ -44,7 +45,6 @@ jQuery(document).ready(function($) {
         $( ".top-nav" ).toggle( "slide" );
     });
 
-
     /*
     Responsive jQuery is a tricky thing.
     There's a bunch of different ways to handle
@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
 
         /* load gravatars */
         $('.comment img[data-gravatar]').each(function(){
-            $(this).attr('src',$(this).attr('data-gravatar'));
+            $(this).attr('src', $(this).attr('data-gravatar'));
         });
 
     }
