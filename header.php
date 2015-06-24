@@ -108,3 +108,9 @@ jQuery(document).ready(function($) {
                 </div>
 
 			</header> <!-- end header -->
+
+            <nav role="navigation">
+
+        <?php bones_main_nav(); ?>
+
+    </nav>
