@@ -1,9 +1,4 @@
 <?php get_header(); ?>
-    <nav role="navigation">
-
-        <?php bones_main_nav(); ?>
-
-    </nav>
 	<div id="content" class="wrapper">
 		<div id="inner-content" class="container">
 
