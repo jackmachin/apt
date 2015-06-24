@@ -37,7 +37,7 @@ body{
 }
 
 .top-nav {
-    include grid (4);
+    @include grid (4);
 }
         #inner-content {
         }
