@@ -1678,14 +1678,20 @@ POSTS & CONTENT STYLES
 .download-list li {
   width: 100%;
   padding: 1em 0; }
+  .download-list li a {
+    color: #fff; }
 
-.download-list li:first-of-type,
-.download-list li:nth-of-type(5) {
+.download-list li:nth-of-type(4n) {
   background-color: #d94209; }
 
-.download-list li:nth-of-type(2),
-.download-list li:nth-of-type(6) {
+.download-list li:nth-of-type(4n+1) {
   background-color: #b00305; }
+
+.download-list li:nth-of-type(4n+2) {
+  background-color: #ff7c10; }
+
+.download-list li:nth-of-type(4n+3) {
+  background-color: #fbbc3b; }
 
 /******************************************************************
 PAGE NAVI STYLES
