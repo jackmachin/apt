@@ -1676,11 +1676,12 @@ POSTS & CONTENT STYLES
   display: block; }
 
 .download-list {
-  list-style-type: none;
-  padding-left: 0; }
+  list-style-type: none !important;
+  padding-left: 0 !important; }
   .download-list li {
     width: 100%;
-    padding: 1em 0 1em 1em; }
+    padding: 1em 0 1em 1em;
+    margin-bottom: 1.5em; }
     .download-list li a {
       color: #fff; }
   .download-list li:nth-of-type(4n) {
