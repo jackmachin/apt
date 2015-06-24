@@ -35,6 +35,10 @@ body{
 .menu-button-container {
     @include grid (3, $push:6);
 }
+
+.top-nav {
+    include grid (4);
+}
         #inner-content {
         }
 
