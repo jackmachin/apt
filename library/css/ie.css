@@ -384,6 +384,9 @@ NAVIGATION STYLES
       display: block; }
 
 /* end .nav */
+.top-nav {
+  display: block; }
+
 /*********************
 SIDEBARS & ASIDES
 *********************/

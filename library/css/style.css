@@ -795,7 +795,7 @@ body {
 
 .top-nav {
   float: left;
-  width: 23%;
+  width: 14.66667%;
   margin-left: 1%;
   margin-right: 1%; }
   @media only screen and (max-width: 767px) {
@@ -1508,7 +1508,7 @@ and more scalable.
 .top-nav {
   display: none;
   position: fixed;
-  right: 0;
+  left: 0;
   background-color: #22202b;
   height: 100%;
   margin: 0;
@@ -2096,6 +2096,8 @@ NAVIGATION STYLES
         top: auto;
         display: block; }
   /* end .nav */
+  .top-nav {
+    display: block; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
