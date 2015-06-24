@@ -611,6 +611,12 @@ POSTS & CONTENT STYLES
         a  {
             color: #fff;
         }
+
+        a::after {
+            content: 'Download &darr;';
+            color: #000;
+            float:right;
+        }
     }
 
     li:nth-of-type(4n){

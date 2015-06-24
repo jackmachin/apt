@@ -1684,6 +1684,10 @@ POSTS & CONTENT STYLES
     margin-bottom: 1.5em; }
     .download-list li a {
       color: #fff; }
+    .download-list li a::after {
+      content: 'Download &darr;';
+      color: #000;
+      float: right; }
   .download-list li:nth-of-type(4n) {
     background-color: #d94209; }
   .download-list li:nth-of-type(4n+1) {
