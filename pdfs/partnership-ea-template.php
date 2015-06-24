@@ -64,6 +64,7 @@ $form = RGFormsModel::get_form_meta($form_id);
             $employer_cont      =   $form_data ['field'] ['10.Employer contribution rate'];
             $member_cont        =   $form_data ['field'] ['11.Member contribution rate'];
             $salary_def         =   $form_data ['field'] ['12.Salary Definition'];
+            $facsimile          =   $form_data ['field'] ['8.Facsimile Number'];
         }?>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -302,16 +303,16 @@ $form = RGFormsModel::get_form_meta($form_id);
             <p class="double-list">4.1.9 Advise the Administrator as soon as possible if it becomes aware of any failure, delay, malfunction, virus, programming error or error in sending or receiving any data or instructions or any suspected fraud or breach of security and assist the Administrator in any remedial steps it proposes.</p>
         <p class="list">4.2	The Administrator will use reasonable endeavours to ensure the security of and prevent unauthorised access to the Database.</p>
         <p class="list">4.3	The <strong>Administrator</strong> shall provide each Member with a PIN and will provide instructions in writing to each Member in relation to the review of their Personal Information on the Website.</p>
-        <p class="list">4.4 The Employer acknowledge s that any and all Intellectual Property Rights subsisting in or used in connection with the Supporting Software, including the Database comprised in the Supporting Software and all documentation and manuals relating thereto are and shall remain the sole property of the Owner and/or the Administrator and that any Intellectual Property Rights substituting in or used in connection with the Database shall remain the sole property of the Administrator.  The Employer shall not during or at any time after the expiry or termination of this Agreement in any way question or dispute the ownership by the Owner or the Administrator thereof.</p>
+        <p class="list">4.4	The Employer acknowledge s that any and all Intellectual Property Rights subsisting in or used in connection with the Supporting Software, including the Database comprised in the Supporting Software and all documentation and manuals relating thereto are and shall remain the sole property of the Owner and/or the Administrator and that any Intellectual Property Rights substituting in or used in connection with the Database shall remain the sole property of the Administrator.  The Employer shall not during or at any time after the expiry or termination of this Agreement in any way question or dispute the ownership by the Owner or the Administrator thereof.</p>
         <p class="list">4.5	In the event that new inventions, designs or processes or other Intellectual Property Rights evolve in the performance of or as a result of the Agreement, the Employer acknowledge that the same shall be the property of the Owner and/or the Administrator unless otherwise agreed in writing by the Owner and/or the Administrator (as applicable).</p>
     <p><strong>5. RESPONSIBILITIES OF THE EMPLOYER AND COMMUNICATIONS</strong></p>
         <p>The Employer shall have the responsibilities in relation to the Services as set out in Schedule 1.</p>
         <p>The Employer and the Administrator shall communicate with each other in relation to the Services as specified in the Methods of Communication.</p>
     <p><strong>6. LIABILITY</strong></p>
         <p class="list">6.1	The Administrator shall be entitled to rely on any and all information, instructions and data it receives from Employer and the Administrator shall not be required to verify the accuracy of the same. The Administrator shall not be liable to the Employer for any loss or damage whatsoever and howsoever caused by its reliance on, use of or application of the same for the purposes of the Scheme.</p>
-        <p class="list">6.2	Provided that the Administrator has complied with the provisions of clause 4.2, the Administrator shall not be liable to the Employer for any loss which arises to the Employer otherwise than as a result of any act and/or omission of the Administrator. The Administrator agrees to inform the Employer of any breach of security affecting the Website and/or Database as soon as reasonably practicable following notification of such breach.</p>
-        <p class="list">6.3	The Administrator shall be liable to the Employer for any action, expense, liability, loss, penalty or proceeding arising out of any breach of the Administrator’s obligations under this Agreement, the failure of the Administrator to administer the Scheme in accordance with its obligations under the Administration Agreement, applicable legislative and regulatory requirements and good pension scheme administration practice, or any fraud, negligence or wilful wrongdoing by the Administrator or its officers.</p>
-        <p class="list">6.4	If any work carried out by the Administrator in accordance with the Employer’s specifications infringes any third party patent or other proprietary rights, the Employer shall indemnify the Administrator against all liabilities, costs and expenses which may thereby be suffered by the Administrator.</p>
+        <p class="list">6.2	Provided that the Administrator has complied with the provisions of clause 4.2, the Administrator shall not be liable to the Employer for any loss which arises to the Employer otherwise than as a result of any act and/or omission of the Administrator.  The Administrator agrees to inform the Employer of any breach of security affecting the Website and/or Database as soon as reasonably practicable following notification of such breach.</p>
+        <p class="list">6.3	The Administrator shall be liable to the Employer for any action, expense, liability, loss, penalty or proceeding arising out of any breach of the Administrator’s obligations under this Agreement, the failure of the Administrator to administer the Scheme in accordance with its obligations under the Administration Agreement, applicable legislative and regulatory requirements and good pension scheme administration practice, or any fraud, negligence or wilful wrongdoing by the Administrator or its officers. </p>
+        <p class="list">6.4	If any work carried out by the Administrator in accordance with the Employer’s specifications infringes any third party patent or other proprietary rights, the Employer shall indemnify the Administrator against all liabilities, costs and expenses which may thereby be suffered by the Administrator. </p>
     <p><strong>7. CONFIDENTIAL INFORMATION</strong></p>
         <p class="list">7.1	Subject to clause 7.3, the Employer agrees to permit the Administrator access to confidential information required by the Administrator for compliance with the provisions of this Agreement, and the proper administration of the Scheme, or where disclosure is required for the proper provision of the Services, in connection with legal proceedings, by any competent authority, or by law (including, without limitation, under section 70 of the Pensions Act 2004).</p>
         <p class="list">7.2	The Administrator shall provide to the Employer and to their internal and external auditors, such information about the Scheme as specified, providing it is in the possession of or under the control of the Administrator.</p>
@@ -323,15 +324,15 @@ $form = RGFormsModel::get_form_meta($form_id);
         <p class="list">7.4	Within a reasonable time following termination of this Agreement, the Administrator agrees to return to the Employer any confidential information it may hold on behalf of the Employer.</p>
         <p class="list">7.5	This clause shall survive the termination of this Agreement.</p>
         <p><strong>8. SCHEME RECORDS</strong></p>
-            <p clas="list">8.1	On reasonable prior notice, the Administrator shall permit the Employer and anyone authorised by them in writing to inspect and take copies of the Scheme Records during normal Business Hours.</p>
+        <p clas="list">8.1 On reasonable prior notice, the Administrator shall permit the Employer and anyone authorised by them in writing to inspect and take copies of the Scheme Records during normal Business Hours.</p>
         <p class="list">8.2	The Administrator shall endeavour to give the Employer at least one month’s notice, in advance, of any proposed major change to any system on which the Scheme Records are kept.</p>
         <p class="list">8.3	The Administrator shall maintain or cause to be maintained a proper system for recovery in case of disaster of such of the Scheme Records as the Administrator, or anyone on whom the Administrator relies for storing the Scheme Records, keeps in computerised or other electronic form.  On being given reasonable notice, the Administrator shall provide the Employer with details of such system.</p>
-        <p class="list">8.4 If the consent of a third party is required in order for the Employer to access and use any part of the Scheme Records held in computerised or other electronic form, the Administrator shall endeavour to procure such consent(s).  The Employer agrees that it shall be responsible for all reasonable costs and expenses incurred by the Administrator in obtaining such consent(s).</p>
+        <p class="list">8.4	If the consent of a third party is required in order for the Employer to access and use any part of the Scheme Records held in computerised or other electronic form, the Administrator shall endeavour to procure such consent(s).  The Employer agrees that it shall be responsible for all reasonable costs and expenses incurred by the Administrator in obtaining such consent(s).</p>
         <p class="list">8.5	The Scheme Records will be retained for the legal minimum term as required.</p>
     <p><strong>9. DISPUTES</strong></p>
         <p class="list">9.1	If a disagreement arises between the parties on any matter arising under this Agreement, they shall each appoint representatives to meet as soon as practicable to seek to resolve the issue.  If the representatives are unable to reach agreement, and save where legal proceedings have been commenced, any party to the disagreement may then serve a Dispute Notice.  For the purposes of this Agreement, a Dispute exists when a Dispute Notice is served.</p>
         <p class="list">9.2	If the Employer is not satisfied with the response from the Scheme Administrator, the Employer may take their complaint to the Trustees of the Scheme.</p>
-        <p>9.3 If the Employer is still not satisfied they may contact The Pensions Advisory Service (TPAS). In most cases, TPAS will assist in reaching a satisfactory outcome. If the Employer is still not satisfied, the Pensions Ombudsman may investigate and resolve the complaint or dispute. The Pensions Ombudsman will expect the Employer to have referred their complaint to TPAS in the first instance. Contact details for both parties are as follows:</p>
+        <p>9.3	If the Employer is still not satisfied they may contact The Pensions Advisory Service (TPAS). In most cases, TPAS will assist in reaching a satisfactory outcome. If the Employer is still not satisfied, the Pensions Ombudsman may investigate and resolve the complaint or dispute. The Pensions Ombudsman will expect the Employer to have referred their complaint to TPAS in the first instance. Contact details for both parties are as follows: </p>
         <table width="80%" class="cheeky">
             <tbody>
                 <tr>
@@ -353,16 +354,16 @@ $form = RGFormsModel::get_form_meta($form_id);
             </tbody>
         </table>
     <p><strong>10. TERMINATION</strong></p>
-       <p class="list">10.1 If the Employer goes into liquidation, or an order is made or a resolution is passed to put the Employer into liquidation (except a voluntary liquidation for the purpose of reconstruction or amalgamation under terms previously approved in writing by the other party), or such party is unable to pay its debts or if a receiver has been appointed over any of its assets. Any agreement the Employer was party to will be deemed to be terminated.</p>
-        <p class="list">10.2 If the Employer wishes to terminate this agreement, they must give a minimum of six months notice to the administrator.</p>
+       <p class="list">10.1	If the Employer goes into liquidation, or an order is made or a resolution is passed to put the Employer into liquidation (except a voluntary liquidation for the purpose of reconstruction or amalgamation under terms previously approved in writing by the other party), or such party is unable to pay its debts or if a receiver has been appointed over any of its assets. Any agreement the Employer was party to will be deemed to be terminated.</p>
+        <p class="list">10.2	If the Employer wishes to terminate this agreement, they must give a minimum of six months notice to the administrator. </p>
     <p><strong>11. FORCE MAJEURE</strong></p>
-        <p class="list">11.1 Not withstanding anything herein contained, the Administrator shall not be responsible for any loss or damage suffered by the Employer or for any failure to perform its duties hereunder if such loss or failure shall be caused by or directly or indirectly due to an act of God, outbreak of hostilities (whether war is declared or not), insurrection, riot, civil disturbance, act of terrorism, regulation of a government or public authority or anything else beyond the control of the Administrator.</p>
-        <p class="list">11.2 If the administrator is prevented by Force Majeure for complying with its material obligations under this Agreement for a continuous period of thirty days then either party shall be entitled to service notice to terminate this Agreement with immediate effect.</p>
+        <p class="list">11.1 Not withstanding anything herein contained, the Administrator shall not be responsible for any loss or damage suffered by the Employer or for any failure to perform its duties hereunder if such loss or failure shall be caused by or directly or indirectly due to an act of God, outbreak of hostilities (whether war is declared or not), insurrection, riot, civil disturbance, act of terrorism, regulation of a government or public authority or anything else beyond the control of the Administrator.  </p>
+        <p class="list">11.2	If the administrator is prevented by Force Majeure for complying with its material obligations under this Agreement for a continuous period of thirty days then either party shall be entitled to service notice to terminate this Agreement with immediate effect.</p>
     <p><strong>12. ASSIGNMENT</strong></p>
         <p>This Agreement is personal to the Employer and neither the Agreement nor any right or duty under it is capable of assignment save with the consent of the other parties.</p>
     <p><strong>13. DATA PROTECTION</strong></p>
         <p class="list">13.1 The Employer will ensure that they comply at all times with the provisions of The Data Protection Act 1998, where applicable, and all other applicable laws, regulations and codes of practice relating to data protection in force from time to time.</p>
-        <p class="list">13.2 The Administrator agrees to only process personal information associated with the Scheme for the purpose of administering the Scheme.  The Administrator agrees not to transfer or disclose any such personal information to a third party without prior written approval from the Employer.</p>
+        <p class="list">13.2 The Administrator agrees to only process personal information associated with the Scheme for the purpose of administering the Scheme. The Administrator agrees not to transfer or disclose any such personal information to a third party without prior written approval from the Employer.</p>
     <p><strong>14. INSURANCE</strong></p>
         <p>The Employer and the Administrator confirms that they have in effect and will maintain adequate insurance required in order to perform their obligations under this Agreement.</p>
     <p><strong>15. VARIATION OF AGREEMENT</strong></p>
@@ -411,6 +412,10 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <td valign="top">Attention:</td>
                 <td valign="top"><?php echo $employer_cont;?></td>
             </tr>
+            <tr>
+                <td valign="top">Facsimile No:</td>
+                <td valign="top"><?php echo $facsimile;?></td>
+            </tr>
         </table>
         <p class="list">16.2 Any party giving or serving a notice or demand hereunder by facsimile shall (but without prejudice to the validity of the notice or demand given) send a copy of the notice or demand by pre-paid registered post to the intended recipient at the Recipient's Address.</p>
         <p class="list">16.3 Any notice served hereunder shall be deemed to have been received by the party so receiving such notice on the Business Day of such receipt only if the notice has been received during usual Business Hours on such Business Day, and if the notice is received outside usual Business Hours, it shall be deemed to have been received on the next following Business Day.</p>
@@ -457,25 +462,56 @@ $form = RGFormsModel::get_form_meta($form_id);
             <tr>
                 <td width="40%" class="border">&nbsp;</td>
                 <td width="10%">&nbsp;</td>
-                <td width="50%">Signature of director</td>
+                <td width="50%">Signature of Partner/Signatory</td>
             </tr>
             <tr>
                 <td width="40%" class="border">&nbsp;</td>
                 <td width="10%">&nbsp;</td>
-                <td width="50%">Name of director</td>
-            </tr>
-            <tr>
-                <td width="40%" class="border">&nbsp;</td>
-                <td width="10%">&nbsp;</td>
-                <td width="50%">Signature of director/secretary</td>
-            </tr>
-            <tr>
-                <td width="40%" class="border">&nbsp;</td>
-                <td width="10%">&nbsp;</td>
-                <td width="50%">Name of director/secretary</td>
+                <td width="50%">Name of Partner/Signatory</td>
             </tr>
         </table>
-        <pagebreak>
+        <p>in the presence of:-</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Signature of witness:</p>
+        <p>&nbsp;</p>
+        <p>Name of witness:</p>
+        <p>&nbsp;</p>
+        <p>Address:</p>
+            <p>&nbsp;</p>
+        <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    <p>Occupation:</p>
+        <p>&nbsp;</p>
+        <p><strong>IN WITNESS WHEREOF</strong> this Agreement has been duly executed on behalf of the parties in the presence of the undersigned witnesses the day and year first above written.</p>
+                    <table width="100%">
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Signature of Partner/Signatory</td>
+            </tr>
+            <tr>
+                <td width="40%" class="border">&nbsp;</td>
+                <td width="10%">&nbsp;</td>
+                <td width="50%">Name of Partner/Signatory</td>
+            </tr>
+        </table>
+        <p>in the presence of:-</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Signature of witness:</p>
+        <p>&nbsp;</p>
+        <p>Name of witness:</p>
+        <p>&nbsp;</p>
+        <p>Address:</p>
+            <p>&nbsp;</p>
+        <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    <p>Occupation:</p>
+        <p>&nbsp;</p>
+    <pagebreak>
         <p class="front">SCHEDULE 1</p>
         <p class="front">RESPONSIBILITIES OF THE EMPLOYER</p>
         <table class="fancy-table">
@@ -490,8 +526,7 @@ $form = RGFormsModel::get_form_meta($form_id);
                 <tr>
                     <th>Establishing a Qualifying Workplace Pension Scheme</th>
                     <td>The Employer must identify its Staging Date in accordance
-with the Pensions Regulator’s notification on 1st April 2012.The figure is based on PAYE workers.
-</td>
+with the Pensions Regulator’s notification on 1st April 2012.The figure is based on PAYE workers.</td>
                     <td>As per legislation</td>
                 </tr>
                 <tr>
@@ -500,7 +535,8 @@ with the Pensions Regulator’s notification on 1st April 2012.The figure is bas
                     <td>As per legislation</td>
                 </tr>
                 <tr>
-                    <th>Payment of  Contributions</th>
+                    <th>Payment of Contributions
+</th>
                     <td>Arrange for contributions to be transferred to the Administrator by the 19th day of the month following the deduction from the worker’s salary. The first employee contribution must be taken on the first payday on or after the Assessment Date.</td>
                     <td>As per legislation</td>
                 </tr>
