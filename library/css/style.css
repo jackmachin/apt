@@ -794,7 +794,7 @@ body {
 
 .top-nav {
   float: left;
-  width: 31.33333%;
+  width: 23%;
   margin-left: 1%;
   margin-right: 1%; }
 
@@ -1474,13 +1474,12 @@ and more scalable.
   position: fixed;
   right: 0;
   background-color: #22202b;
+  height: 100%;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
   .top-nav li {
     list-style-type: none;
-    float: left;
-    position: relative;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the

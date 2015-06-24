@@ -278,12 +278,10 @@ and more scalable.
     position: fixed;
     right:0;
     background-color: #22202b;
+    height: 100%;
 
 	li {
         list-style-type: none;
-        float: left;
-        position: relative;
-
 		a {
             color: #fff;
 			display: block;
