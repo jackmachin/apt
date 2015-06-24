@@ -40,6 +40,11 @@ function selectThis(id) {
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
 
+    $(".menu-button").click(function() {
+        $( ".top-nav" ).toggle( "slide" );
+    });
+
+
     /*
     Responsive jQuery is a tricky thing.
     There's a bunch of different ways to handle
