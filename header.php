@@ -95,12 +95,14 @@ jQuery(document).ready(function($) {
                                 <a href="/home" rel="nofollow" title="homepage">
                                   <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
                             </div>
+                            <div class="menu-button-container">
+                                <button href="#menu" class="menu-button">
+                                    Menu
+                                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/menu.svg" alt="">
 
-                            <a href="#menu" class="menu-button">
-                                Menu
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/menu.svg" alt="">
-
-                            </a>
+                                </button>
+                            </div>
+                    </div>
 
                     </div> <!-- end #inner-header -->
 
