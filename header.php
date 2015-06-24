@@ -102,16 +102,9 @@ jQuery(document).ready(function($) {
 
                                 </button>
                             </div>
-                    </div>
 
                     </div> <!-- end #inner-header -->
 
                 </div>
-
-                                        <nav role="navigation">
-
-                            <?php bones_main_nav(); ?>
-
-                        </nav>
 
 			</header> <!-- end header -->
