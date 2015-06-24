@@ -844,9 +844,23 @@ body {
       width: 98%;
       margin: 1%; } }
 
+.contact {
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .contact {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .contact {
+      width: 98%;
+      margin: 1%; } }
+
 .map-container {
   float: left;
-  width: 39.66667%;
+  width: 48%;
   margin-left: 1%;
   margin-right: 1%; }
   @media only screen and (max-width: 767px) {

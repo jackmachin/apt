@@ -65,10 +65,15 @@ body{
                 @include break(mobile, 12);
             }
 
+.contact {
+    @include grid (6);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+}
 .map-container {
-    @include grid (5);
-                   @include break(tablet, 12);
-                @include break(mobile, 12);
+    @include grid (6);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
 }
 
     .footer {

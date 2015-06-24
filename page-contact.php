@@ -7,7 +7,7 @@ Template Name: Contact
 <?php get_header(); ?>
 	<div id="content" class="wrapper">
 		<div id="inner-content" class="container">
-            <div id="main" class="main" role="main">
+            <div id="main" class="contact" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 						<div class="entry-content clearfix" itemprop="articleBody">
