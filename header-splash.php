@@ -81,7 +81,7 @@
 
                         <div class="logo-container">
                             <a href="<?php echo home_url(); ?>" rel="nofollow" title="homepage">
-                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/amber-header.jpg" title="Amber Pension Trust Banner" alt="Amber Pension Trust"></a>
+                              <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust" alt="Amber Pension Trust"></a>
                         </div>
 
 				    </div> <!-- end #inner-header -->
