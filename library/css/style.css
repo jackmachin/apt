@@ -1442,17 +1442,10 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
-  padding-left: 0;
-  border-left: 1px solid #FAA61A;
-  display: none;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
-    list-style-type: none;
-    float: left;
-    position: relative;
-    width: 50%;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
@@ -1461,11 +1454,6 @@ and more scalable.
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/ }
     .nav li a {
-      display: block;
-      padding: 0 15px;
-      border-right: 1px solid #FAA61A;
-      font-weight: 500;
-      text-decoration: none;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
