@@ -787,6 +787,11 @@ body {
   margin-left: 1%;
   margin-right: 1%; }
 
+.menu-button-container {
+  float: left;
+  width: 23%;
+  margin-left: 51%; }
+
 .main {
   float: left;
   width: 56.33333%;
