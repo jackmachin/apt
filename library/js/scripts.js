@@ -9,40 +9,14 @@ slow the page load.
 
 */
 
-// IE8 ployfill for GetComputed Style (for Responsive Script below)
-if (!window.getComputedStyle) {
-    window.getComputedStyle = function (el, pseudo) {
-        "use strict";
-        this.el = el;
-        this.getPropertyValue = function (prop) {
-            var re = /(\-([a-z]){1})/g;
-            if (prop === 'float') prop = 'styleFloat';
-            if (re.test(prop)) {
-                prop = prop.replace(re, function () {
-                    return arguments[2].toUpperCase();
-                });
-            }
-            return el.currentStyle[prop] ? el.currentStyle[prop] : null;
-        };
-        return this;
-    };
-}
-  // Function
-function selectThis(id) {
-		//Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...
-		jQuery('.TextContainer').hide();
-		// ID of Body plus whatever param we pass down,
-		jQuery('#Body_' + id).fadeIn(500);
-		//Remove that pesky selected from all
-		jQuery('.HeaderButton').removeClass('HeaderButtonSelected');
-		// And add to the now selected one
-		jQuery('#Button_' + id).addClass('HeaderButtonSelected');
-	}
 // as the page loads, call these scripts
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
-    $(".menu-button").click(function() {
-        $( ".top-nav" ).toggle( "slide" );
+    "use strict";
+    $(".menu-button").click(function () {
+        $(".top-nav").toggle("slide", {
+            direction: "right"
+        });
     });
 
     /*
@@ -69,7 +43,7 @@ jQuery(document).ready(function($) {
     if (responsive_viewport >= 768) {
 
         /* load gravatars */
-        $('.comment img[data-gravatar]').each(function(){
+        $('.comment img[data-gravatar]').each(function () {
             $(this).attr('src', $(this).attr('data-gravatar'));
         });
 
