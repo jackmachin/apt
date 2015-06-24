@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name: Guybrush
@@ -1685,9 +1686,10 @@ POSTS & CONTENT STYLES
     .download-list li a {
       color: #fff; }
     .download-list li a::after {
-      content: 'Download &darr;';
+      content: 'Download ↓';
       color: #000;
-      float: right; }
+      float: right;
+      font-weight: bold; }
   .download-list li:nth-of-type(4n) {
     background-color: #d94209; }
   .download-list li:nth-of-type(4n+1) {

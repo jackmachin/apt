@@ -613,9 +613,10 @@ POSTS & CONTENT STYLES
         }
 
         a::after {
-            content: 'Download &darr;';
+            content: 'Download ↓';
             color: #000;
             float:right;
+            font-weight: bold;
         }
     }
 
