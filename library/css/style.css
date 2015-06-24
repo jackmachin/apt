@@ -1577,6 +1577,12 @@ POSTS & CONTENT STYLES
     list-style-type: decimal; }
   .entry-content ul {
     list-style-type: disc; }
+  .entry-content blockquote {
+    text-align: center;
+    color: #ac0608;
+    padding: 1em 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; }
   .entry-content dd {
     margin-left: 0;
     font-size: 0.9em;
