@@ -63,7 +63,13 @@ body{
                 @include grid(3,$push:1);
                 @include break(tablet, 12);
                 @include break(mobile, 12);
-           }
+            }
+
+.map-container {
+    @include grid (5);
+                   @include break(tablet, 12);
+                @include break(mobile, 12);
+}
 
     .footer {
         @include clearfix;
