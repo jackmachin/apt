@@ -25,6 +25,7 @@ body {
 
 .page-id-6 {
     background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
+    background-size: cover;
 }
 
 * + * {
@@ -282,7 +283,6 @@ and more scalable.
     position: fixed;
     left:0;
     background-color: #22202b;
-    height: 100%;
     margin: 0;
 
 	li {

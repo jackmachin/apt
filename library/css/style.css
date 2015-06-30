@@ -1331,7 +1331,8 @@ body {
   background-color: #f0eada; }
 
 .page-id-6 {
-  background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada; }
+  background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada;
+  background-size: cover; }
 
 * + * {
   margin-top: 1.5em; }
@@ -1513,7 +1514,6 @@ and more scalable.
   position: fixed;
   left: 0;
   background-color: #22202b;
-  height: 100%;
   margin: 0;
   /* end .menu li */
   /* highlight current page */
