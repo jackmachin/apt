@@ -1934,7 +1934,8 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
-  background-color: #22202b; }
+  background-color: #22202b;
+  margin-top: 0; }
 
 /*
 	if you checked out the link above:
