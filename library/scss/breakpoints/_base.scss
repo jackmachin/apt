@@ -24,8 +24,12 @@ body {
 }
 
 .page-template-page-home {
+
+    #content {
     background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
     background-size: cover;
+    color:#fff;
+    }
 }
 
 * + * {
