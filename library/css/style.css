@@ -1511,7 +1511,7 @@ and more scalable.
 /* end .nav */
 .top-nav {
   display: none;
-  position: fixed;
+  position: absolute;
   left: 0;
   background-color: #22202b;
   margin: 0;
