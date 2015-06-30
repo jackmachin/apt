@@ -28,6 +28,8 @@ body {
     .fake {
         background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
         background-size: cover;
+        margin: 0;
+        padding: 1.5em 0;
     }
 
     #content {
