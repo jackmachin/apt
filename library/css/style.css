@@ -1330,9 +1330,11 @@ body {
   color: #231F20;
   background-color: #f0eada; }
 
-.page-template-page-home #content {
+.page-template-page-home .fake {
   background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada;
-  background-size: cover;
+  background-size: cover; }
+
+.page-template-page-home #content {
   color: #fff; }
 
 * + * {
