@@ -24,7 +24,10 @@ body {
 }
 
 .page-id-6 {
-    background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat;
+
+    #content {
+        background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
+    }
 }
 
 * + * {
