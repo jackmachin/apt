@@ -9,7 +9,7 @@ Template Name: Home
 
             <div id="main" class="main" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+					<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content home-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
                         <?php the_content(); ?>
 					</article> <!-- end article -->
 					<?php endwhile; else : ?>
