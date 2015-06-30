@@ -1331,7 +1331,7 @@ body {
   background-color: #f0eada; }
 
 .page-id-6 {
-  background: url("/library/images/home-bg.jpg") center no-repeat; }
+  background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat; }
 
 * + * {
   margin-top: 1.5em; }
