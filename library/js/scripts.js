@@ -19,6 +19,10 @@ jQuery(document).ready(function ($) {
         });
     });
 
+    $(".top-nav").css("min-height", function () {
+        return $(".fake").height();
+    });
+
     /*
     Responsive jQuery is a tricky thing.
     There's a bunch of different ways to handle
