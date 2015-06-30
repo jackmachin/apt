@@ -1341,6 +1341,13 @@ body {
 .page-template-page-home #content {
   color: #fff; }
 
+.page-template-default .fake {
+  background: url("/wp-content/themes/apt/library/images/page-bg.jpg") center no-repeat #f0eada;
+  background-size: cover; }
+
+.page-template-default #content {
+  color: #fff; }
+
 * + * {
   margin-top: 1.5em; }
 
