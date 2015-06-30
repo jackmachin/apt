@@ -1,5 +1,6 @@
 <?php get_header(); ?>
     <div class="fake clearfix">
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/page-bg.png" alt="Amber Pension Trust">
         <div id="content" class="wrapper">
             <div id="inner-content" class="container">
 
