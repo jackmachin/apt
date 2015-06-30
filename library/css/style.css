@@ -1515,7 +1515,7 @@ and more scalable.
 .top-nav {
   display: none;
   position: absolute;
-  left: 0;
+  right: 0;
   background-color: #22202b;
   margin: 0;
   /* end .menu li */
