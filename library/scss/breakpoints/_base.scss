@@ -23,13 +23,16 @@ body {
     background-color: #f0eada;
 }
 
+    .fake {
+        margin: 0;
+        padding: 1.5em 0;
+    }
+}
 .page-template-page-home {
 
     .fake {
         background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
         background-size: cover;
-        margin: 0;
-        padding: 1.5em 0;
     }
 
     #content {
