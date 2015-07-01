@@ -10,7 +10,11 @@ Template Name: Home
             <div id="main" class="main" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content home-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <?php the_content(); ?>
+                        <h1 class="page-title">A clear path for you and your clients…</h1>
+                        <p><strong>With an Amber auto-enrolment solution for your pension scheme</strong></p>
+                        <div class="legit">
+                            <?php the_content(); ?>
+                        </div>
 					</article> <!-- end article -->
 					<?php endwhile; else : ?>
 							<article id="post-not-found" class="hentry clearfix">
