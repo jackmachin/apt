@@ -11,7 +11,6 @@
                             <div class="entry-content">
                                 <?php the_content(); ?>
                             </div>
-
                         </article> <!-- end article -->
                         <?php endwhile; else : ?>
                                 <article id="post-not-found" class="hentry clearfix">
