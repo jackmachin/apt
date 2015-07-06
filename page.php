@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-    <div class="fake clearfix">
-
-
+    <div class="overlay overlay clearfix">
     <div id="content">
         <div id="inner-content">
             <div id="main" role="main">
