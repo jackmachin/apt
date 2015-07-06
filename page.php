@@ -12,14 +12,17 @@
                                     </div>
                                 </div>
                             </header>
-                            <div class="entry-content">
-                                <div class="wrapper">
-                                   <div class="container">
-                                <?php the_content(); ?>
+                            <div class="wrapper">
+                                <div class="container">
+                                    <div class="entry-content">
+
+                                        <?php the_content(); ?>
                                     </div>
+                                    <?php get_sidebar();?>
                                 </div>
                             </div>
                         </article> <!-- end article -->
+
                         <?php endwhile; else : ?>
                                 <article id="post-not-found" class="hentry clearfix">
                                     <header class="article-header">
@@ -34,7 +37,7 @@
                                 </article>
                         <?php endif; ?>
                     </div> <!-- end #main -->
-                    <?php get_sidebar ();?>
+
             </div> <!-- end #inner-content -->
         </div> <!-- end #content -->
     </div>
