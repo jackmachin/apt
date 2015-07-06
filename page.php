@@ -1,4 +1,7 @@
 <?php get_header(); ?>
+    <div class="fake clearfix">
+
+
     <div id="content">
         <div id="inner-content">
             <div id="main" role="main">
@@ -37,4 +40,5 @@
             </div> <!-- end #main -->
         </div> <!-- end #inner-content -->
     </div> <!-- end #content -->
+            </div>
 <?php get_footer(); ?>
