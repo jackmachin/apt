@@ -29,7 +29,7 @@ body {
     }
 .page-template-page-home {
 
-    .article-header {
+    .fake {
         background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
         background-size: cover;
     }
@@ -40,7 +40,7 @@ body {
 }
 
 .page-template-default {
-    .fake {
+    .article-header {
         background: url("/wp-content/themes/apt/library/images/page-bg.jpg") center no-repeat #f0eada;
         background-size: cover;
     }
