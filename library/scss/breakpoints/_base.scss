@@ -49,10 +49,6 @@ body {
         background: url("/wp-content/themes/apt/library/images/page-bg.jpg") center no-repeat #f0eada;
         background-size: cover;
     }
-
-    #content {
-        color:#fff;
-    }
 }
 
 * + * {
@@ -408,6 +404,7 @@ POSTS & CONTENT STYLES
         margin-bottom: 0;
         padding: 2em 0;
         margin-top: 0;
+        color: #fff;
     }
     .archive-title { }
 

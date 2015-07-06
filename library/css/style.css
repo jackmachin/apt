@@ -1349,9 +1349,6 @@ body {
   background: url("/wp-content/themes/apt/library/images/page-bg.jpg") center no-repeat #f0eada;
   background-size: cover; }
 
-.page-template-default #content {
-  color: #fff; }
-
 * + * {
   margin-top: 1.5em; }
 
@@ -1576,7 +1573,8 @@ POSTS & CONTENT STYLES
   line-height: 1.333em;
   margin-bottom: 0;
   padding: 2em 0;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #fff; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
