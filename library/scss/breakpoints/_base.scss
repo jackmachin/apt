@@ -170,11 +170,6 @@ h1, .h1 {
 	.page-title {
         color: #808285;
         font-weight: 300;
-        font-size: 3em;
-        line-height: 1.333em;
-        margin-bottom: 0;
-        padding: 2em 0;
-        margin-top: 0;
     }
 
 	span {
@@ -402,7 +397,13 @@ POSTS & CONTENT STYLES
 
     .single-title {}
 
-    .page-title {}
+    .page-title {
+        font-size: 3em;
+        line-height: 1.333em;
+        margin-bottom: 0;
+        padding: 2em 0;
+        margin-top: 0;
+    }
     .archive-title { }
 
 		/* want to style individual post classes? Booya! */
