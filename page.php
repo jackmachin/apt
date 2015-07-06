@@ -14,7 +14,7 @@
                             </header>
                             <div class="wrapper">
                                 <div class="container">
-                                    <div class="entry-content">
+                                    <div class="entry-content main">
 
                                         <?php the_content(); ?>
                                     </div>
