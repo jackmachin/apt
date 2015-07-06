@@ -1,15 +1,23 @@
 <?php get_header(); ?>
     <div class="fake clearfix">
-        <div id="content" class="wrapper">
-            <div id="inner-content" class="container">
+        <div id="content">
+            <div id="inner-content">
                 <div id="main" class="main" role="main">
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
                             <header class="article-header">
-                                <h1 class="page-title"><?php the_title(); ?></h1>
+                                <div class="wrapper">
+                                   <div class="container">
+                                    <h1 class="page-title"><?php the_title(); ?></h1>
+                                    </div>
+                                </div>
                             </header>
                             <div class="entry-content">
+                                <div class="wrapper">
+                                   <div class="container">
                                 <?php the_content(); ?>
+                                    </div>
+                                </div>
                             </div>
                         </article> <!-- end article -->
                         <?php endwhile; else : ?>
