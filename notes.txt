@@ -12,3 +12,27 @@ Home
 -Literature
 -Contact Us
 -Member Login 
+
+What are you? On the query form?
+
+Change non adviser form, employer, employee, route accordingly
+
+Sort menu out, menu fill screen, and margin top on the sub menu.
+
+Hyperlink on widget headings
+
+Contact number, instead of contact name. All fields mandatory
+
+Footer margin-top: 1.5em, on regular pages.
+
+About page: review content
+
+Change header, menu, footer, background colour. Give a few options.
+
+Literature, lock behind member registration.
+
+
+
+
+
+

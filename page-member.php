@@ -28,11 +28,12 @@ Template Name: Member
                         </article>
                     <?php endif; ?>
                 <?php ;} else { ?>
+                    <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
                     <h1>Restricted Page</h1>
                         <p>If you are an independent financial advisor and would like to access the restricted page, please log in or follow the registration link below.</p>
                     <p>Not yet registered? <a href="http://amberpensiontrust.co.uk/register/">Click here</a></p>
                     <?php jack_is_awesome(); ?>
-
+                </article>
                 <?php ;} ?>
             </div> <!-- end #main -->
 
