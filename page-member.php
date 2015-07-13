@@ -4,8 +4,8 @@ Template Name: Member
 */
 ?>
 <?php get_header(); ?>
-	<div id="content">
-		<div id="inner-content">
+	<div id="content" class="wrapper">
+		<div id="inner-content" class="container">
             <div id="main" class="main" role="main">
                 <?php if (is_user_logged_in()) { ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

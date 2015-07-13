@@ -31,8 +31,10 @@ Change header, menu, footer, background colour. Give a few options.
 
 Literature, lock behind member registration.
 
+Sort nasty, member page. Login. 
 
+How to Apply, make the APT portal bigger and more prominent..
 
+Partnership docs sending on Limited.
 
-
-
+NSIS DOES have to be generated. 
