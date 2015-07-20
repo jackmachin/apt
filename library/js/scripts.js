@@ -19,8 +19,8 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    $(".top-nav").css("height", function () {
-        return $(".mega-container").height();
+    $(".top-nav").css("min-height", function () {
+        return $(".mega-container" + "200").height();
     });
 
     /*
