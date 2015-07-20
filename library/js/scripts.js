@@ -23,6 +23,11 @@ jQuery(document).ready(function ($) {
         return $(".mega-container").height() + 24;
     });
 
+    $(".datepicker").datepicker({
+	   minDate : 0,
+	   dateFormat : 'dd/mm/yy'
+	});
+
     /*
     Responsive jQuery is a tricky thing.
     There's a bunch of different ways to handle
