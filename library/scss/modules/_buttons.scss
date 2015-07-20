@@ -29,18 +29,15 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 
     display: inline-block;
 
-    text-decoration: none;
-
     color: $white;
-
-    font-size: 0.9em;
+    font-family: $museo-sans;
     font-weight: normal;
     line-height: 34px;
+    text-decoration: none;
 
     padding: 0 24px;
     border: 0;
     border-radius: 4px;
-
     cursor: pointer;
     @include transition(background-color 0.14s ease-in-out);
 
