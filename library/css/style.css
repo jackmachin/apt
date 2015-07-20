@@ -1331,9 +1331,11 @@ body {
   color: #231F20;
   background-color: #efeada; }
 
+.mega-container {
+  margin-top: 0; }
+
 .fake {
-  margin: 0;
-  padding: 1.5em 0; }
+  margin: 0; }
 
 .overlay {
   padding: 0; }
