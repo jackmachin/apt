@@ -2177,7 +2177,7 @@ be seen on the Desktop.
   .page-template-page-home .fake {
     background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada;
     background-size: cover;
-    margin-bottom: 1.5em; }
+    padding-bottom: 1.5em; }
   .page-template-page-home #content {
     color: #fff; }
   .page-template-page-home .footer {
