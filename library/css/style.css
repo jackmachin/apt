@@ -1470,7 +1470,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #22202b;
+  background-color: #eee;
   padding: 1em 0; }
 
 .logo {
@@ -1523,7 +1523,7 @@ and more scalable.
   display: none;
   position: absolute;
   right: 0;
-  background-color: #22202b;
+  background-color: #eee;
   margin: 0;
   padding: 1.5em 0;
   /* end .menu li */
@@ -1539,7 +1539,6 @@ and more scalable.
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/ }
     .top-nav li a {
-      color: #fff;
       display: block;
       padding: 0 15px;
       font-weight: 500;
@@ -1950,7 +1949,7 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
-  background-color: #22202b; }
+  background-color: #eee; }
 
 /*
 	if you checked out the link above:
@@ -1964,7 +1963,7 @@ FOOTER STYLES
 #menu-footer-links li {
   float: left; }
   #menu-footer-links li a {
-    color: #808285;
+    color: #22202b;
     font-size: 11px;
     display: block;
     font-weight: bold;

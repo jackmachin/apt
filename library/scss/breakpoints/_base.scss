@@ -197,7 +197,7 @@ HEADER STYLES
 *********************/
 
 .header {
-    background-color: #22202b;
+    background-color: #eee;
     padding: 1em 0;
 }
 
@@ -297,14 +297,13 @@ and more scalable.
     display: none;
     position: absolute;
     right:0;
-    background-color: #22202b;
+    background-color: #eee;
     margin: 0;
     padding: 1.5em 0;
 
 	li {
         list-style-type: none;
 		a {
-            color: #fff;
 			display: block;
 			padding: 0 15px;
 			font-weight: 500;
@@ -1066,7 +1065,7 @@ FOOTER STYLES
 *********************/
 
 .footer {
-    background-color: #22202b;
+    background-color: #eee;
 }
 
     #inner-footer {}
@@ -1087,7 +1086,7 @@ FOOTER STYLES
             float:left;
 
             a {
-                color: #808285;
+                color: #22202b;
 				font-size:11px;
 				display:block;
 				font-weight:bold;
