@@ -8,3 +8,21 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+
+
+.page-template-page-home {
+
+    .fake {
+        background: url('/wp-content/themes/apt/library/images/home-bg.jpg') center no-repeat #f0eada;
+        background-size: cover;
+        margin-bottom: 1.5em;
+    }
+
+    #content {
+        color:#fff;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+}

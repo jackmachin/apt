@@ -1339,13 +1339,6 @@ body {
 .overlay {
   padding: 0; }
 
-.page-template-page-home .fake {
-  background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada;
-  background-size: cover; }
-
-.page-template-page-home #content {
-  color: #fff; }
-
 .page-template-default .article-header {
   background: url("/wp-content/themes/apt/library/images/page-bg.jpg") center no-repeat #f0eada;
   background-size: cover; }
@@ -2170,6 +2163,26 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
+@media only screen and (min-width: 1030px) {
+  /******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+  .page-template-page-home .fake {
+    background: url("/wp-content/themes/apt/library/images/home-bg.jpg") center no-repeat #f0eada;
+    background-size: cover;
+    margin-bottom: 1.5em; }
+  .page-template-page-home #content {
+    color: #fff; }
+  .page-template-page-home .footer {
+    margin-top: 0; } }
+
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
