@@ -11,22 +11,7 @@ slow the page load.
 
 // as the page loads, call these scripts
 jQuery(document).ready(function ($) {
-
     "use strict";
-    $(".menu-button").click(function () {
-        $(".top-nav").toggle("slide", {
-            direction: "right"
-        });
-    });
-
-    $(".top-nav").css("min-height", function () {
-        return $(".mega-container").height() + 24;
-    });
-
-    $(".datepicker").datepicker({
-	   minDate : 0,
-	   dateFormat : 'dd/mm/yy'
-	});
 
     /*
     Responsive jQuery is a tricky thing.
@@ -62,6 +47,22 @@ jQuery(document).ready(function ($) {
     if (responsive_viewport > 1030) {
 
     }
+
+    $(".menu-button").click(function () {
+        $(".top-nav").toggle("slide", {
+            direction: "right"
+        });
+    });
+
+    $(".top-nav").css("min-height", function () {
+        return $(".mega-container").height() + 24;
+    });
+
+    $(".datepicker").datepicker({
+        minDate : 0,
+        dateFormat : 'dd/mm/yy'
+	});
+
 
 
 	// add all your scripts here
