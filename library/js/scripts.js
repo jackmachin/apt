@@ -66,13 +66,6 @@ jQuery(document).ready(function ($) {
 
     });
 
-    $('.mega-container').bind('getheight', function () {
-        $(".top-nav").css("min-height", function () {
-            return $(".mega-container").height() + 24;
-        });
-    });
-
-
 	// add all your scripts here
 
 }); /* end of as page load scripts */
