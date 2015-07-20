@@ -61,7 +61,7 @@ jQuery(document).ready(function ($) {
     $(window).on('resize', function (event) {
 
         $(".top-nav").css("min-height", function () {
-            return $(".mega-container").height() + 24;
+            return $(".mega-container").height();
         });
 
     });
