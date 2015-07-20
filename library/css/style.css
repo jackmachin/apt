@@ -972,17 +972,16 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
 .blue-btn {
-  display: inline-block;
   position: relative;
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
   font-weight: normal;
+  line-height: 34px;
   padding: 0 24px;
-  border-radius: 4px;
   border: 0;
+  border-radius: 4px;
   cursor: pointer;
   -webkit-transition: background-color 0.14s ease-in-out;
   -transition: background-color 0.14s ease-in-out;
