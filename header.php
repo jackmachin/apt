@@ -69,6 +69,17 @@
 */
 
 -->
+
+<?php if (is_page ( array ('new-scheme', 'pipeline-collector'))) { ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".datepicker").datepicker({
+                minDate : 0,
+                dateFormat : 'dd/mm/yy'
+            });
+        });
+	</script>
+<?php } ?>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -106,7 +117,6 @@
 	// Returns false when 'about.php' is not being used.
     bones_main_nav();
 }
-
  ?>
 
             </nav>
