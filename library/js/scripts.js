@@ -58,13 +58,6 @@ jQuery(document).ready(function ($) {
         return $(".mega-container").height() + 24;
     });
 
-    $(".datepicker").datepicker({
-        minDate : 0,
-        dateFormat : 'dd/mm/yy'
-	});
-
-
-
 	// add all your scripts here
 
 }); /* end of as page load scripts */
