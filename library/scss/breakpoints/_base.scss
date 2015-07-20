@@ -256,13 +256,14 @@ and more scalable.
 		*/
 		ul.sub-menu,
 		ul.children {
-            padding-left:0;
             display: none;
+            padding-left:0;
+            margin-top: 0;
 
 			li {
 
 				a {
-					padding-left: 30px;
+					padding-left: 2em;
 
 					&:hover,
 					&:focus {}

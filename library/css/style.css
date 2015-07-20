@@ -1511,11 +1511,12 @@ and more scalable.
 			*/ }
     .nav li ul.sub-menu,
     .nav li ul.children {
+      display: none;
       padding-left: 0;
-      display: none; }
+      margin-top: 0; }
       .nav li ul.sub-menu li a,
       .nav li ul.children li a {
-        padding-left: 30px; }
+        padding-left: 2em; }
 
 /* end .nav */
 .top-nav {
