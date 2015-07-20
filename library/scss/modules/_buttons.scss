@@ -72,4 +72,7 @@ and it will create a button dependant on those variables.
     background-color: darken($blue, 5%);
   } // end active
 
+    .menu-button  {
+      @extend %btn; // here we load the btn defaults
+    }
 } // end blue button
