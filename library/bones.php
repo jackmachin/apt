@@ -266,7 +266,7 @@ function bones_member_nav() {
         'container' => false,                                  // remove nav container
         'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
         'menu' => 'adviser_nav',                          // nav name
-        'menu_class' => 'nav clearfix',                   // adding custom nav class
+        'menu_class' => 'nav top-nav clearfix',                   // adding custom nav class
         'theme_location' => 'member-nav',            // where it's located in the theme
         'before' => '',                                            // before the menu
         'after' => '',                                              // after the menu
