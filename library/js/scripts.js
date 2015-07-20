@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     });
 
     $(".top-nav").css("min-height", function () {
-        return $(".mega-container" + "200").height();
+        return $(".mega-container").height();
     });
 
     /*
