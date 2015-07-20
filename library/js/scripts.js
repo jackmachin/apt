@@ -54,8 +54,12 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    $(".top-nav").css("min-height", function () {
-        return $(".mega-container").height() + 24;
+    $(window).on('resize orientationChange', function (event) {
+
+        $(".top-nav").css("min-height", function () {
+            return $(".mega-container").height() + 24;
+        });
+
     });
 
 	// add all your scripts here
