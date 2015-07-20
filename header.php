@@ -99,9 +99,17 @@
 
             <nav role="navigation">
 
-        <?php bones_main_nav(); ?>
+                <?php if ( is_page_template( 'page-member.php' ) ) {
+	// Returns true when 'page-member.php' is being used.
+        bones_member_nav();
+} else {
+	// Returns false when 'about.php' is not being used.
+    bones_main_nav();
+}
 
-    </nav>
+ ?>
+
+            </nav>
 
     <div class="mega-container">
 
