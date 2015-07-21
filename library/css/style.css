@@ -1928,24 +1928,24 @@ SIDEBARS & ASIDES
 .widget ul li {
   /* deep nesting */ }
 
-.widget:first-of-type {
+.widget:nth-of-type(odd) {
   background-color: #d34209; }
-  .widget:first-of-type .widgettitle {
+  .widget:nth-of-type(odd) .widgettitle {
     background-color: #b10406;
     padding: 1.5em 1em 0.5em 1em; }
-  .widget:first-of-type .textwidget {
+  .widget:nth-of-type(odd) .textwidget {
     padding: 0 1em 2.5em 1em; }
-    .widget:first-of-type .textwidget a {
+    .widget:nth-of-type(odd) .textwidget a {
       color: #fff; }
 
-.widget:nth-of-type(2) {
+.widget:nth-of-type(even) {
   background-color: #d66b0b; }
-  .widget:nth-of-type(2) .widgettitle {
+  .widget:nth-of-type(even) .widgettitle {
     background-color: #fe7b0f;
     padding: 1.5em 1em 0.5em 1em; }
-  .widget:nth-of-type(2) .textwidget {
+  .widget:nth-of-type(even) .textwidget {
     padding: 0 1em 2.5em 1em; }
-    .widget:nth-of-type(2) .textwidget a {
+    .widget:nth-of-type(even) .textwidget a {
       color: #fff; }
 
 /*********************
