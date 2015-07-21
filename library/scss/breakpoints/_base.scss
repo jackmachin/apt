@@ -1029,8 +1029,7 @@ SIDEBARS & ASIDES
 		}
 	}
 
-    .widget:first-of-type,
-    .widget:nth-of-type (2n+1) {
+    .widget:nth-of-type (odd) {
         background-color:#d34209;
 
         .widgettitle {
@@ -1047,7 +1046,7 @@ SIDEBARS & ASIDES
         }
     }
 
-    .widget:nth-of-type(2n) {
+    .widget:nth-of-type(even) {
         background-color:#d66b0b;
 
         .widgettitle {
