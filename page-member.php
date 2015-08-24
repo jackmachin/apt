@@ -10,6 +10,13 @@ Template Name: Member
                 <?php if (is_user_logged_in()) { ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                                                <header class="article-header">
+                        <div class="wrapper">
+                           <div class="container">
+                            <h1 class="page-title"><?php the_title(); ?></h1>
+                            </div>
+                        </div>
+                    </header>
                             <div class="entry-content clearfix" itemprop="articleBody">
                                 <?php the_content(); ?>
                             </div > <!-- end article section -->
