@@ -13,7 +13,6 @@ Template Name: Member
                             <header class="article-header">
                                 <h1 class="page-title"><?php the_title(); ?></h1>
                             </header>
-                            </header>
                             <div class="entry-content clearfix" itemprop="articleBody">
                                 <?php the_content(); ?>
                             </div > <!-- end article section -->
