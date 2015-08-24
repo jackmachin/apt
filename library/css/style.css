@@ -1420,7 +1420,7 @@ LINK STYLES
 *********************/
 a,
 a:visited {
-  color: link-color;
+  color: #FE7B0F;
   text-decoration: none;
   /* on hover */
   /* on click */
