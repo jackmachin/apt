@@ -1659,6 +1659,17 @@ POSTS & CONTENT STYLES
       background-color: #f5f5f5; }
     .entry-content table td {
       padding: 0 0.25em; }
+  .entry-content .gv-table-view {
+    width: 100%;
+    border: 1px solid #FE7B0F;
+    padding: 1em; }
+    .entry-content .gv-table-view tr:nth-of-type(2n) {
+      background-color: #f5f5f5; }
+    .entry-content .gv-table-view th {
+      font-weight: bold;
+      text-align: left;
+      color: #FE7B0F;
+      background-color: #f5f5f5; }
   .entry-content .gfield_list tr:nth-of-type(2n) {
     background-color: #fff; }
   .entry-content .gfield_list th {
