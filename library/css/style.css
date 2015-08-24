@@ -1661,7 +1661,7 @@ POSTS & CONTENT STYLES
       padding: 0 0.25em; }
   .entry-content .gv-table-view {
     width: 100%;
-    border: 1px solid #FE7B0F; }
+    border: 5px solid #FE7B0F; }
     .entry-content .gv-table-view tr:nth-of-type(2n) {
       background-color: #f5f5f5; }
     .entry-content .gv-table-view th {
