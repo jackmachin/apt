@@ -971,7 +971,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .blue-btn .menu-button, .menu-button {
+.blue-btn, .menu-button {
   position: relative;
   display: inline-block;
   color: #fff;
@@ -1006,7 +1006,12 @@ and it will create a button dependant on those variables.
     background-color: #2472a4; }
 
 .menu-button {
-  background-color: #FAA61A; }
+  background-color: #efeada; }
+  .menu-button:hover,
+  .menu-button:focus {
+    background-color: #e9e2cc; }
+  .menu-button:active {
+    background-color: #e7e0c8; }
 
 /******************************************************************
 Site Name:
