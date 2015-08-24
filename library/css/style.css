@@ -1013,6 +1013,9 @@ and it will create a button dependant on those variables.
   .menu-button:active {
     background-color: #e7e0c8; }
 
+.hamburger {
+  fill: #fff; }
+
 /******************************************************************
 Site Name:
 Author:
