@@ -337,13 +337,12 @@ and more scalable.
 		*/
 		ul.sub-menu,
 		ul.children {
-            padding-left:0;
+            padding-left:2em;
             display: block;
 
 			li {
 
 				a {
-					padding-left: 30px;
 
 					&:hover,
 					&:focus {}

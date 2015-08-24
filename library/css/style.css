@@ -1554,11 +1554,8 @@ and more scalable.
 			*/ }
     .top-nav li ul.sub-menu,
     .top-nav li ul.children {
-      padding-left: 0;
+      padding-left: 2em;
       display: block; }
-      .top-nav li ul.sub-menu li a,
-      .top-nav li ul.children li a {
-        padding-left: 30px; }
 
 /* end .top-nav */
 /*********************
