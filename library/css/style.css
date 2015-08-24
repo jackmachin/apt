@@ -1556,6 +1556,9 @@ and more scalable.
     .top-nav li ul.children {
       padding-left: 2em;
       display: block; }
+      .top-nav li ul.sub-menu li a,
+      .top-nav li ul.children li a {
+        padding-left: 0; }
 
 /* end .top-nav */
 /*********************
