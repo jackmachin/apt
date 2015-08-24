@@ -101,9 +101,9 @@
 	 width="18px" height="12px" viewBox="0 0 18 12" enable-background="new 0 0 18 12" xml:space="preserve">
 <path fill="#fff" d="z" class="hamburger"/>
 <g id="Layer_x25_201">
-	<rect width="18" height="2"/>
-	<rect y="5" width="18" height="2"/>
-	<rect y="10" width="18" height="2"/>
+	<rect width="18" height="2" fill="#fff"/>
+	<rect y="5" width="18" height="2" fill="#fff"/>
+	<rect y="10" width="18" height="2" fill="#fff"/>
 </g>
 <path fill="#fff" d="z"/>
 </svg>
