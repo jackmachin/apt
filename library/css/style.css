@@ -971,7 +971,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .blue-btn .menu-button {
+.blue-btn, .blue-btn .menu-button, .menu-button {
   position: relative;
   display: inline-block;
   color: #fff;
@@ -986,10 +986,10 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   -webkit-transition: background-color 0.14s ease-in-out;
   -transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .blue-btn .menu-button:hover, .blue-btn:focus, .blue-btn .menu-button:focus {
+  .blue-btn:hover, .menu-button:hover, .blue-btn:focus, .menu-button:focus {
     color: #fff;
     text-decoration: none; }
-  .blue-btn:active, .blue-btn .menu-button:active {
+  .blue-btn:active, .menu-button:active {
     top: 1px; }
 
 /*
