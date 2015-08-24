@@ -368,7 +368,8 @@ NAVIGATION STYLES
 			*/ }
       .nav li a:hover,
       .nav li a:focus {
-        color: #fff; }
+        color: #e8e8e8;
+        text-decoration: underline; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       /* highlight sub-menu current page */ }

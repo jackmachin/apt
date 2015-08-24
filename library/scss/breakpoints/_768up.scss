@@ -50,7 +50,8 @@ NAVIGATION STYLES
 			*/
 			&:hover,
             &:focus {
-                color: $white;
+                color: darken($white, 9%);
+                text-decoration: underline;
             }
 		}
 
