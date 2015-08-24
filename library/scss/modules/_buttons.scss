@@ -76,15 +76,15 @@ and it will create a button dependant on those variables.
 
 .menu-button {
     @extend %btn;
-    background-color: #efeada;
+    background-color: #fe7b0f;
 
       &:hover,
   &:focus {
-    background-color: darken(#efeada, 4%);
+    background-color: darken(#fe7b0f, 4%);
   } // end hover
 
   &:active {
-    background-color: darken(#efeada, 5%);
+    background-color: darken(#fe7b0f, 5%);
   } // end active
 }
 
