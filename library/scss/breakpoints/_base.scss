@@ -428,6 +428,10 @@ POSTS & CONTENT STYLES
                 margin-bottom: 0;
 			}
 
+            p:first-of-type {
+                margin-top:0;
+            }
+
 			ul, ol, table, dl {}
 
             ul, ol {
