@@ -112,8 +112,9 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 
-a, a:visited {
-	color: $link-color;
+a,
+a:visited {
+	color: link-color;
 	text-decoration: none;
 
 	/* on hover */
