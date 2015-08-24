@@ -90,12 +90,13 @@
 
                     <div id="inner-header">
 
-                            <?php if (is_page_template ('page-member.php')) {?>
+                            <?php if (is_page_template ('page-member.php')) { ?>
                                <div class="logo-container">
-                                <a href="/member" rel="nofollow" title="Members Homepage">
-                                  <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
+                                    <a href="/member" rel="nofollow" title="Members Homepage">
+                                      <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust">
+                                   </a>
                                 </div>
-                            <?php} else {?>
+                            <?php } else {?>
                             <div class="logo-container">
                                 <a href="/home" rel="nofollow" title="homepage">
                                   <img class="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Amber Pension Trust Logo" alt="Amber Pension Trust"></a>
