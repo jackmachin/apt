@@ -11,7 +11,7 @@ Template Name: Member
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
                             <header class="article-header">
-                                <h1 class="page-title"><?php the_title(); ?></h1>
+                                <h1 class="page-title member-page-title"><?php the_title(); ?></h1>
                             </header>
                             <div class="entry-content clearfix" itemprop="articleBody">
                                 <?php the_content(); ?>
