@@ -1587,7 +1587,7 @@ POSTS & CONTENT STYLES
 
 .member-header {
   padding: 1.5em 1.5em 0; }
-  .member-header page-title {
+  .member-header .page-title {
     font-size: 2em;
     line-height: 1.5em;
     margin-bottom: 0;
