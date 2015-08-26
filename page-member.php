@@ -10,8 +10,8 @@ Template Name: Member
                 <?php if (is_user_logged_in()) { ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                            <header class="article-header">
-                                <h1 class="page-title member-page-title"><?php the_title(); ?></h1>
+                            <header class="article-header member-header">
+                                <h1 class="page-title"><?php the_title(); ?></h1>
                             </header>
                             <div class="entry-content clearfix" itemprop="articleBody">
                                 <?php the_content(); ?>
@@ -19,7 +19,7 @@ Template Name: Member
                         </article> <!-- end article -->
                     <?php endwhile; else : ?>
                         <article id="post-not-found" class="hentry clearfix">
-                            <header class="article-header member-header">
+                            <header class="article-header ">
                                 <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
                             </header>
                             <section class="entry-content">
