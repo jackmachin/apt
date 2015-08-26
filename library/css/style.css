@@ -1674,7 +1674,8 @@ POSTS & CONTENT STYLES
       padding: 1em; }
     .entry-content .gv-table-view td {
       padding: 1em; }
-  .entry-content .gfield_list tr {
+  .entry-content .gfield_list tr,
+  .entry-content .gfield_list tr:nth-of-type(2n) {
     background-color: initial; }
   .entry-content .gfield_list th {
     background-color: #fff; }

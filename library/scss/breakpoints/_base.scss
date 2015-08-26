@@ -565,7 +565,8 @@ POSTS & CONTENT STYLES
             }
 
             .gfield_list {
-                tr {
+                tr,
+                tr:nth-of-type(2n) {
                     background-color: initial;
                 }
 
