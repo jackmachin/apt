@@ -19,7 +19,7 @@ Template Name: Member
                         </article> <!-- end article -->
                     <?php endwhile; else : ?>
                         <article id="post-not-found" class="hentry clearfix">
-                            <header class="article-header">
+                            <header class="article-header member-header">
                                 <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
                             </header>
                             <section class="entry-content">

@@ -1585,13 +1585,15 @@ POSTS & CONTENT STYLES
   margin-top: 0;
   color: #fff; }
 
-.member-page-title {
-  font-size: 2em;
-  line-height: 1.5em;
-  margin-bottom: 0;
-  padding: 1.5em 0 0;
-  margin-top: 0;
-  color: #000; }
+.member-header {
+  padding: 1.5em 1.5em 0; }
+  .member-header page-title {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    color: #000; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
