@@ -350,18 +350,18 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'amber.css')) ? PDF_TE
 our scheme advisor, stated below, with access to our pension scheme member records held on CCPUK’s pension administration system CTC Elements (the database).</p>
     <p>We confirm that:</p>
 <ul>
-<li>access to the database is granted for the purpose of annual scheme reviews and retirement planning.</li>
-    <li>a suitable Data Protection agreement is in place with our scheme advisor, in accordance with the Data Protection
+<li>Sccess to the database is granted for the purpose of annual scheme reviews and retirement planning.</li>
+    <li>A suitable Data Protection agreement is in place with our scheme advisor, in accordance with the Data Protection
 Act 1998.</li>
-    <li>we will communicate to members that access to personal information has been provided to the scheme advisor, and
+    <li>We will communicate to members that access to personal information has been provided to the scheme advisor, and
 the purpose for which this will be used</li>
     </ul>
     <h2>Adviser CTC Declaration</h2>
     <p>We confirm that:</p>
 <ul>
-    <li>a suitable Data Protection agreement is in place with the employer stated above, in accordance with the Data
+    <li>A suitable Data Protection agreement is in place with the employer stated above, in accordance with the Data
 Protection Act 1998.</li>
-    <li>access to scheme member’s personal information is to be used only in the context of annual scheme reviews and
+    <li>Access to scheme member’s personal information is to be used only in the context of annual scheme reviews and
 future retirement planning.</li>
     <li>Any member who declines contact from the advisor will be recorded as such by the advisor and will not be
 approached until such time as individual agreement has been given.</li>
