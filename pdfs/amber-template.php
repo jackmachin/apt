@@ -341,62 +341,31 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'amber.css')) ? PDF_TE
 				</tr>
 			</tbody>
 		</table>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-    <br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+<pagebreak>
 		<h1>Declaration</h1>
 		<p>The company has appointed the adviser noted below to advise the company with regard to their company work place pension arrangement and the associated investment strategy using the Blackrock Life Path default funds, and authorise Carey Pensions UK to liaise with them on any aspect of the scheme, on our behalf.</p>
+
+    <h2>Employer CTC Authorisation</h2>
+    <p>In accordance with the signed Employer Agreement, we authorise Carey Corporate Pensions UK Limited (CCPUK) to provide
+our scheme advisor, stated below, with access to our pension scheme member records held on CCPUK’s pension administration system CTC Elements (the database).</p>
+    <p>We confirm that:</p>
+<ul>
+<li>access to the database is granted for the purpose of annual scheme reviews and retirement planning.</li>
+    <li>a suitable Data Protection agreement is in place with our scheme advisor, in accordance with the Data Protection
+Act 1998.</li>
+    <li>we will communicate to members that access to personal information has been provided to the scheme advisor, and
+the purpose for which this will be used</li>
+    </ul>
+    <h2>Adviser CTC Declaration</h2>
+    <p>We confirm that:</p>
+<ul>
+    <li>a suitable Data Protection agreement is in place with the employer stated above, in accordance with the Data
+Protection Act 1998.</li>
+    <li>access to scheme member’s personal information is to be used only in the context of annual scheme reviews and
+future retirement planning.</li>
+    <li>Any member who declines contact from the advisor will be recorded as such by the advisor and will not be
+approached until such time as individual agreement has been given.</li>
+    </ul>
 		<table width="100%">
 			<tr>
 				<th class="h2" colspan="2">Signature</th>
@@ -435,49 +404,7 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'amber.css')) ? PDF_TE
 			</tr>
 			</tbody>
 			</table>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+<pagebreak>
 			<h1>Confirmation of Verification of Identity - Corporate</h1>
 			<table width="100%">
 				<tr>
