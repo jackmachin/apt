@@ -366,6 +366,9 @@ future retirement planning.</li>
     <li>Any member who declines contact from the advisor will be recorded as such by the advisor and will not be
 approached until such time as individual agreement has been given.</li>
     </ul>
+    <br>
+    <br>
+    <br>
 		<table width="100%">
 			<tr>
 				<th class="h2" colspan="2">Signature</th>
