@@ -1,4 +1,4 @@
-r.<?php
+<?php
 
 /**
  * If the template is being loaded directy we'll call the Wordpress Core
@@ -254,7 +254,7 @@ $stylesheet_location = (file_exists(PDF_TEMPLATE_LOCATION.'amber.css')) ? PDF_TE
 					<td>Date of Expected 1<sup>1st</sup> Contribution</td>
 					<td><?php echo $first_contribution;?></td>
 				</tr>
-        <tr >
+                <tr >
 					<td>Salary Exchange</td>
 					<td><?php echo $salary_exchange;?></td>
 				</tr>
